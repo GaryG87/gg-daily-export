@@ -1,0 +1,28 @@
+{
+ "version": "garmin_export v1.0",
+ "erzeugt_utc": "2026-08-09T19:34:26+00:00",
+ "status": "fehler",
+ "fehler": "GarminConnectAuthenticationError: MFA Required but no prompt_mfa mechanism supplied",
+ "traceback": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 388, in login\n    run()\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 350, in <lambda>\n    (\"widget+cffi\", lambda: self._widget_web_login(email, password)),\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 720, in _widget_web_login\n    raise _MFARequired()\ngarminconnect.client._MFARequired\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/gg-daily-export/gg-daily-export/garmin_export.py\", line 449, in <module>\n    main()\n  File \"/home/runner/work/gg-daily-export/gg-daily-export/garmin_export.py\", line 282, in main\n    mfa_status, _ = garmin.login(\n                    ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/__init__.py\", line 694, in login\n    mfa_status, _legacy_token = self.client.login(\n                                ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 429, in login\n    return resolve_mfa(name)\n           ^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 380, in resolve_mfa\n    raise GarminConnectAuthenticationError(\ngarminconnect.exceptions.GarminConnectAuthenticationError: MFA Required but no prompt_mfa mechanism supplied\n",
+ "hinweise": [],
+ "api_calls": 0,
+ "zeitraum": {
+  "von": "2026-05-11",
+  "bis": "2026-08-09",
+  "tage_angefragt": 90
+ },
+ "lesehinweise": {
+  "schlaf": "Der Schlafdatensatz eines Tages beschreibt die Nacht DAVOR. Die Felder nacht_von/nacht_bis enthalten die tatsaechlichen Zeitstempel - immer diese verwenden, nicht das Tagesdatum.",
+  "einheiten": "Schlaf in Minuten, Gewicht in kg, Distanz in Metern, Dauer in Sekunden, Kalorien in kcal."
+ },
+ "tage": [],
+ "aktivitaeten": [],
+ "gewicht": [],
+ "login_weg": "Benutzer/Passwort",
+ "anzahl": {
+  "tage": 0,
+  "aktivitaeten": 0,
+  "gewichtsmessungen": 0
+ },
+ "laufzeit_sek": 7
+}
