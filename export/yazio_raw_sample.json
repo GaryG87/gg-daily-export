@@ -1,0 +1,111 @@
+{
+ "hinweis": "Rohantworten zur Feldpruefung.",
+ "nutrients_daily_erster_monat": [
+  {
+   "date": "2026-05-12",
+   "energy": 1466.85,
+   "carb": 108.306,
+   "protein": 146.12,
+   "fat": 44.724,
+   "energy_goal": 1787.5
+  },
+  {
+   "date": "2026-05-13",
+   "energy": 4107.8,
+   "carb": 292.236,
+   "protein": 243.87,
+   "fat": 88.434,
+   "energy_goal": 1787.5
+  }
+ ],
+ "goals": {
+  "activity.step": 8000.0,
+  "water": 2000.0,
+  "energy.energy": 1787.5,
+  "nutrient.protein": 174.3902,
+  "nutrient.fat": 48.0511,
+  "nutrient.carb": 152.5915,
+  "bodyvalue.weight": 75.0
+ },
+ "water_intake": {
+  "water_intake": 1000.0,
+  "gateway": null,
+  "source": null
+ },
+ "consumed_items": {
+  "products": [
+   {
+    "id": "9ff51dd7-ff72-47ca-9d47-1e30a5766167",
+    "date": "2026-08-10 08:49:33",
+    "daytime": "breakfast",
+    "type": "product",
+    "product_id": "9e6310cc-becf-11e6-be96-e0071b8a8723",
+    "amount": 120,
+    "serving": "egg.regular",
+    "serving_quantity": 2
+   },
+   {
+    "id": "d6514bc9-db90-4750-98dc-c473af367d2b",
+    "date": "2026-08-10 08:49:38",
+    "daytime": "snack",
+    "type": "product",
+    "product_id": "91a2b3ab-ec86-4ff7-be5a-62a0029ea0bf",
+    "amount": 2.4,
+    "serving": "tablet",
+    "serving_quantity": 2
+   },
+   {
+    "id": "415e61ec-67bd-4dc7-983a-f8713ba74629",
+    "date": "2026-08-10 08:49:46",
+    "daytime": "snack",
+    "type": "product",
+    "product_id": "3209d120-e3fe-400f-8cc1-06963f69591d",
+    "amount": 0.4,
+    "serving": "tablet",
+    "serving_quantity": 1
+   },
+   {
+    "id": "e36998b1-0a94-459f-8290-730bf307b9f4",
+    "date": "2026-08-10 12:53:40",
+    "daytime": "lunch",
+    "type": "product",
+    "product_id": "b0515237-4d12-452f-9620-57fc0f163e8f",
+    "amount": 45,
+    "serving": "portion",
+    "serving_quantity": 3
+   },
+   {
+    "id": "44148b5c-85a0-4ec8-9177-278bb2c0f3ec",
+    "date": "2026-08-10 12:53:48",
+    "daytime": "lunch",
+    "type": "product",
+    "product_id": "6bcd3d6d-8ec4-4485-a898-51999d5ebe26",
+    "amount": 180,
+    "serving": null,
+    "serving_quantity": null
+   },
+   {
+    "id": "e5ac8d6c-3158-49d4-aba4-ec65e262d350",
+    "date": "2026-08-10 12:54:21",
+    "daytime": "lunch",
+    "type": "product",
+    "product_id": "8f7767cd-9a84-4151-9a0a-a43417b03b60",
+    "amount": 250,
+    "serving": "portion",
+    "serving_quantity": 1
+   },
+   {
+    "id": "29923cf5-3664-47c6-9717-6c5a93b09e6d",
+    "date": "2026-08-10 12:54:39",
+    "daytime": "lunch",
+    "type": "product",
+    "product_id": "e70bcf34-357e-4d29-a53d-f5750358d8dd",
+    "amount": 80,
+    "serving": null,
+    "serving_quantity": null
+   }
+  ],
+  "recipe_portions": [],
+  "simple_products": []
+ }
+}

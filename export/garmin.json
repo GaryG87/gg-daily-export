@@ -1,15 +1,15 @@
 {
  "version": "garmin_export v1.1",
- "erzeugt_utc": "2026-08-10T10:02:55+00:00",
+ "erzeugt_utc": "2026-08-10T12:58:08+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
- "api_calls": 50,
+ "api_calls": 305,
  "zeitraum": {
-  "von": "2026-07-31",
+  "von": "2026-05-12",
   "bis": "2026-08-10",
-  "tage_angefragt": 10
+  "tage_angefragt": 90
  },
  "lesehinweise": {
   "schlaf": "Der Schlafdatensatz eines Tages beschreibt die Nacht DAVOR. Die Felder nacht_von/nacht_bis enthalten die tatsaechlichen Zeitstempel - immer diese verwenden, nicht das Tagesdatum.",
@@ -5818,5 +5818,5 @@
   "aktivitaeten": 55,
   "gewichtsmessungen": 7
  },
- "laufzeit_sek": 32
+ "laufzeit_sek": 190
 }

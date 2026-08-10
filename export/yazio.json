@@ -1,0 +1,2846 @@
+{
+ "version": "yazio_export v1.0",
+ "erzeugt_utc": "2026-08-10T13:01:20+00:00",
+ "status": "ok",
+ "fehler": null,
+ "traceback": null,
+ "hinweise": [],
+ "api_calls": 97,
+ "zeitraum": {
+  "von": "2026-05-12",
+  "bis": "2026-08-10",
+  "tage_angefragt": 90,
+  "detailtage": 14
+ },
+ "lesehinweise": {
+  "einheiten": "Energie in kcal, Naehrstoffe in Gramm, Wasser in ml.",
+  "tagesdatum": "Anders als beim Schlaf ist das Datum hier eindeutig: es ist der Tag, an dem gegessen wurde.",
+  "vollstaendigkeit": "Tage ohne Eintraege in Yazio erscheinen mit 0 kcal. Vor jeder Auswertung pruefen, ob ein Nulltag wirklich ein Fastentag war oder nur ein nicht getrackter Tag."
+ },
+ "tage": [
+  {
+   "datum": "2026-05-12",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-13",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-14",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-15",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-16",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-17",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-18",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-19",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-20",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-21",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-22",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-23",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-24",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-25",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-26",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-27",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-28",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-29",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-30",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-05-31",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-01",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-02",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-03",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-04",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-05",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-06",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-07",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-08",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-09",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-10",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-11",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-12",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-13",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-14",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-15",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-16",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-17",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-18",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-19",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-20",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-21",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-22",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-23",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-24",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-25",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-26",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-27",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-28",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-29",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-06-30",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-01",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-02",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-03",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-04",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-05",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-06",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-07",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-08",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-09",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-10",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-11",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-12",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-13",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-14",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-15",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-16",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-17",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-18",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-19",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-20",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-21",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-22",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-23",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-24",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-25",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-26",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-27",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  },
+  {
+   "datum": "2026-07-28",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2250.0,
+   "posten": [
+    {
+     "mahlzeit": "dinner",
+     "name": "Thai Curry mit Hühnchen und Reis",
+     "hersteller": "",
+     "menge_g": 330,
+     "energie_kcal": 825.0,
+     "protein_g": 42.9,
+     "ballaststoffe_g": 6.6
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Chinesische Nudeln mit Hühnerfleisch ",
+     "hersteller": "Restaurant",
+     "menge_g": 137.5,
+     "energie_kcal": 288.8,
+     "protein_g": 16.5,
+     "ballaststoffe_g": 1.4
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "MORE Satisbites White Chocolate Strawberry Cream",
+     "hersteller": "More Nutrition",
+     "menge_g": 50,
+     "energie_kcal": 193.0,
+     "protein_g": 15.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Notenmix natuur",
+     "hersteller": "RANOBO",
+     "menge_g": 30,
+     "energie_kcal": 195.3,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.8
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 1500,
+     "energie_kcal": 675.0,
+     "protein_g": 15.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Bio Sommergemüse",
+     "hersteller": "Freshona (Lidl)",
+     "menge_g": 250,
+     "energie_kcal": 90.0,
+     "protein_g": 5.0,
+     "ballaststoffe_g": 7.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Kartoffelwürfel",
+     "hersteller": "Airfryer",
+     "menge_g": 100,
+     "energie_kcal": 82.0,
+     "protein_g": 2.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 234.0,
+     "protein_g": 44.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-07-29",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2000.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Thai Curry mit Hühnchen und Reis",
+     "hersteller": "",
+     "menge_g": 247.5,
+     "energie_kcal": 618.8,
+     "protein_g": 32.2,
+     "ballaststoffe_g": 5.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Quarkcreme Himbeere",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 140.0,
+     "protein_g": 24.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Designer Bar Erdbeer Jogurt",
+     "hersteller": "ESN",
+     "menge_g": 45,
+     "energie_kcal": 179.1,
+     "protein_g": 14.9,
+     "ballaststoffe_g": 1.8
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 175.5,
+     "protein_g": 33.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Rote Paprika, frisch",
+     "hersteller": null,
+     "menge_g": 37.5,
+     "energie_kcal": 16.1,
+     "protein_g": 0.4,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Champignons (Pilze), frisch",
+     "hersteller": null,
+     "menge_g": 30,
+     "energie_kcal": 7.2,
+     "protein_g": 1.2,
+     "ballaststoffe_g": 0.6
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Rote Zwiebel, frisch",
+     "hersteller": null,
+     "menge_g": 25,
+     "energie_kcal": 7.5,
+     "protein_g": 0.2,
+     "ballaststoffe_g": 0.2
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "High Protein Wrap",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 85.4,
+     "energie_kcal": 260.5,
+     "protein_g": 15.4,
+     "ballaststoffe_g": 5.1
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Rotkohl (Blaukraut), frisch",
+     "hersteller": null,
+     "menge_g": 70,
+     "energie_kcal": 18.9,
+     "protein_g": 0.7,
+     "ballaststoffe_g": 2.1
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Feta / Schafskäse light 9% Fett",
+     "hersteller": "Salakis",
+     "menge_g": 25,
+     "energie_kcal": 40.0,
+     "protein_g": 4.8,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Vanille",
+     "hersteller": "Rewe",
+     "menge_g": 200,
+     "energie_kcal": 148.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-07-30",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2000.0,
+   "posten": [
+    {
+     "mahlzeit": "snack",
+     "name": "MORE Satisbites White Chocolate Strawberry Cream",
+     "hersteller": "More Nutrition",
+     "menge_g": 75,
+     "energie_kcal": 289.5,
+     "protein_g": 22.5,
+     "ballaststoffe_g": 4.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 1750,
+     "energie_kcal": 787.5,
+     "protein_g": 17.5,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Rote Zwiebel, frisch",
+     "hersteller": null,
+     "menge_g": 25,
+     "energie_kcal": 7.5,
+     "protein_g": 0.2,
+     "ballaststoffe_g": 0.2
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "High Protein Wrap",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 42.7,
+     "energie_kcal": 130.2,
+     "protein_g": 7.7,
+     "ballaststoffe_g": 2.6
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Grated cheese",
+     "hersteller": "Eat lean",
+     "menge_g": 40,
+     "energie_kcal": 68.8,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0.4
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Rote Paprika, frisch",
+     "hersteller": null,
+     "menge_g": 37.5,
+     "energie_kcal": 16.1,
+     "protein_g": 0.4,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Thunfisch Filet",
+     "hersteller": "Followfood",
+     "menge_g": 80,
+     "energie_kcal": 92.0,
+     "protein_g": 21.6,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Klassik Tomatensauce ",
+     "hersteller": "PPURA",
+     "menge_g": 60,
+     "energie_kcal": 26.4,
+     "protein_g": 0.6,
+     "ballaststoffe_g": 0.6
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Babybel mini",
+     "hersteller": "Fromageries Bel",
+     "menge_g": 20,
+     "energie_kcal": 59.0,
+     "protein_g": 4.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamin D3+K2",
+     "hersteller": "Vitamoment",
+     "menge_g": 0.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Rotkohl (Blaukraut), frisch",
+     "hersteller": null,
+     "menge_g": 70,
+     "energie_kcal": 18.9,
+     "protein_g": 0.7,
+     "ballaststoffe_g": 2.1
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "High Protein Wrap",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 85.4,
+     "energie_kcal": 260.5,
+     "protein_g": 15.4,
+     "ballaststoffe_g": 5.1
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Rote Zwiebel, frisch",
+     "hersteller": null,
+     "menge_g": 25,
+     "energie_kcal": 7.5,
+     "protein_g": 0.2,
+     "ballaststoffe_g": 0.2
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Champignons (Pilze), frisch",
+     "hersteller": null,
+     "menge_g": 30,
+     "energie_kcal": 7.2,
+     "protein_g": 1.2,
+     "ballaststoffe_g": 0.6
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Rote Paprika, frisch",
+     "hersteller": null,
+     "menge_g": 37.5,
+     "energie_kcal": 16.1,
+     "protein_g": 0.4,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 175.5,
+     "protein_g": 33.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-07-31",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2250.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Babybel mini",
+     "hersteller": "Fromageries Bel",
+     "menge_g": 20,
+     "energie_kcal": 59.0,
+     "protein_g": 4.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "High Protein Quarkcreme Erdbeere",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 136.0,
+     "protein_g": 24.0,
+     "ballaststoffe_g": 2.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Mignonette chocolat noir",
+     "hersteller": "Côte d'Or",
+     "menge_g": 10,
+     "energie_kcal": 52.2,
+     "protein_g": 0.6,
+     "ballaststoffe_g": 0.8
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Mayo Style Sauce",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 24.3,
+     "protein_g": 0.9,
+     "ballaststoffe_g": 3.2
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 250,
+     "energie_kcal": 292.5,
+     "protein_g": 55.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Pommes Frites (frittiert und gesalzen)",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 442.5,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "ESN Designer Bar Fudge Brownie",
+     "hersteller": "ESN",
+     "menge_g": 45,
+     "energie_kcal": 190.4,
+     "protein_g": 13.9,
+     "ballaststoffe_g": 1.3
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "California Roll Crispy Chicken",
+     "hersteller": "I love sushi",
+     "menge_g": 175,
+     "energie_kcal": 278.2,
+     "protein_g": 12.3,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Signature Rolls Crispy Salmon",
+     "hersteller": "Sushishop",
+     "menge_g": 200,
+     "energie_kcal": 412.0,
+     "protein_g": 10.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Daily You Magnesiumcitrat",
+     "hersteller": "Vita Moment",
+     "menge_g": 3.5,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-01",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2250.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Gemüsepfanne nach mediterraner Art",
+     "hersteller": "Rewe Bio",
+     "menge_g": 250,
+     "energie_kcal": 107.5,
+     "protein_g": 2.5,
+     "ballaststoffe_g": 5.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 234.0,
+     "protein_g": 44.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Süßkartoffeln, frisch",
+     "hersteller": null,
+     "menge_g": 180,
+     "energie_kcal": 210.6,
+     "protein_g": 3.6,
+     "ballaststoffe_g": 5.4
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Kartoffelwürfel",
+     "hersteller": "Airfryer",
+     "menge_g": 100,
+     "energie_kcal": 82.0,
+     "protein_g": 2.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "MORE Satisbites White Chocolate Strawberry Cream",
+     "hersteller": "More Nutrition",
+     "menge_g": 25,
+     "energie_kcal": 96.5,
+     "protein_g": 7.5,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "ahead low sugar Gummies sweet peaches",
+     "hersteller": "ahead",
+     "menge_g": 50,
+     "energie_kcal": 73.0,
+     "protein_g": 3.0,
+     "ballaststoffe_g": 24.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Steak (mager), gebraten",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 348.0,
+     "protein_g": 62.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pfeffersauce",
+     "hersteller": "Maggi",
+     "menge_g": 100,
+     "energie_kcal": 49.0,
+     "protein_g": 1.0,
+     "ballaststoffe_g": 1.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pommes Frites (frittiert und gesalzen)",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 442.5,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 750,
+     "energie_kcal": 337.5,
+     "protein_g": 7.5,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Chocolate Mousse",
+     "hersteller": "Ehrmann",
+     "menge_g": 200,
+     "energie_kcal": 148.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 2.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Mayonnaise 80% Fett",
+     "hersteller": null,
+     "menge_g": 10,
+     "energie_kcal": 74.3,
+     "protein_g": 0.1,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Daily You Magnesiumcitrat",
+     "hersteller": "Vita Moment",
+     "menge_g": 3.5,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-02",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 500.0,
+   "posten": [
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Mayo Style Sauce",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 24.3,
+     "protein_g": 0.9,
+     "ballaststoffe_g": 3.2
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Kartoffelwürfel",
+     "hersteller": "Airfryer",
+     "menge_g": 350,
+     "energie_kcal": 287.0,
+     "protein_g": 7.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 234.0,
+     "protein_g": 44.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Gemüsepfanne Sommergarten",
+     "hersteller": "Frosta",
+     "menge_g": 240,
+     "energie_kcal": 146.4,
+     "protein_g": 4.8,
+     "ballaststoffe_g": 7.2
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Mayonnaise 80% Fett",
+     "hersteller": null,
+     "menge_g": 10,
+     "energie_kcal": 74.3,
+     "protein_g": 0.1,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pommes Frites (frittiert und gesalzen)",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 442.5,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pfeffersauce",
+     "hersteller": "Maggi",
+     "menge_g": 100,
+     "energie_kcal": 49.0,
+     "protein_g": 1.0,
+     "ballaststoffe_g": 1.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Steak (mager), gebraten",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 348.0,
+     "protein_g": 62.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Paprikachips",
+     "hersteller": "Lays",
+     "menge_g": 30,
+     "energie_kcal": 161.7,
+     "protein_g": 1.8,
+     "ballaststoffe_g": 1.2
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "MORE Satisbites White Chocolate Strawberry Cream",
+     "hersteller": "More Nutrition",
+     "menge_g": 50,
+     "energie_kcal": 193.0,
+     "protein_g": 15.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 2250,
+     "energie_kcal": 1012.5,
+     "protein_g": 22.5,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-03",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2000.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "High Protein Quarkcreme Erdbeere",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 136.0,
+     "protein_g": 24.0,
+     "ballaststoffe_g": 2.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 234.0,
+     "protein_g": 44.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Gemüsepfanne Sommergarten",
+     "hersteller": "Frosta",
+     "menge_g": 300,
+     "energie_kcal": 183.0,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 9.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 234.0,
+     "protein_g": 44.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Kartoffelwürfel",
+     "hersteller": "Airfryer",
+     "menge_g": 400,
+     "energie_kcal": 328.0,
+     "protein_g": 8.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Karotten (Möhren), frisch",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 58.5,
+     "protein_g": 1.5,
+     "ballaststoffe_g": 4.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Rote-Beete-Scheiben",
+     "hersteller": "Rewe Bio",
+     "menge_g": 30,
+     "energie_kcal": 17.7,
+     "protein_g": 0.3,
+     "ballaststoffe_g": 0.6
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-04",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2250.0,
+   "posten": [
+    {
+     "mahlzeit": "lunch",
+     "name": "Rinderhackfleisch Bolognese ",
+     "hersteller": "Selber Gemacht",
+     "menge_g": 200,
+     "energie_kcal": 320.0,
+     "protein_g": 22.0,
+     "ballaststoffe_g": 4.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "ProteinPlus Spaghetti",
+     "hersteller": "Barilla",
+     "menge_g": 100,
+     "energie_kcal": 354.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Mignonette chocolat noir",
+     "hersteller": "Côte d'Or",
+     "menge_g": 30,
+     "energie_kcal": 156.6,
+     "protein_g": 1.8,
+     "ballaststoffe_g": 2.4
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 180,
+     "energie_kcal": 210.6,
+     "protein_g": 39.6,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Protein Fusili Barilla",
+     "hersteller": "Barilla",
+     "menge_g": 100,
+     "energie_kcal": 354.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "ESN Bar Dark chocolate salted almond flavor",
+     "hersteller": "ESN DESIGNER BAR",
+     "menge_g": 45,
+     "energie_kcal": 187.2,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 3.2
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 750,
+     "energie_kcal": 337.5,
+     "protein_g": 7.5,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Daily You Magnesiumcitrat",
+     "hersteller": "Vita Moment",
+     "menge_g": 3.5,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-05",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2000.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "ProteinPlus Spaghetti",
+     "hersteller": "Barilla",
+     "menge_g": 100,
+     "energie_kcal": 354.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Rinderhackfleisch Bolognese ",
+     "hersteller": "Selber Gemacht",
+     "menge_g": 200,
+     "energie_kcal": 320.0,
+     "protein_g": 22.0,
+     "ballaststoffe_g": 4.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "california teriyaki tuna",
+     "hersteller": "Eat Happy",
+     "menge_g": 144.6667,
+     "energie_kcal": 245.9,
+     "protein_g": 8.7,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Sushi Happy california mix",
+     "hersteller": "Eat Happy",
+     "menge_g": 231.3333,
+     "energie_kcal": 400.2,
+     "protein_g": 11.6,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Chocolate Mousse",
+     "hersteller": "Ehrmann",
+     "menge_g": 200,
+     "energie_kcal": 148.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 2.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Babybel mini",
+     "hersteller": "Fromageries Bel",
+     "menge_g": 40,
+     "energie_kcal": 118.0,
+     "protein_g": 8.8,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-06",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2000.0,
+   "posten": [
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Protein Fusili Barilla",
+     "hersteller": "Barilla",
+     "menge_g": 100,
+     "energie_kcal": 354.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 30,
+     "energie_kcal": 41.1,
+     "protein_g": 3.6,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Rinderhack mager",
+     "hersteller": "Rewe",
+     "menge_g": 120,
+     "energie_kcal": 150.0,
+     "protein_g": 24.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Mignonette chocolat noir",
+     "hersteller": "Côte d'Or",
+     "menge_g": 20,
+     "energie_kcal": 104.4,
+     "protein_g": 1.2,
+     "ballaststoffe_g": 1.6
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamin D3+K2",
+     "hersteller": "Vitamoment",
+     "menge_g": 0.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Vanille",
+     "hersteller": "Rewe",
+     "menge_g": 200,
+     "energie_kcal": 148.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Protein Satisbite White Hazelnut Nougat ",
+     "hersteller": "More Nutrition",
+     "menge_g": 50,
+     "energie_kcal": 197.0,
+     "protein_g": 15.5,
+     "ballaststoffe_g": 2.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Spaghetti Carbonara",
+     "hersteller": null,
+     "menge_g": 250,
+     "energie_kcal": 477.5,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 2.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 750,
+     "energie_kcal": 337.5,
+     "protein_g": 7.5,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Chocolate Mousse",
+     "hersteller": "Ehrmann",
+     "menge_g": 200,
+     "energie_kcal": 148.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 2.0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-07",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2000.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Steak (mager), gebraten",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 348.0,
+     "protein_g": 62.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pfeffersauce",
+     "hersteller": "Maggi",
+     "menge_g": 100,
+     "energie_kcal": 49.0,
+     "protein_g": 1.0,
+     "ballaststoffe_g": 1.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pommes Frites (frittiert und gesalzen)",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 442.5,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Mayonnaise 80% Fett",
+     "hersteller": null,
+     "menge_g": 10,
+     "energie_kcal": 74.3,
+     "protein_g": 0.1,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 3750,
+     "energie_kcal": 1687.5,
+     "protein_g": 37.5,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Joghurt Mild fettarm 1,8%",
+     "hersteller": "Rewe Bio",
+     "menge_g": 150,
+     "energie_kcal": 76.5,
+     "protein_g": 7.5,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Flohsamen Schalen",
+     "hersteller": "Borchers",
+     "menge_g": 10,
+     "energie_kcal": 20.3,
+     "protein_g": 0.3,
+     "ballaststoffe_g": 8.8
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Steinofen Pizza Spinat",
+     "hersteller": "Wagner",
+     "menge_g": 360,
+     "energie_kcal": 694.8,
+     "protein_g": 28.8,
+     "ballaststoffe_g": 7.2
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 60,
+     "energie_kcal": 82.2,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Mignonette chocolat noir",
+     "hersteller": "Côte d'Or",
+     "menge_g": 20,
+     "energie_kcal": 104.4,
+     "protein_g": 1.2,
+     "ballaststoffe_g": 1.6
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-08",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2250.0,
+   "posten": [
+    {
+     "mahlzeit": "snack",
+     "name": "Bière blanche ",
+     "hersteller": "Hoegaarden",
+     "menge_g": 3500,
+     "energie_kcal": 1575.0,
+     "protein_g": 35.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamoment ",
+     "hersteller": "Vitamoment",
+     "menge_g": 2,
+     "energie_kcal": 0,
+     "protein_g": 0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "sanotact Elektrolyte plus",
+     "hersteller": "Sanotact",
+     "menge_g": 6,
+     "energie_kcal": 17.2,
+     "protein_g": 0.1,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Babybel mini",
+     "hersteller": "Fromageries Bel",
+     "menge_g": 20,
+     "energie_kcal": 59.0,
+     "protein_g": 4.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Vol-au-vent",
+     "hersteller": "Maison",
+     "menge_g": 150,
+     "energie_kcal": 312.0,
+     "protein_g": 19.5,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Pommes Frites (frittiert und gesalzen)",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 442.5,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Mayonnaise 80% Fett",
+     "hersteller": null,
+     "menge_g": 10,
+     "energie_kcal": 74.3,
+     "protein_g": 0.1,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Käsekroketten",
+     "hersteller": "Privat",
+     "menge_g": 150,
+     "energie_kcal": 225.0,
+     "protein_g": 30.0,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-09",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 2250.0,
+   "posten": [
+    {
+     "mahlzeit": "snack",
+     "name": "Daily You Magnesiumcitrat",
+     "hersteller": "Vita Moment",
+     "menge_g": 3.5,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 180,
+     "energie_kcal": 246.6,
+     "protein_g": 21.6,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Babybel mini",
+     "hersteller": "Fromageries Bel",
+     "menge_g": 20,
+     "energie_kcal": 59.0,
+     "protein_g": 4.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "breakfast",
+     "name": "Spaghetti No.5",
+     "hersteller": "Barilla",
+     "menge_g": 10,
+     "energie_kcal": 35.9,
+     "protein_g": 1.4,
+     "ballaststoffe_g": 0.3
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 180,
+     "energie_kcal": 210.6,
+     "protein_g": 39.6,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Kartoffelwürfel",
+     "hersteller": "Airfryer",
+     "menge_g": 350,
+     "energie_kcal": 287.0,
+     "protein_g": 7.0,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Karotten (Möhren), frisch",
+     "hersteller": null,
+     "menge_g": 100,
+     "energie_kcal": 39.0,
+     "protein_g": 1.0,
+     "ballaststoffe_g": 3.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Protein Satisbite White Hazelnut Nougat ",
+     "hersteller": "More Nutrition",
+     "menge_g": 50,
+     "energie_kcal": 197.0,
+     "protein_g": 15.5,
+     "ballaststoffe_g": 2.5
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Chocolate Mousse",
+     "hersteller": "Ehrmann",
+     "menge_g": 200,
+     "energie_kcal": 148.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": 2.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Mayonnaise 80% Fett",
+     "hersteller": null,
+     "menge_g": 10,
+     "energie_kcal": 74.3,
+     "protein_g": 0.1,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pommes Frites (frittiert und gesalzen)",
+     "hersteller": null,
+     "menge_g": 150,
+     "energie_kcal": 442.5,
+     "protein_g": 6.0,
+     "ballaststoffe_g": 1.5
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Pfeffersauce",
+     "hersteller": "Maggi",
+     "menge_g": 100,
+     "energie_kcal": 49.0,
+     "protein_g": 1.0,
+     "ballaststoffe_g": 1.0
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Steak (mager), gebraten",
+     "hersteller": null,
+     "menge_g": 200,
+     "energie_kcal": 348.0,
+     "protein_g": 62.0,
+     "ballaststoffe_g": 0
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-10",
+   "energie_kcal": null,
+   "protein_g": null,
+   "kohlenhydrate_g": null,
+   "zucker_g": null,
+   "fett_g": null,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null,
+   "wasser_ml": 1000.0,
+   "posten": [
+    {
+     "mahlzeit": "breakfast",
+     "name": "Hühnerei, Eier, gekocht",
+     "hersteller": null,
+     "menge_g": 120,
+     "energie_kcal": 164.4,
+     "protein_g": 14.4,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Moment Omega 3",
+     "hersteller": "VitaMoment GmbH",
+     "menge_g": 2.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Vitamin D3+K2",
+     "hersteller": "Vitamoment",
+     "menge_g": 0.4,
+     "energie_kcal": 0.0,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 0.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Curry Ketchup",
+     "hersteller": "Callowfit",
+     "menge_g": 45,
+     "energie_kcal": 11.2,
+     "protein_g": 0.5,
+     "ballaststoffe_g": 0.5
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hähnchenbrustfilet mariniert",
+     "hersteller": null,
+     "menge_g": 180,
+     "energie_kcal": 210.6,
+     "protein_g": 39.6,
+     "ballaststoffe_g": 0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Gemüse Pfanne Italienische Art (Rewe Beste Wahl)",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 250,
+     "energie_kcal": 152.5,
+     "protein_g": 5.0,
+     "ballaststoffe_g": 5.0
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Kartoffelwürfel",
+     "hersteller": "Airfryer",
+     "menge_g": 80,
+     "energie_kcal": 65.6,
+     "protein_g": 1.6,
+     "ballaststoffe_g": 0
+    }
+   ]
+  }
+ ],
+ "ziele": {
+  "stand": "2026-08-10",
+  "energie_kcal": 1787.5,
+  "protein_g": 174.3902,
+  "kohlenhydrate_g": 152.5915,
+  "fett_g": 48.0511,
+  "schritte": 8000.0,
+  "zielgewicht_kg": 75.0,
+  "wasser_ml": 2000.0
+ },
+ "anzahl": {
+  "tage": 91,
+  "tage_mit_eintraegen": 0,
+  "produkte_zwischengespeichert": 63
+ },
+ "laufzeit_sek": 35
+}

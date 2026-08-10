@@ -1,0 +1,1010 @@
+{
+ "9e6310cc-becf-11e6-be96-e0071b8a8723": {
+  "name": "Hühnerei, Eier, gekocht",
+  "hersteller": null,
+  "kategorie": "miscellaneous",
+  "je_gramm": {
+   "energie_kcal": 1.37,
+   "protein_g": 0.12,
+   "kohlenhydrate_g": 0.02,
+   "zucker_g": 0.02,
+   "fett_g": 0.09,
+   "gesaettigt_g": 0.03,
+   "ballaststoffe_g": 0.0,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "91a2b3ab-ec86-4ff7-be5a-62a0029ea0bf": {
+  "name": "Moment Omega 3",
+  "hersteller": "VitaMoment GmbH",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 0.0,
+   "protein_g": 0.0,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "3209d120-e3fe-400f-8cc1-06963f69591d": {
+  "name": "Vitamin D3+K2",
+  "hersteller": "Vitamoment",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 0.0,
+   "protein_g": 0.0,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "b0515237-4d12-452f-9620-57fc0f163e8f": {
+  "name": "Curry Ketchup",
+  "hersteller": "Callowfit",
+  "kategorie": "sauces",
+  "je_gramm": {
+   "energie_kcal": 0.25,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.01,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "6bcd3d6d-8ec4-4485-a898-51999d5ebe26": {
+  "name": "Hähnchenbrustfilet mariniert",
+  "hersteller": null,
+  "kategorie": "poultry",
+  "je_gramm": {
+   "energie_kcal": 1.17,
+   "protein_g": 0.22,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.03,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "8f7767cd-9a84-4151-9a0a-a43417b03b60": {
+  "name": "Gemüse Pfanne Italienische Art (Rewe Beste Wahl)",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.61,
+   "protein_g": 0.02,
+   "kohlenhydrate_g": 0.08,
+   "zucker_g": 0.05,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.02,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "e70bcf34-357e-4d29-a53d-f5750358d8dd": {
+  "name": "Kartoffelwürfel",
+  "hersteller": "Airfryer",
+  "kategorie": "potatoproducts",
+  "je_gramm": {
+   "energie_kcal": 0.82,
+   "protein_g": 0.02,
+   "kohlenhydrate_g": 0.15,
+   "zucker_g": null,
+   "fett_g": 0.01,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "6801cfdd-30d2-48ea-8d37-131151307c3f": {
+  "name": "Daily You Magnesiumcitrat",
+  "hersteller": "Vita Moment",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 0.0,
+   "protein_g": 0.0,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "a454cf20-becf-11e6-b6e5-e0071b8a8723": {
+  "name": "Babybel mini",
+  "hersteller": "Fromageries Bel",
+  "kategorie": "cheese",
+  "je_gramm": {
+   "energie_kcal": 2.95,
+   "protein_g": 0.22,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.23,
+   "gesaettigt_g": 0.15,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9f1c73be-becf-11e6-852c-e0071b8a8723": {
+  "name": "Spaghetti No.5",
+  "hersteller": "Barilla",
+  "kategorie": "noodles",
+  "je_gramm": {
+   "energie_kcal": 3.59,
+   "protein_g": 0.14,
+   "kohlenhydrate_g": 0.7,
+   "zucker_g": 0.04,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9eb7f394-becf-11e6-a81e-e0071b8a8723": {
+  "name": "Karotten (Möhren), frisch",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.39,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.07,
+   "zucker_g": 0.06,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "198c5ff8-3cfc-40d9-ad3b-803f13b3e435": {
+  "name": "Protein Satisbite White Hazelnut Nougat ",
+  "hersteller": "More Nutrition",
+  "kategorie": "candy",
+  "je_gramm": {
+   "energie_kcal": 3.94,
+   "protein_g": 0.31,
+   "kohlenhydrate_g": 0.31,
+   "zucker_g": 0.04,
+   "fett_g": 0.2,
+   "gesaettigt_g": 0.08,
+   "ballaststoffe_g": 0.05,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "29130f04-bbb6-4056-969a-64e33ebfe189": {
+  "name": "High Protein Chocolate Mousse",
+  "hersteller": "Ehrmann",
+  "kategorie": "miscellaneous",
+  "je_gramm": {
+   "energie_kcal": 0.74,
+   "protein_g": 0.1,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.04,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9ea5609e-becf-11e6-b6ef-e0071b8a8723": {
+  "name": "Mayonnaise 80% Fett",
+  "hersteller": null,
+  "kategorie": "animalfats",
+  "je_gramm": {
+   "energie_kcal": 7.43,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.02,
+   "zucker_g": 0.0,
+   "fett_g": 0.82,
+   "gesaettigt_g": 0.37,
+   "ballaststoffe_g": 0.0,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "9eda12e4-becf-11e6-bf43-e0071b8a8723": {
+  "name": "Pommes Frites (frittiert und gesalzen)",
+  "hersteller": null,
+  "kategorie": "potatoproducts",
+  "je_gramm": {
+   "energie_kcal": 2.95,
+   "protein_g": 0.04,
+   "kohlenhydrate_g": 0.36,
+   "zucker_g": 0.02,
+   "fett_g": 0.14,
+   "gesaettigt_g": 0.03,
+   "ballaststoffe_g": 0.01,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "79100c5f-5d17-4f83-b317-c806e3235cf7": {
+  "name": "Pfeffersauce",
+  "hersteller": "Maggi",
+  "kategorie": "sauces",
+  "je_gramm": {
+   "energie_kcal": 0.49,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.01,
+   "fett_g": 0.03,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a54f8a00-becf-11e6-8b3b-e0071b8a8723": {
+  "name": "Steak (mager), gebraten",
+  "hersteller": null,
+  "kategorie": "beef",
+  "je_gramm": {
+   "energie_kcal": 1.74,
+   "protein_g": 0.31,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.05,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": 0.0,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "6102f734-98ce-4961-ad8b-e41efd9b6ae5": {
+  "name": "Bière blanche ",
+  "hersteller": "Hoegaarden",
+  "kategorie": "beer",
+  "je_gramm": {
+   "energie_kcal": 0.45,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.0,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "e11ebc73-b934-44ed-b188-191151ace665": {
+  "name": "Vitamoment ",
+  "hersteller": "Vitamoment",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 0.0,
+   "protein_g": 0.0,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "0a25e6df-8fab-4027-ab91-d64ad4be12e5": {
+  "name": "sanotact Elektrolyte plus",
+  "hersteller": "Sanotact",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 2.86,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.58,
+   "zucker_g": 0.56,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "salz_g": 0.05,
+   "cholesterin_g": 0.0
+  }
+ },
+ "aa9a0742-becf-11e6-ae35-e0071b8a8723": {
+  "name": "Vol-au-vent",
+  "hersteller": "Maison",
+  "kategorie": "poultry",
+  "je_gramm": {
+   "energie_kcal": 2.08,
+   "protein_g": 0.13,
+   "kohlenhydrate_g": 0.19,
+   "zucker_g": null,
+   "fett_g": 0.08,
+   "gesaettigt_g": 0.04,
+   "ballaststoffe_g": 0.02,
+   "salz_g": 0.0,
+   "cholesterin_g": null
+  }
+ },
+ "898a4eaf-eb82-454c-9ab3-8ed5472a8699": {
+  "name": "Käsekroketten",
+  "hersteller": "Privat",
+  "kategorie": "potatoproducts",
+  "je_gramm": {
+   "energie_kcal": 1.5,
+   "protein_g": 0.2,
+   "kohlenhydrate_g": 0.2,
+   "zucker_g": null,
+   "fett_g": 0.05,
+   "gesaettigt_g": null,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "1e82ceb5-47c1-4484-9f91-a96f6cf605e1": {
+  "name": "Joghurt Mild fettarm 1,8%",
+  "hersteller": "Rewe Bio",
+  "kategorie": "yogurt",
+  "je_gramm": {
+   "energie_kcal": 0.51,
+   "protein_g": 0.05,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.04,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "98d11eec-48cb-4982-a3f7-c3fd9e4e5e1e": {
+  "name": "Flohsamen Schalen",
+  "hersteller": "Borchers",
+  "kategorie": "legumes",
+  "je_gramm": {
+   "energie_kcal": 2.03,
+   "protein_g": 0.03,
+   "kohlenhydrate_g": 0.01,
+   "zucker_g": 0.0,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.88,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a30a6c10-becf-11e6-b2ba-e0071b8a8723": {
+  "name": "Steinofen Pizza Spinat",
+  "hersteller": "Wagner",
+  "kategorie": "pizza",
+  "je_gramm": {
+   "energie_kcal": 1.93,
+   "protein_g": 0.08,
+   "kohlenhydrate_g": 0.24,
+   "zucker_g": 0.03,
+   "fett_g": 0.07,
+   "gesaettigt_g": 0.03,
+   "ballaststoffe_g": 0.02,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "d939da00-59b9-470d-b840-879cf8ef0fc9": {
+  "name": "High Protein Pudding Schoko",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "milk",
+  "je_gramm": {
+   "energie_kcal": 0.76,
+   "protein_g": 0.1,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.04,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "eeef05b4-9dff-410e-9a3a-1cabee86a945": {
+  "name": "Mignonette chocolat noir",
+  "hersteller": "Côte d'Or",
+  "kategorie": "chocolate",
+  "je_gramm": {
+   "energie_kcal": 5.22,
+   "protein_g": 0.06,
+   "kohlenhydrate_g": 0.55,
+   "zucker_g": 0.52,
+   "fett_g": 0.29,
+   "gesaettigt_g": 0.17,
+   "ballaststoffe_g": 0.08,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "b9c65734-4cea-4dbd-b079-07db442bf80b": {
+  "name": "Protein Fusili Barilla",
+  "hersteller": "Barilla",
+  "kategorie": "pasta",
+  "je_gramm": {
+   "energie_kcal": 3.54,
+   "protein_g": 0.2,
+   "kohlenhydrate_g": 0.63,
+   "zucker_g": 0.02,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "87c05bea-ef61-4b1c-be31-4b253cc4bd87": {
+  "name": "Rinderhack mager",
+  "hersteller": "Rewe",
+  "kategorie": "meat",
+  "je_gramm": {
+   "energie_kcal": 1.25,
+   "protein_g": 0.2,
+   "kohlenhydrate_g": 0.0,
+   "zucker_g": 0.0,
+   "fett_g": 0.05,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": 0.0,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "b3bd508e-8785-408d-8741-0a9421d7dd5b": {
+  "name": "High Protein Pudding Vanille",
+  "hersteller": "Rewe",
+  "kategorie": "milk",
+  "je_gramm": {
+   "energie_kcal": 0.74,
+   "protein_g": 0.1,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.04,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": 0.0,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9f1c02a8-becf-11e6-bb21-e0071b8a8723": {
+  "name": "Spaghetti Carbonara",
+  "hersteller": null,
+  "kategorie": "pasta",
+  "je_gramm": {
+   "energie_kcal": 1.91,
+   "protein_g": 0.08,
+   "kohlenhydrate_g": 0.26,
+   "zucker_g": 0.01,
+   "fett_g": 0.05,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": 0.01,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "c67ed230-a94a-4192-8cf0-fb0f6388dd22": {
+  "name": "ProteinPlus Spaghetti",
+  "hersteller": "Barilla",
+  "kategorie": "noodles",
+  "je_gramm": {
+   "energie_kcal": 3.54,
+   "protein_g": 0.2,
+   "kohlenhydrate_g": 0.63,
+   "zucker_g": 0.02,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "af5a437b-17a6-445e-8923-c3f4ec8ebe6f": {
+  "name": "Rinderhackfleisch Bolognese ",
+  "hersteller": "Selber Gemacht",
+  "kategorie": "pasta",
+  "je_gramm": {
+   "energie_kcal": 1.6,
+   "protein_g": 0.11,
+   "kohlenhydrate_g": 0.06,
+   "zucker_g": 0.05,
+   "fett_g": 0.09,
+   "gesaettigt_g": 0.04,
+   "ballaststoffe_g": 0.02,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "ed50c7ca-4619-4123-b878-efaba071113a": {
+  "name": "california teriyaki tuna",
+  "hersteller": "Eat Happy",
+  "kategorie": "precooked",
+  "je_gramm": {
+   "energie_kcal": 1.7,
+   "protein_g": 0.06,
+   "kohlenhydrate_g": 0.25,
+   "zucker_g": 0.05,
+   "fett_g": 0.05,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "bad94f23-812d-4ac5-b579-223b079e17c8": {
+  "name": "Sushi Happy california mix",
+  "hersteller": "Eat Happy",
+  "kategorie": "fish",
+  "je_gramm": {
+   "energie_kcal": 1.73,
+   "protein_g": 0.05,
+   "kohlenhydrate_g": 0.24,
+   "zucker_g": 0.04,
+   "fett_g": 0.06,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "40de8c94-00ca-4a26-9d3f-774967a1c45d": {
+  "name": "ESN Bar Dark chocolate salted almond flavor",
+  "hersteller": "ESN DESIGNER BAR",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 4.16,
+   "protein_g": 0.32,
+   "kohlenhydrate_g": 0.29,
+   "zucker_g": 0.01,
+   "fett_g": 0.21,
+   "gesaettigt_g": 0.09,
+   "ballaststoffe_g": 0.07,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a5643dc6-4931-4cdd-9ee2-dee91b721029": {
+  "name": "High Protein Quarkcreme Erdbeere",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "milk",
+  "je_gramm": {
+   "energie_kcal": 0.68,
+   "protein_g": 0.12,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.03,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9f840dc6-becf-11e6-b8d6-e0071b8a8723": {
+  "name": "Gemüsepfanne Sommergarten",
+  "hersteller": "Frosta",
+  "kategorie": "vegetarian",
+  "je_gramm": {
+   "energie_kcal": 0.61,
+   "protein_g": 0.02,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.04,
+   "fett_g": 0.03,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": 0.03,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a6bbaab8-becf-11e6-be29-e0071b8a8723": {
+  "name": "Rote-Beete-Scheiben",
+  "hersteller": "Rewe Bio",
+  "kategorie": "cannedvegetables",
+  "je_gramm": {
+   "energie_kcal": 0.59,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.11,
+   "zucker_g": 0.1,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.02,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "e8225857-656f-4358-b97e-c304491c34c8": {
+  "name": "Mayo Style Sauce",
+  "hersteller": "Callowfit",
+  "kategorie": "sauces",
+  "je_gramm": {
+   "energie_kcal": 0.54,
+   "protein_g": 0.02,
+   "kohlenhydrate_g": 0.09,
+   "zucker_g": 0.01,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.07,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a7e25b44-becf-11e6-97bd-e0071b8a8723": {
+  "name": "Paprikachips",
+  "hersteller": "Lays",
+  "kategorie": "crisps",
+  "je_gramm": {
+   "energie_kcal": 5.39,
+   "protein_g": 0.06,
+   "kohlenhydrate_g": 0.53,
+   "zucker_g": 0.02,
+   "fett_g": 0.32,
+   "gesaettigt_g": 0.04,
+   "ballaststoffe_g": 0.04,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "b3568c5f-0f54-42a8-b789-769ad23be724": {
+  "name": "MORE Satisbites White Chocolate Strawberry Cream",
+  "hersteller": "More Nutrition",
+  "kategorie": "chocolate",
+  "je_gramm": {
+   "energie_kcal": 3.86,
+   "protein_g": 0.3,
+   "kohlenhydrate_g": 0.06,
+   "zucker_g": 0.05,
+   "fett_g": 0.18,
+   "gesaettigt_g": 0.09,
+   "ballaststoffe_g": 0.06,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "8934bc96-04d0-4538-88d1-9ea4dc4e2dbb": {
+  "name": "Gemüsepfanne nach mediterraner Art",
+  "hersteller": "Rewe Bio",
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.43,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.03,
+   "zucker_g": 0.03,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.02,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9f2604ce-becf-11e6-a35f-e0071b8a8723": {
+  "name": "Süßkartoffeln, frisch",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 1.17,
+   "protein_g": 0.02,
+   "kohlenhydrate_g": 0.24,
+   "zucker_g": 0.05,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "eaa096b4-7f87-41e2-ae9a-9280107a888d": {
+  "name": "ahead low sugar Gummies sweet peaches",
+  "hersteller": "ahead",
+  "kategorie": "candy",
+  "je_gramm": {
+   "energie_kcal": 1.46,
+   "protein_g": 0.06,
+   "kohlenhydrate_g": 0.06,
+   "zucker_g": 0.01,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.49,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "533266cd-330e-4c1b-8b51-7212355383dc": {
+  "name": "ESN Designer Bar Fudge Brownie",
+  "hersteller": "ESN",
+  "kategorie": "miscellaneous",
+  "je_gramm": {
+   "energie_kcal": 4.23,
+   "protein_g": 0.31,
+   "kohlenhydrate_g": 0.31,
+   "zucker_g": 0.03,
+   "fett_g": 0.23,
+   "gesaettigt_g": 0.12,
+   "ballaststoffe_g": 0.03,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "45c6f7b3-5592-4c75-a2d6-040810f2cafc": {
+  "name": "California Roll Crispy Chicken",
+  "hersteller": "I love sushi",
+  "kategorie": "miscellaneous",
+  "je_gramm": {
+   "energie_kcal": 1.59,
+   "protein_g": 0.07,
+   "kohlenhydrate_g": 0.28,
+   "zucker_g": 0.05,
+   "fett_g": 0.05,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": 0.0,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "20d7e80a-2bb8-4048-9164-2a5fd8d465d4": {
+  "name": "Signature Rolls Crispy Salmon",
+  "hersteller": "Sushishop",
+  "kategorie": "fastfood",
+  "je_gramm": {
+   "energie_kcal": 2.06,
+   "protein_g": 0.05,
+   "kohlenhydrate_g": 0.19,
+   "zucker_g": 0.05,
+   "fett_g": 0.12,
+   "gesaettigt_g": 0.03,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "c57740af-ae0d-4ca9-8f5f-04becf6949f2": {
+  "name": "Rote Zwiebel, frisch",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.3,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.05,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.01,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "81879867-7109-4677-8c77-72ac74c9c581": {
+  "name": "High Protein Wrap",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "bread",
+  "je_gramm": {
+   "energie_kcal": 3.05,
+   "protein_g": 0.18,
+   "kohlenhydrate_g": 0.38,
+   "zucker_g": 0.03,
+   "fett_g": 0.08,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": 0.06,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "3aa00f3d-de83-4082-9fd3-bcd3fe13dafc": {
+  "name": "Grated cheese",
+  "hersteller": "Eat lean",
+  "kategorie": "slicedcheese",
+  "je_gramm": {
+   "energie_kcal": 1.72,
+   "protein_g": 0.36,
+   "kohlenhydrate_g": 0.01,
+   "zucker_g": 0.01,
+   "fett_g": 0.03,
+   "gesaettigt_g": 0.01,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9eccfa0a-becf-11e6-bcf2-e0071b8a8723": {
+  "name": "Rote Paprika, frisch",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.43,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.06,
+   "zucker_g": 0.06,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.04,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "f0c66846-80be-4de3-8c9a-3d37923feacc": {
+  "name": "Thunfisch Filet",
+  "hersteller": "Followfood",
+  "kategorie": "fish",
+  "je_gramm": {
+   "energie_kcal": 1.15,
+   "protein_g": 0.27,
+   "kohlenhydrate_g": 0.01,
+   "zucker_g": 0.01,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a0f98395-4b5b-4d95-bd9e-c026bb7542b2": {
+  "name": "Klassik Tomatensauce ",
+  "hersteller": "PPURA",
+  "kategorie": "sauces",
+  "je_gramm": {
+   "energie_kcal": 0.44,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.05,
+   "zucker_g": 0.04,
+   "fett_g": 0.02,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "9ef62826-becf-11e6-bcb2-e0071b8a8723": {
+  "name": "Rotkohl (Blaukraut), frisch",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.27,
+   "protein_g": 0.01,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.03,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "9f45babc-becf-11e6-acc3-e0071b8a8723": {
+  "name": "Champignons (Pilze), frisch",
+  "hersteller": null,
+  "kategorie": "mushrooms",
+  "je_gramm": {
+   "energie_kcal": 0.24,
+   "protein_g": 0.04,
+   "kohlenhydrate_g": 0.01,
+   "zucker_g": 0.01,
+   "fett_g": 0.0,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.02,
+   "salz_g": 0.0,
+   "cholesterin_g": 0.0
+  }
+ },
+ "9f2991f2-becf-11e6-8cdd-e0071b8a8723": {
+  "name": "Thai Curry mit Hühnchen und Reis",
+  "hersteller": "",
+  "kategorie": "dishes",
+  "je_gramm": {
+   "energie_kcal": 2.5,
+   "protein_g": 0.13,
+   "kohlenhydrate_g": 0.23,
+   "zucker_g": 0.02,
+   "fett_g": 0.1,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": 0.02,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "226080f6-4fe3-4a61-bd52-0ef37fdcf1ae": {
+  "name": "High Protein Quarkcreme Himbeere",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "milk",
+  "je_gramm": {
+   "energie_kcal": 0.7,
+   "protein_g": 0.12,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.03,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "54b69b66-a252-4578-930f-88972a3411ec": {
+  "name": "Designer Bar Erdbeer Jogurt",
+  "hersteller": "ESN",
+  "kategorie": "nutritionalsupplements",
+  "je_gramm": {
+   "energie_kcal": 3.98,
+   "protein_g": 0.33,
+   "kohlenhydrate_g": 0.32,
+   "zucker_g": 0.04,
+   "fett_g": 0.19,
+   "gesaettigt_g": 0.1,
+   "ballaststoffe_g": 0.04,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "a6525766-becf-11e6-b747-e0071b8a8723": {
+  "name": "Feta / Schafskäse light 9% Fett",
+  "hersteller": "Salakis",
+  "kategorie": "softcheese",
+  "je_gramm": {
+   "energie_kcal": 1.6,
+   "protein_g": 0.19,
+   "kohlenhydrate_g": 0.01,
+   "zucker_g": 0.01,
+   "fett_g": 0.09,
+   "gesaettigt_g": 0.06,
+   "ballaststoffe_g": null,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "edbee19b-e7a1-41b1-abb4-ced14a67e0bc": {
+  "name": "Chinesische Nudeln mit Hühnerfleisch ",
+  "hersteller": "Restaurant",
+  "kategorie": "fastfood",
+  "je_gramm": {
+   "energie_kcal": 2.1,
+   "protein_g": 0.12,
+   "kohlenhydrate_g": 0.27,
+   "zucker_g": 0.04,
+   "fett_g": 0.08,
+   "gesaettigt_g": 0.02,
+   "ballaststoffe_g": 0.01,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "c28c44d3-fd34-468b-b15e-e106a87056d7": {
+  "name": "Notenmix natuur",
+  "hersteller": "RANOBO",
+  "kategorie": "seeds",
+  "je_gramm": {
+   "energie_kcal": 6.51,
+   "protein_g": 0.2,
+   "kohlenhydrate_g": 0.1,
+   "zucker_g": 0.04,
+   "fett_g": 0.58,
+   "gesaettigt_g": 0.06,
+   "ballaststoffe_g": 0.06,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ },
+ "46f8576a-9117-4a3d-baf5-4bc49c6ac6bf": {
+  "name": "Bio Sommergemüse",
+  "hersteller": "Freshona (Lidl)",
+  "kategorie": "vegetables",
+  "je_gramm": {
+   "energie_kcal": 0.36,
+   "protein_g": 0.02,
+   "kohlenhydrate_g": 0.04,
+   "zucker_g": 0.03,
+   "fett_g": 0.01,
+   "gesaettigt_g": 0.0,
+   "ballaststoffe_g": 0.03,
+   "salz_g": null,
+   "cholesterin_g": null
+  }
+ }
+}
