@@ -33,7 +33,7 @@ from pathlib import Path
 
 import requests
 
-VERSION = "yazio_export v1.0"
+VERSION = "yazio_export v1.3"
 
 BASIS = "https://yzapi.yazio.com"
 CLIENT_ID = "1_4hiybetvfksgw40o0sog4s884kwc840wwso8go4k8c04goo4c"
@@ -43,8 +43,8 @@ OUT_PATH = Path("export/yazio.json")
 CACHE_PATH = Path("export/yazio_produkte.json")
 RAW_PATH = Path("export/yazio_raw_sample.json")
 
-ZEITBUDGET_SEK = 700
-MAX_API_CALLS = 300
+ZEITBUDGET_SEK = 900
+MAX_API_CALLS = 600
 PAUSE_SEK = 0.25
 HISTORIE_MAX_TAGE = 500
 
@@ -60,7 +60,20 @@ ergebnis = {
     "api_calls": 0,
     "zeitraum": {},
     "lesehinweise": {
-        "einheiten": "Energie in kcal, Naehrstoffe in Gramm, Wasser in ml.",
+        "einheiten": (
+            "Energie in kcal, Makronaehrstoffe in Gramm, Wasser in ml. "
+            "Die Werte unter 'naehrstoffe' stammen unveraendert aus Yazio "
+            "und behalten deren Schluesselnamen (z. B. vitamin.d); die "
+            "Einheit dort ist am ersten Datensatz zu verifizieren, "
+            "vermutlich Gramm."
+        ),
+        "naehrstoffe": (
+            "Vitamine und Mineralstoffe sind Summen aus den Einzelposten. "
+            "Immer 'naehrstoffe_abdeckung_prozent' danebenlegen: Er sagt, "
+            "welcher Anteil der Tageskalorien aus Produkten stammt, die "
+            "diesen Wert ueberhaupt hinterlegt haben. Unter etwa 80 Prozent "
+            "ist die Summe eine Untergrenze und keine Aussage."
+        ),
         "tagesdatum": (
             "Anders als beim Schlaf ist das Datum hier eindeutig: es ist "
             "der Tag, an dem gegessen wurde."
@@ -146,30 +159,69 @@ def schreibe_ausgabe():
 # Naehrstoff-Schluessel von Yazio auf lesbare Namen abbilden
 # ---------------------------------------------------------------------------
 
-NAEHRSTOFFE = {
-    "energie_kcal": "energy.energy",
-    "protein_g": "nutrient.protein",
-    "kohlenhydrate_g": "nutrient.carb",
-    "zucker_g": "nutrient.sugar",
-    "fett_g": "nutrient.fat",
-    "gesaettigt_g": "nutrient.saturated",
-    "ballaststoffe_g": "nutrient.dietaryfiber",
-    "salz_g": "nutrient.sodium",
-    "cholesterin_g": "nutrient.cholesterol",
+# Bekannte Schluessel werden in lesbare Namen uebersetzt. Alles andere
+# wird UNVERAENDERT durchgereicht - so gehen Vitamine, Mineralstoffe und
+# spaetere Ergaenzungen von Yazio nicht verloren, auch wenn ich ihre
+# Schluesselnamen heute nicht kenne. Weder der Go-Exporter noch die
+# oeffentliche API-Beschreibung dokumentieren sie.
+LESBAR = {
+    "energy.energy": "energie_kcal",
+    "nutrient.protein": "protein_g",
+    "nutrient.carb": "kohlenhydrate_g",
+    "nutrient.sugar": "zucker_g",
+    "nutrient.sugaradded": "zuckerzusatz_g",
+    "nutrient.fat": "fett_g",
+    "nutrient.saturated": "gesaettigte_fettsaeuren_g",
+    "nutrient.monounsaturated": "einfach_ungesaettigt_g",
+    "nutrient.polyunsaturated": "mehrfach_ungesaettigt_g",
+    "nutrient.transfat": "transfettsaeuren_g",
+    "nutrient.dietaryfiber": "ballaststoffe_g",
+    "nutrient.cholesterol": "cholesterin_g",
+    "nutrient.sodium": "natrium_g",
+    "nutrient.salt": "salz_g",
+    "nutrient.water": "wasser_g",
+    "nutrient.alcohol": "alkohol_g",
 }
 
 
-def naehrwerte(quelle, faktor=1.0):
+def lesbar(schluessel):
+    return LESBAR.get(schluessel, schluessel)
+
+
+TAGESWERTE = {
+    "energie_kcal": "energy",
+    "protein_g": "protein",
+    "kohlenhydrate_g": "carb",
+    "fett_g": "fat",
+    "kalorienziel_kcal": "energy_goal",
+}
+
+
+def tageswerte(quelle):
+    """Der Endpunkt nutrients-daily liefert flache Schluessel (energy,
+    protein, carb, fat) - anders als die Produktabfrage, die punktierte
+    Schluessel verwendet. Ballaststoffe und Zucker fehlen hier ganz und
+    werden weiter unten aus den Einzelposten aufsummiert."""
     werte = {}
-    for name, schluessel in NAEHRSTOFFE.items():
+    for name, schluessel in TAGESWERTE.items():
         roh = (quelle or {}).get(schluessel)
-        if roh is None:
+        try:
+            werte[name] = None if roh is None else round(float(roh), 2)
+        except Exception:
             werte[name] = None
-        else:
-            try:
-                werte[name] = round(float(roh) * faktor, 2)
-            except Exception:
-                werte[name] = None
+    return werte
+
+
+def naehrwerte(quelle, faktor=1.0):
+    """Nimmt JEDEN Naehrstoffschluessel mit, den die Antwort enthaelt."""
+    werte = {}
+    for schluessel, roh in (quelle or {}).items():
+        if roh is None:
+            continue
+        try:
+            werte[lesbar(schluessel)] = round(float(roh) * faktor, 6)
+        except Exception:
+            continue
     return werte
 
 
@@ -212,32 +264,48 @@ class Yazio:
             return None
 
     def anmelden(self, benutzer, passwort):
-        daten = self._call(
-            "POST",
-            "/v9/oauth/token",
-            json={
-                "client_id": CLIENT_ID,
-                "client_secret": CLIENT_SECRET,
-                "username": benutzer,
-                "password": passwort,
-                "grant_type": "password",
-            },
-        )
+        zugang = {
+            "client_id": CLIENT_ID,
+            "client_secret": CLIENT_SECRET,
+            "username": benutzer,
+            "password": passwort,
+            "grant_type": "password",
+        }
+        # Zwei Schreibweisen im Umlauf: der Go-Exporter schickt JSON, die
+        # oeffentliche API-Beschreibung nennt Formularkodierung. Erst JSON,
+        # bei Ablehnung das Formular - spart eine Fehlerrunde.
+        try:
+            daten = self._call("POST", "/v9/oauth/token", json=zugang)
+        except TimeoutError:
+            raise
+        except Exception as exc:
+            hinweis(f"Anmeldung per JSON abgelehnt ({exc}), "
+                    f"versuche Formularkodierung.")
+            daten = self._call("POST", "/v9/oauth/token", data=zugang)
         self.token = daten.get("access_token")
         if not self.token:
             raise RuntimeError("Anmeldung ohne access_token zurueckgekommen.")
 
     def produkt(self, produkt_id):
-        if produkt_id in produkt_cache:
-            return produkt_cache[produkt_id]
+        zwischenspeicher = produkt_cache.get(produkt_id)
+        # Eintraege aus aelteren Skriptversionen enthalten nur neun
+        # Naehrstoffe. Sie werden verworfen und einmalig neu geholt,
+        # damit Vitamine und Mineralstoffe nicht dauerhaft fehlen.
+        if zwischenspeicher and zwischenspeicher.get("cache_version", 1) >= 3:
+            return zwischenspeicher
         daten = self.sanft("GET", f"/v9/products/{produkt_id}")
         if daten is None:
             return None
+        # Alles behalten, was Yazio mitschickt - auch Vitamine,
+        # Mineralstoffe und Fettsaeure-Unterarten. Kostet keine
+        # zusaetzliche Abfrage, nur Speicherplatz.
+        roh = daten.get("nutrients") or {}
         eintrag = {
             "name": daten.get("name"),
             "hersteller": daten.get("producer"),
             "kategorie": daten.get("category"),
-            "je_gramm": naehrwerte(daten.get("nutrients")),
+            "cache_version": 3,
+            "je_gramm": naehrwerte(roh),
         }
         produkt_cache[produkt_id] = eintrag
         return eintrag
@@ -250,7 +318,7 @@ def main():
         raise RuntimeError("YAZIO_USER und YAZIO_PASS als Secret hinterlegen.")
 
     tage_zurueck = max(1, min(int(os.getenv("DAYS", "30") or "30"), 400))
-    detail_tage = max(0, min(int(os.getenv("DETAIL_DAYS", "7") or "7"), 60))
+    detail_tage = max(0, min(int(os.getenv("DETAIL_DAYS", "14") or "14"), 400))
 
     heute = date.today()
     start = heute - timedelta(days=tage_zurueck)
@@ -292,7 +360,7 @@ def main():
                 continue
             vorhanden = historie_tage.get(datum, {})
             vorhanden.update({"datum": datum})
-            vorhanden.update(naehrwerte(tag))
+            vorhanden.update(tageswerte(tag))
             historie_tage[datum] = vorhanden
 
         abschnitt = ende + timedelta(days=1)
@@ -335,17 +403,26 @@ def main():
             prod = yz.produkt(p.get("product_id")) or {}
             menge = p.get("amount") or 0
             werte = prod.get("je_gramm") or {}
+            skaliert = {
+                name: round(wert * menge, 4)
+                for name, wert in (prod.get("je_gramm") or {}).items()
+            }
             posten.append({
                 "mahlzeit": p.get("daytime"),
                 "name": prod.get("name"),
                 "hersteller": prod.get("hersteller"),
                 "menge_g": menge,
-                "energie_kcal": round((werte.get("energie_kcal") or 0) * menge, 1),
-                "protein_g": round((werte.get("protein_g") or 0) * menge, 1),
-                "ballaststoffe_g": round(
-                    (werte.get("ballaststoffe_g") or 0) * menge, 1
+                "portion": p.get("serving"),
+                "portionen": p.get("serving_quantity"),
+                "energie_kcal": round(skaliert.get("energie_kcal", 0), 1),
+                "protein_g": round(skaliert.get("protein_g", 0), 1),
+                "ballaststoffe_g": (
+                    None if "ballaststoffe_g" not in skaliert
+                    else round(skaliert["ballaststoffe_g"], 1)
                 ),
+                "naehrstoffe": skaliert,
             })
+
         for r in verzehr.get("recipe_portions", []):
             posten.append({
                 "mahlzeit": r.get("daytime"),
@@ -365,6 +442,42 @@ def main():
 
         eintrag["posten"] = posten
 
+        # Yazio liefert als Tagessumme nur Energie und die drei Makros.
+        # Alles Weitere - Ballaststoffe, Zucker, Fettsaeuretypen, Mineral-
+        # stoffe, Vitamine - wird hier aus den Einzelposten aufsummiert.
+        #
+        # Wichtig: Fehlt ein Naehrstoff bei einem Produkt, faellt er
+        # stillschweigend aus der Summe. Deshalb steht neben jedem Wert,
+        # wie viele Posten ihn ueberhaupt hinterlegt hatten. Eine Summe
+        # mit niedriger Abdeckung ist eine Untergrenze, kein Messwert.
+        essbar = [x for x in posten if x.get("naehrstoffe")]
+        summe = {}
+        abdeckung = {}
+        for x in essbar:
+            for name, wert in x["naehrstoffe"].items():
+                summe[name] = round(summe.get(name, 0) + wert, 3)
+                abdeckung[name] = abdeckung.get(name, 0) + 1
+
+        eintrag["naehrstoffe"] = summe
+        eintrag["naehrstoffe_abdeckung"] = abdeckung
+        eintrag["ballaststoffe_g"] = summe.get("ballaststoffe_g")
+        eintrag["zucker_g"] = summe.get("zucker_g")
+        eintrag["energie_kcal_aus_posten"] = round(
+            summe.get("energie_kcal", 0), 1
+        )
+        eintrag["abdeckung"] = {
+            "posten": len(essbar),
+            "davon_mit_ballaststoffangabe": abdeckung.get(
+                "ballaststoffe_g", 0
+            ),
+            "hinweis": (
+                "Weicht energie_kcal_aus_posten stark von energie_kcal ab, "
+                "fehlen Posten in der Aufloesung. naehrstoffe_abdeckung "
+                "zeigt je Naehrstoff, wie viele der Posten ihn angegeben "
+                "hatten - bei niedriger Zahl ist die Summe zu niedrig."
+            ),
+        }
+
         if versatz == 0 and os.getenv("RAW_SAMPLE", "ja").lower() in (
             "ja", "true", "1", "yes"
         ):
@@ -377,6 +490,14 @@ def main():
                         "goals": ziele,
                         "water_intake": wasser,
                         "consumed_items": verzehr,
+                        "produkt_beispiel_je_gramm": (
+                            list(produkt_cache.values())[0]
+                            if produkt_cache else None
+                        ),
+                        "alle_gefundenen_naehrstoffschluessel": sorted({
+                            k for v in produkt_cache.values()
+                            for k in (v.get("je_gramm") or {})
+                        }),
                     },
                     ensure_ascii=False,
                     indent=1,
