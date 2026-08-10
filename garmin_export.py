@@ -31,7 +31,7 @@ import traceback
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-VERSION = "garmin_export v1.0"
+VERSION = "garmin_export v1.1"
 
 OUT_PATH = Path("export/garmin.json")
 RAW_PATH = Path("export/garmin_raw_sample.json")
@@ -333,15 +333,6 @@ def main():
                 "wasser_prozent": dig(messung, "bodyWater"),
             }
 
-    bodybattery = call(
-        garmin.get_body_battery, start.isoformat(), heute.isoformat()
-    ) or []
-    bb_nach_datum = {}
-    for eintrag in bodybattery:
-        datum = dig(eintrag, "date") or dig(eintrag, "calendarDate")
-        if datum:
-            bb_nach_datum[datum] = eintrag
-
     # ---------- Tagesabfragen ----------
     rohbeispiel = None
     tagesliste = [start + timedelta(days=i) for i in range(tage_zurueck + 1)]
@@ -355,14 +346,17 @@ def main():
         stats = call(garmin.get_stats_and_body, d) or {}
         schlaf = call(garmin.get_sleep_data, d) or {}
         hrv = call(garmin.get_hrv_data, d) or {}
-        maxmetrik = call(garmin.get_max_metrics, d)
+        rest_tage = (heute - tag).days
+        if rest_tage < 3 or rest_tage % 7 == 0:
+            maxmetrik = call(garmin.get_max_metrics, d)
+        else:
+            maxmetrik = None
 
         if isinstance(maxmetrik, list):
             maxmetrik = maxmetrik[0] if maxmetrik else {}
         maxmetrik = maxmetrik or {}
 
         schlaf_dto = dig(schlaf, "dailySleepDTO", default={}) or {}
-        bb = bb_nach_datum.get(d, {})
 
         eintrag = {
             "datum": d,
@@ -379,11 +373,14 @@ def main():
             "intensitaetsminuten_moderat": dig(stats, "moderateIntensityMinutes"),
             "intensitaetsminuten_hoch": dig(stats, "vigorousIntensityMinutes"),
             "spo2_schnitt": dig(stats, "averageSpo2"),
+            "spo2_tiefst": dig(stats, "lowestSpo2"),
+            "schlafdauer_geraet_min": sek_zu_min(dig(stats, "sleepingSeconds")),
             "atemfrequenz_schnitt": dig(stats, "avgWakingRespirationValue"),
             "bodybattery_hoch": dig(stats, "bodyBatteryHighestValue"),
             "bodybattery_tief": dig(stats, "bodyBatteryLowestValue"),
-            "bodybattery_geladen": dig(bb, "charged"),
-            "bodybattery_verbraucht": dig(bb, "drained"),
+            "bodybattery_geladen": dig(stats, "bodyBatteryChargedValue"),
+            "bodybattery_verbraucht": dig(stats, "bodyBatteryDrainedValue"),
+            "bodybattery_beim_aufwachen": dig(stats, "bodyBatteryAtWakeTime"),
             "gewicht_kg": gramm_zu_kg(dig(stats, "weight")),
             "vo2max_laufen": dig(maxmetrik, "generic", "vo2MaxPreciseValue")
             or dig(maxmetrik, "generic", "vo2MaxValue"),
@@ -402,7 +399,10 @@ def main():
                 "bewertung": dig(schlaf_dto, "sleepScores", "overall",
                                  "qualifierKey"),
                 "schlafstress": dig(schlaf_dto, "avgSleepStress"),
-                "unruhemomente": dig(schlaf_dto, "restlessMomentsCount"),
+                "aufwachvorgaenge": dig(schlaf_dto, "awakeCount"),
+                "atemfrequenz": dig(schlaf_dto, "averageRespirationValue"),
+                "rueckmeldung": dig(schlaf_dto, "sleepScoreFeedback"),
+                "einordnung": dig(schlaf_dto, "sleepScoreInsight"),
                 "ruhepuls_nacht": dig(schlaf, "restingHeartRate"),
             },
             "hrv": {
@@ -413,6 +413,16 @@ def main():
                 "basis_hoch": dig(hrv, "hrvSummary", "baseline", "balancedUpper"),
             },
         }
+
+        if (heute - tag).days <= 14:
+            bereitschaft = call(garmin.get_training_readiness, d)
+            if isinstance(bereitschaft, list):
+                bereitschaft = bereitschaft[0] if bereitschaft else {}
+            eintrag["trainingsbereitschaft"] = {
+                "punkte": dig(bereitschaft, "score"),
+                "stufe": dig(bereitschaft, "level"),
+                "hinweis": dig(bereitschaft, "feedbackShort"),
+            }
 
         historie_tage[d] = eintrag
 
@@ -425,7 +435,6 @@ def main():
                 "get_sleep_data": saeubern(schlaf),
                 "get_hrv_data": saeubern(hrv),
                 "get_max_metrics": saeubern(maxmetrik),
-                "get_body_battery_eintrag": saeubern(bb),
                 "get_activities_by_date_eintrag": saeubern(
                     aktivitaeten[0] if aktivitaeten else {}
                 ),
