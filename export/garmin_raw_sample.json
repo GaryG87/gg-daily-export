@@ -1,0 +1,809 @@
+{
+ "datum": "2026-05-12",
+ "hinweis": "Rohantworten zur Feldpruefung, gekuerzt und von Personenbezug bereinigt.",
+ "get_stats_and_body": {
+  "totalKilocalories": 2169.0,
+  "activeKilocalories": 77.0,
+  "bmrKilocalories": 2092.0,
+  "wellnessKilocalories": 2169.0,
+  "burnedKilocalories": null,
+  "consumedKilocalories": null,
+  "remainingKilocalories": null,
+  "totalSteps": 3372,
+  "netCalorieGoal": null,
+  "totalDistanceMeters": 2762,
+  "wellnessDistanceMeters": 2762,
+  "wellnessActiveKilocalories": 77.0,
+  "netRemainingKilocalories": 77.0,
+  "userDailySummaryId": 78630119,
+  "calendarDate": "2026-05-12",
+  "rule": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "dailyStepGoal": 10000,
+  "wellnessStartTimeGmt": "2026-05-11T22:00:00.0",
+  "wellnessStartTimeLocal": "2026-05-12T00:00:00.0",
+  "wellnessEndTimeGmt": "2026-05-12T22:00:00.0",
+  "wellnessEndTimeLocal": "2026-05-13T00:00:00.0",
+  "durationInMilliseconds": 86400000,
+  "wellnessDescription": null,
+  "highlyActiveSeconds": 856,
+  "activeSeconds": 687,
+  "sedentarySeconds": 58364,
+  "sleepingSeconds": 26493,
+  "includesWellnessData": true,
+  "includesActivityData": false,
+  "includesCalorieConsumedData": false,
+  "privacyProtected": false,
+  "moderateIntensityMinutes": 0,
+  "vigorousIntensityMinutes": 0,
+  "floorsAscendedInMeters": 9.144,
+  "floorsDescendedInMeters": 8.059,
+  "floorsAscended": 3.0,
+  "floorsDescended": 2.64403,
+  "intensityMinutesGoal": 240,
+  "userFloorsAscendedGoal": 15,
+  "minHeartRate": 48,
+  "maxHeartRate": 109,
+  "restingHeartRate": 50,
+  "lastSevenDaysAvgRestingHeartRate": 51,
+  "source": "GARMIN",
+  "averageStressLevel": 20,
+  "maxStressLevel": 90,
+  "stressDuration": 13260,
+  "restStressDuration": 63480,
+  "activityStressDuration": 4440,
+  "uncategorizedStressDuration": 5160,
+  "totalStressDuration": 86340,
+  "lowStressDuration": 12420,
+  "mediumStressDuration": 660,
+  "highStressDuration": 180,
+  "stressPercentage": 15.36,
+  "restStressPercentage": 73.52,
+  "activityStressPercentage": 5.14,
+  "uncategorizedStressPercentage": 5.98,
+  "lowStressPercentage": 14.38,
+  "mediumStressPercentage": 0.76,
+  "highStressPercentage": 0.21,
+  "stressQualifier": "CALM",
+  "measurableAwakeDuration": 60900,
+  "measurableAsleepDuration": 20280,
+  "lastSyncTimestampGMT": null,
+  "minAvgHeartRate": 48,
+  "maxAvgHeartRate": 109,
+  "bodyBatteryChargedValue": 59,
+  "bodyBatteryDrainedValue": 49,
+  "bodyBatteryHighestValue": 82,
+  "bodyBatteryLowestValue": 33,
+  "bodyBatteryMostRecentValue": 46,
+  "bodyBatteryDuringSleep": 46,
+  "bodyBatteryAtWakeTime": 82,
+  "bodyBatteryVersion": 3.0,
+  "abnormalHeartRateAlertsCount": null,
+  "averageSpo2": null,
+  "lowestSpo2": null,
+  "latestSpo2": null,
+  "latestSpo2ReadingTimeGmt": null,
+  "latestSpo2ReadingTimeLocal": null,
+  "averageMonitoringEnvironmentAltitude": 491.0,
+  "restingCaloriesFromActivity": null,
+  "bodyBatteryDynamicFeedbackEvent": {
+   "eventTimestampGmt": "2026-05-12T20:02:41",
+   "bodyBatteryLevel": "HIGH",
+   "feedbackShortType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE",
+   "feedbackLongType": "SLEEP_PREPARATION_RECOVERING_AND_INACTIVE"
+  },
+  "endOfDayBodyBatteryDynamicFeedbackEvent": {
+   "eventTimestampGmt": "2026-05-12T20:39:55",
+   "bodyBatteryLevel": "HIGH",
+   "feedbackShortType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE",
+   "feedbackLongType": "SLEEP_TIME_PASSED_RECOVERING_AND_INACTIVE"
+  },
+  "bodyBatteryActivityEventList": [
+   {
+    "eventType": "SLEEP",
+    "eventStartTimeGmt": "2026-05-11T22:01:43",
+    "timezoneOffset": 7200000,
+    "durationInMilliseconds": 20280000,
+    "bodyBatteryImpact": 46,
+    "feedbackType": "NONE",
+    "shortFeedback": "NONE",
+    "activityName": null,
+    "activityType": null,
+    "activityId": null,
+    "eventUpdateTimeGmt": "2026-05-12T03:41:27"
+   },
+   {
+    "eventType": "RECOVERY",
+    "eventStartTimeGmt": "2026-05-12T05:10:22",
+    "timezoneOffset": 7200000,
+    "durationInMilliseconds": 2820000,
+    "bodyBatteryImpact": -2,
+    "feedbackType": "RECOVERY_BODY_BATTERY_NOT_INCREASE",
+    "shortFeedback": "RESTFUL_PERIOD",
+    "activityName": null,
+    "activityType": null,
+    "activityId": null,
+    "eventUpdateTimeGmt": "2026-05-12T06:01:31"
+   },
+   {
+    "eventType": "RECOVERY",
+    "eventStartTimeGmt": "2026-05-12T07:59:27",
+    "timezoneOffset": 7200000,
+    "durationInMilliseconds": 3780000,
+    "bodyBatteryImpact": -3,
+    "feedbackType": "RECOVERY_LONG_BODY_BATTERY_NOT_INCREASE",
+    "shortFeedback": "LONG_RESTFUL_PERIOD",
+    "activityName": null,
+    "activityType": null,
+    "activityId": null,
+    "eventUpdateTimeGmt": "2026-05-12T09:05:50"
+   },
+   "… 1 weitere Eintraege gekuerzt"
+  ],
+  "avgWakingRespirationValue": 14.0,
+  "highestRespirationValue": 21.0,
+  "lowestRespirationValue": 7.0,
+  "latestRespirationValue": 14.0,
+  "latestRespirationTimeGMT": "2026-05-12T22:00:00.0",
+  "respirationAlgorithmVersion": 200,
+  "from": 1778544000000,
+  "until": 1778630399999,
+  "weight": null,
+  "bmi": null,
+  "bodyFat": null,
+  "bodyWater": null,
+  "boneMass": null,
+  "muscleMass": null,
+  "physiqueRating": null,
+  "visceralFat": null,
+  "metabolicAge": null,
+  "trend": null
+ },
+ "get_sleep_data": {
+  "dailySleepDTO": {
+   "id": 1778536903000,
+   "calendarDate": "2026-05-12",
+   "sleepTimeSeconds": 20160,
+   "napTimeSeconds": 0,
+   "sleepWindowConfirmed": true,
+   "sleepWindowConfirmationType": "enhanced_confirmed_final",
+   "sleepStartTimestampGMT": 1778536903000,
+   "sleepEndTimestampGMT": 1778557183000,
+   "sleepStartTimestampLocal": 1778544103000,
+   "sleepEndTimestampLocal": 1778564383000,
+   "autoSleepStartTimestampGMT": null,
+   "autoSleepEndTimestampGMT": null,
+   "sleepQualityTypePK": null,
+   "sleepResultTypePK": null,
+   "unmeasurableSleepSeconds": 0,
+   "deepSleepSeconds": 4620,
+   "lightSleepSeconds": 11820,
+   "remSleepSeconds": 3720,
+   "awakeSleepSeconds": 120,
+   "deviceRemCapable": true,
+   "retro": false,
+   "sleepFromDevice": true,
+   "averageRespirationValue": 13.0,
+   "lowestRespirationValue": 10.0,
+   "highestRespirationValue": 16.0,
+   "awakeCount": 0,
+   "avgSleepStress": 16.0,
+   "ageGroup": "ADULT",
+   "avgHeartRate": 54.0,
+   "sleepScoreFeedback": "POSITIVE_DEEP",
+   "sleepScoreInsight": "POSITIVE_RESTFUL_DAY",
+   "sleepScorePersonalizedInsight": "MOD_EXERCISE_POS_EXCELLENT_OR_GOOD_SLEEP_MODERATE_DURING_DAY",
+   "sleepScores": {
+    "totalDuration": {
+     "qualifierKey": "FAIR",
+     "optimalStart": 25200.0,
+     "optimalEnd": 25200.0
+    },
+    "stress": {
+     "qualifierKey": "GOOD",
+     "optimalStart": 0.0,
+     "optimalEnd": 15.0
+    },
+    "awakeCount": {
+     "qualifierKey": "EXCELLENT",
+     "optimalStart": 0.0,
+     "optimalEnd": 1.0
+    },
+    "overall": {
+     "value": 81,
+     "qualifierKey": "GOOD"
+    },
+    "remPercentage": {
+     "value": 18,
+     "qualifierKey": "FAIR",
+     "optimalStart": 21.0,
+     "optimalEnd": 31.0,
+     "idealStartInSeconds": 4233.6,
+     "idealEndInSeconds": 6249.6
+    },
+    "restlessness": {
+     "qualifierKey": "EXCELLENT",
+     "optimalStart": 0.0,
+     "optimalEnd": 5.0
+    },
+    "lightPercentage": {
+     "value": 59,
+     "qualifierKey": "EXCELLENT",
+     "optimalStart": 30.0,
+     "optimalEnd": 64.0,
+     "idealStartInSeconds": 6048.0,
+     "idealEndInSeconds": 12902.4
+    },
+    "deepPercentage": {
+     "value": 23,
+     "qualifierKey": "EXCELLENT",
+     "optimalStart": 16.0,
+     "optimalEnd": 33.0,
+     "idealStartInSeconds": 3225.6,
+     "idealEndInSeconds": 6652.8
+    }
+   },
+   "sleepVersion": 2,
+   "sleepNeed": {
+    "calendarDate": "2026-05-12",
+    "timestampGmt": "2026-05-11T04:21:44",
+    "baseline": 420,
+    "actual": 390,
+    "feedback": "DECREASED",
+    "trainingFeedback": "NO_CHANGE",
+    "sleepHistoryAdjustment": "DECREASING_HIGH_QUALITY",
+    "hrvAdjustment": "NO_CHANGE",
+    "napAdjustment": "NO_CHANGE",
+    "displayedForTheDay": true,
+    "recommendedBedtimeStartMins": 1340,
+    "recommendedBedtimeEndMins": 1360,
+    "preferredActivityTracker": true
+   },
+   "nextSleepNeed": {
+    "calendarDate": "2026-05-13",
+    "timestampGmt": "2026-05-12T03:41:28",
+    "baseline": 420,
+    "actual": 420,
+    "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+    "trainingFeedback": "NO_CHANGE",
+    "sleepHistoryAdjustment": "NO_CHANGE",
+    "hrvAdjustment": "NO_CHANGE",
+    "napAdjustment": "NO_CHANGE",
+    "displayedForTheDay": false,
+    "recommendedBedtimeStartMins": 1350,
+    "recommendedBedtimeEndMins": 1370,
+    "preferredActivityTracker": true
+   },
+   "sleepAlignment": {
+    "userId": 78630119,
+    "calendarDate": "2026-05-12",
+    "isPreferredActivityTracker": true,
+    "sleepNeedBaselineMins": 420,
+    "optimalSleepWindowStartMins": -100,
+    "optimalSleepWindowEndMins": 320,
+    "status": "ALIGNED",
+    "optimalSleepWindowMidpointMins": 110,
+    "lastSleepMidpointMins": 170
+   }
+  },
+  "sleepMovement": [
+   {
+    "startGMT": "2026-05-11T21:01:00.0",
+    "endGMT": "2026-05-11T21:02:00.0",
+    "activityLevel": 5.671768385430077
+   },
+   {
+    "startGMT": "2026-05-11T21:02:00.0",
+    "endGMT": "2026-05-11T21:03:00.0",
+    "activityLevel": 5.217880613643118
+   },
+   {
+    "startGMT": "2026-05-11T21:03:00.0",
+    "endGMT": "2026-05-11T21:04:00.0",
+    "activityLevel": 4.745019900941828
+   },
+   "… 455 weitere Eintraege gekuerzt"
+  ],
+  "remSleepData": true,
+  "sleepLevels": [
+   {
+    "startGMT": "2026-05-11T22:01:43.0",
+    "endGMT": "2026-05-11T22:12:43.0",
+    "activityLevel": 1.0
+   },
+   {
+    "startGMT": "2026-05-11T22:12:43.0",
+    "endGMT": "2026-05-11T23:07:43.0",
+    "activityLevel": 0.0
+   },
+   {
+    "startGMT": "2026-05-11T23:07:43.0",
+    "endGMT": "2026-05-11T23:40:43.0",
+    "activityLevel": 1.0
+   },
+   "… 12 weitere Eintraege gekuerzt"
+  ],
+  "sleepRestlessMoments": [
+   {
+    "value": 1,
+    "startGMT": 1778538523000
+   },
+   {
+    "value": 1,
+    "startGMT": 1778541043000
+   },
+   {
+    "value": 1,
+    "startGMT": 1778541223000
+   },
+   "… 35 weitere Eintraege gekuerzt"
+  ],
+  "restlessMomentsCount": 42,
+  "wellnessEpochRespirationDataDTOList": [
+   {
+    "startTimeGMT": 1778536903000,
+    "respirationValue": 11.0
+   },
+   {
+    "startTimeGMT": 1778536920000,
+    "respirationValue": 14.0
+   },
+   {
+    "startTimeGMT": 1778537040000,
+    "respirationValue": 14.0
+   },
+   "… 167 weitere Eintraege gekuerzt"
+  ],
+  "wellnessEpochRespirationAveragesList": [
+   {
+    "epochEndTimestampGmt": 1778540400000,
+    "respirationAverageValue": 13.03,
+    "respirationHighValue": 17.0,
+    "respirationLowValue": 10.0
+   },
+   {
+    "epochEndTimestampGmt": 1778544000000,
+    "respirationAverageValue": 12.8,
+    "respirationHighValue": 16.0,
+    "respirationLowValue": 10.0
+   },
+   {
+    "epochEndTimestampGmt": 1778547600000,
+    "respirationAverageValue": 12.7,
+    "respirationHighValue": 14.0,
+    "respirationLowValue": 10.0
+   },
+   "… 3 weitere Eintraege gekuerzt"
+  ],
+  "respirationVersion": 200,
+  "sleepHeartRate": [
+   {
+    "value": 51,
+    "startGMT": 1778536800000
+   },
+   {
+    "value": 53,
+    "startGMT": 1778536920000
+   },
+   {
+    "value": 51,
+    "startGMT": 1778537040000
+   },
+   "… 167 weitere Eintraege gekuerzt"
+  ],
+  "sleepStress": [
+   {
+    "value": 13,
+    "startGMT": 1778536800000
+   },
+   {
+    "value": 4,
+    "startGMT": 1778536980000
+   },
+   {
+    "value": 8,
+    "startGMT": 1778537160000
+   },
+   "… 110 weitere Eintraege gekuerzt"
+  ],
+  "sleepBodyBattery": [
+   {
+    "value": 36,
+    "startGMT": 1778536800000
+   },
+   {
+    "value": 36,
+    "startGMT": 1778536980000
+   },
+   {
+    "value": 37,
+    "startGMT": 1778537160000
+   },
+   "… 110 weitere Eintraege gekuerzt"
+  ],
+  "skinTempDataExists": true,
+  "hrvData": [
+   {
+    "value": 66.0,
+    "startGMT": 1778536903000
+   },
+   {
+    "value": 58.0,
+    "startGMT": 1778537203000
+   },
+   {
+    "value": 54.0,
+    "startGMT": 1778537503000
+   },
+   "… 65 weitere Eintraege gekuerzt"
+  ],
+  "breathingDisruptionData": [
+   {
+    "value": 255,
+    "startGMT": 1778536903000,
+    "endGMT": 1778536903000
+   },
+   {
+    "value": 255,
+    "startGMT": 1778536903000,
+    "endGMT": 1778557183000
+   }
+  ],
+  "avgSkinTempDeviationC": -0.2,
+  "avgSkinTempDeviationF": -0.3,
+  "avgOvernightHrv": 41.0,
+  "hrvStatus": "BALANCED",
+  "bodyBatteryChange": 46,
+  "skinTempCalibrationDays": 19,
+  "restingHeartRate": 50
+ },
+ "get_hrv_data": {
+  "hrvSummary": {
+   "calendarDate": "2026-05-12",
+   "weeklyAvg": 39,
+   "lastNightAvg": 41,
+   "lastNight5MinHigh": 66,
+   "baseline": {
+    "lowUpper": 25,
+    "balancedLow": 29,
+    "balancedUpper": 52,
+    "markerValue": 0.4673767
+   },
+   "status": "BALANCED",
+   "feedbackPhrase": "HRV_BALANCED_6",
+   "createTimeStamp": "2026-05-12T03:41:30.412"
+  },
+  "hrvReadings": [
+   {
+    "hrvValue": 66,
+    "readingTimeGMT": "2026-05-11T22:01:43.0",
+    "readingTimeLocal": "2026-05-12T00:01:43.0"
+   },
+   {
+    "hrvValue": 58,
+    "readingTimeGMT": "2026-05-11T22:06:43.0",
+    "readingTimeLocal": "2026-05-12T00:06:43.0"
+   },
+   {
+    "hrvValue": 54,
+    "readingTimeGMT": "2026-05-11T22:11:43.0",
+    "readingTimeLocal": "2026-05-12T00:11:43.0"
+   },
+   "… 65 weitere Eintraege gekuerzt"
+  ],
+  "startTimestampGMT": "2026-05-11T22:01:43.0",
+  "endTimestampGMT": "2026-05-12T03:36:43.0",
+  "startTimestampLocal": "2026-05-12T00:01:43.0",
+  "endTimestampLocal": "2026-05-12T05:36:43.0",
+  "sleepStartTimestampGMT": "2026-05-11T22:01:43.0",
+  "sleepEndTimestampGMT": "2026-05-12T03:39:43.0",
+  "sleepStartTimestampLocal": "2026-05-12T00:01:43.0",
+  "sleepEndTimestampLocal": "2026-05-12T05:39:43.0"
+ },
+ "get_max_metrics": {},
+ "get_body_battery_eintrag": {},
+ "get_activities_by_date_eintrag": {
+  "activityId": 23896668109,
+  "activityName": "Bütgenbach Tennis",
+  "startTimeLocal": "2026-08-08 10:01:24",
+  "startTimeGMT": "2026-08-08 08:01:24",
+  "activityType": {
+   "typeId": 227,
+   "typeKey": "tennis_v2",
+   "parentTypeId": 219,
+   "isHidden": false,
+   "restricted": false,
+   "trimmable": true
+  },
+  "eventType": {
+   "typeId": 9,
+   "typeKey": "uncategorized",
+   "sortOrder": 10
+  },
+  "isFavorite": false,
+  "isPR": false,
+  "isAutoCalcCalories": false,
+  "isParent": false,
+  "distance": 4793.06005859375,
+  "duration": 6042.1171875,
+  "elapsedDuration": 6042.1171875,
+  "movingDuration": 3629.0,
+  "averageSpeed": 0.7929999828338624,
+  "maxSpeed": 4.339000225067139,
+  "hasPolyline": true,
+  "hasImages": false,
+  "calories": 1070.0,
+  "bmrCalories": 144.0,
+  "averageHR": 148.0,
+  "maxHR": 187.0,
+  "averageRunningCadenceInStepsPerMinute": 24.0,
+  "maxRunningCadenceInStepsPerMinute": 247.0,
+  "steps": 5970,
+  "userRoles": [
+   "SCOPE_GOLF_API_READ",
+   "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+   "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+   "… 28 weitere Eintraege gekuerzt"
+  ],
+  "privacy": {
+   "typeId": 3,
+   "typeKey": "subscribers"
+  },
+  "userPro": false,
+  "hasVideo": false,
+  "isPurposeful": false,
+  "timeZoneId": 124,
+  "beginTimestamp": 1786176084000,
+  "sportTypeId": 8,
+  "aerobicTrainingEffect": 4.199999809265137,
+  "anaerobicTrainingEffect": 4.099999904632568,
+  "avgStrideLength": 198.31873124331676,
+  "avgElevation": -500.0,
+  "maxDoubleCadence": 247.0,
+  "isElevationCorrected": false,
+  "isDecoDive": false,
+  "summarizedDiveInfo": {
+   "summarizedDiveGases": []
+  },
+  "manufacturer": "GARMIN",
+  "lapCount": 1,
+  "isAtpActivity": false,
+  "waterEstimated": 1594.0,
+  "trainingEffectLabel": "SPEED",
+  "activityTrainingLoad": 339.64154052734375,
+  "minActivityLapDuration": 6042.1171875,
+  "aerobicTrainingEffectMessage": "HIGHLY_IMPACTING_TEMPO_23",
+  "anaerobicTrainingEffectMessage": "HIGHLY_IMPROVING_ANAEROBIC_CAPACITY_AND_SPEED_13",
+  "splitSummaries": [],
+  "hasSplits": false,
+  "hasIntensityIntervals": false,
+  "isManualActivity": false,
+  "moderateIntensityMinutes": 18,
+  "vigorousIntensityMinutes": 75,
+  "differenceBodyBattery": -3,
+  "hasHeatMap": true,
+  "hrTimeInZone_1": 40.51,
+  "hrTimeInZone_2": 571.0,
+  "hrTimeInZone_3": 2429.568,
+  "hrTimeInZone_4": 2530.042,
+  "hrTimeInZone_5": 470.997,
+  "endTimeGMT": "2026-08-08 09:42:06",
+  "qualifyingDive": false,
+  "autoCalcCalories": false,
+  "elevationCorrected": false,
+  "atpActivity": false,
+  "pr": false,
+  "purposeful": false,
+  "manualActivity": false,
+  "favorite": false,
+  "decoDive": false,
+  "parent": false
+ },
+ "get_weigh_ins": {
+  "dailyWeightSummaries": [
+   {
+    "summaryDate": "2026-08-06",
+    "numOfWeightEntries": 1,
+    "minWeight": 75199.0,
+    "maxWeight": 75199.0,
+    "latestWeight": {
+     "samplePk": 1785985267090,
+     "date": 1785992451002,
+     "calendarDate": "2026-08-06",
+     "weight": 75199.0,
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "visceralFat": null,
+     "metabolicAge": null,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1785985251002,
+     "weightDelta": -299.99999999999716,
+     "trend": {
+      "weight": 75950.99,
+      "weightChange": -303.0
+     }
+    },
+    "allWeightMetrics": [
+     {
+      "samplePk": 1785985267090,
+      "date": 1785992451002,
+      "calendarDate": "2026-08-06",
+      "weight": 75199.0,
+      "bmi": null,
+      "bodyFat": null,
+      "bodyWater": null,
+      "boneMass": null,
+      "muscleMass": null,
+      "physiqueRating": null,
+      "visceralFat": null,
+      "metabolicAge": null,
+      "sourceType": "MANUAL",
+      "timestampGMT": 1785985251002,
+      "weightDelta": -299.99999999999716,
+      "trend": {
+       "weight": 75950.99,
+       "weightChange": -303.0
+      }
+     }
+    ]
+   },
+   {
+    "summaryDate": "2026-07-24",
+    "numOfWeightEntries": 1,
+    "minWeight": 75500.0,
+    "maxWeight": 75500.0,
+    "latestWeight": {
+     "samplePk": 1784879776630,
+     "date": 1784869800000,
+     "calendarDate": "2026-07-24",
+     "weight": 75500.0,
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "visceralFat": null,
+     "metabolicAge": null,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1784862600000,
+     "weightDelta": -500.0,
+     "trend": {
+      "weight": 76255.0,
+      "weightChange": -505.0
+     }
+    },
+    "allWeightMetrics": [
+     {
+      "samplePk": 1784879776630,
+      "date": 1784869800000,
+      "calendarDate": "2026-07-24",
+      "weight": 75500.0,
+      "bmi": null,
+      "bodyFat": null,
+      "bodyWater": null,
+      "boneMass": null,
+      "muscleMass": null,
+      "physiqueRating": null,
+      "visceralFat": null,
+      "metabolicAge": null,
+      "sourceType": "MANUAL",
+      "timestampGMT": 1784862600000,
+      "weightDelta": -500.0,
+      "trend": {
+       "weight": 76255.0,
+       "weightChange": -505.0
+      }
+     }
+    ]
+   },
+   {
+    "summaryDate": "2026-06-25",
+    "numOfWeightEntries": 1,
+    "minWeight": 76000.0,
+    "maxWeight": 76000.0,
+    "latestWeight": {
+     "samplePk": 1782358466117,
+     "date": 1782365654008,
+     "calendarDate": "2026-06-25",
+     "weight": 76000.0,
+     "bmi": null,
+     "bodyFat": null,
+     "bodyWater": null,
+     "boneMass": null,
+     "muscleMass": null,
+     "physiqueRating": null,
+     "visceralFat": null,
+     "metabolicAge": null,
+     "sourceType": "MANUAL",
+     "timestampGMT": 1782358454008,
+     "weightDelta": -1599.9999999999943,
+     "trend": {
+      "weight": 76760.0,
+      "weightChange": -1616.0
+     }
+    },
+    "allWeightMetrics": [
+     {
+      "samplePk": 1782358466117,
+      "date": 1782365654008,
+      "calendarDate": "2026-06-25",
+      "weight": 76000.0,
+      "bmi": null,
+      "bodyFat": null,
+      "bodyWater": null,
+      "boneMass": null,
+      "muscleMass": null,
+      "physiqueRating": null,
+      "visceralFat": null,
+      "metabolicAge": null,
+      "sourceType": "MANUAL",
+      "timestampGMT": 1782358454008,
+      "weightDelta": -1599.9999999999943,
+      "trend": {
+       "weight": 76760.0,
+       "weightChange": -1616.0
+      }
+     }
+    ]
+   },
+   "… 4 weitere Eintraege gekuerzt"
+  ],
+  "totalAverage": {
+   "from": 1778544000000,
+   "until": 1786406399999,
+   "weight": 76485.28571428571,
+   "bmi": null,
+   "bodyFat": null,
+   "bodyWater": null,
+   "boneMass": null,
+   "muscleMass": null,
+   "physiqueRating": null,
+   "visceralFat": null,
+   "metabolicAge": null,
+   "trend": null
+  },
+  "previousDateWeight": {
+   "samplePk": 1776837106965,
+   "date": 1776844306958,
+   "calendarDate": "2026-04-22",
+   "weight": 78000.0,
+   "bmi": null,
+   "bodyFat": null,
+   "bodyWater": null,
+   "boneMass": null,
+   "muscleMass": null,
+   "physiqueRating": null,
+   "visceralFat": null,
+   "metabolicAge": null,
+   "sourceType": "MANUAL",
+   "timestampGMT": 1776837106958,
+   "weightDelta": null,
+   "trend": null
+  },
+  "nextDateWeight": {
+   "samplePk": null,
+   "date": null,
+   "calendarDate": null,
+   "weight": null,
+   "bmi": null,
+   "bodyFat": null,
+   "bodyWater": null,
+   "boneMass": null,
+   "muscleMass": null,
+   "physiqueRating": null,
+   "visceralFat": null,
+   "metabolicAge": null,
+   "sourceType": null,
+   "timestampGMT": null,
+   "weightDelta": null,
+   "trend": null
+  }
+ }
+}
