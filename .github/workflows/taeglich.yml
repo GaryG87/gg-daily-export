@@ -1,0 +1,78 @@
+name: Täglicher Export
+
+on:
+  schedule:
+    # 05:17 UTC = 07:17 Ortszeit, nach dem morgendlichen Garmin-Sync
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      tage:
+        description: "Wie viele Tage rückwirkend holen (1-180)"
+        required: false
+        default: "10"
+      detailtage:
+        description: "Für wie viele Tage die Yazio-Einzelprodukte auflösen"
+        required: false
+        default: "7"
+      rohdaten:
+        description: "Rohdaten-Beispiele mitschreiben (ja/nein)"
+        required: false
+        default: "nein"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: taeglicher-export
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bibliotheken installieren
+        run: pip install "garminconnect==0.3.9" "requests>=2.31"
+
+      # Beide Schritte laufen unabhängig voneinander: fällt einer aus,
+      # holt der andere trotzdem seine Daten.
+      - name: Garmin holen
+        continue-on-error: true
+        env:
+          GARMIN_TOKENS_B64: ${{ secrets.GARMIN_TOKENS_B64 }}
+          GARMIN_USER: ${{ secrets.GARMIN_USER }}
+          DAYS: ${{ inputs.tage || '10' }}
+          RAW_SAMPLE: ${{ inputs.rohdaten || 'nein' }}
+        run: python garmin_export.py
+
+      - name: Yazio holen
+        continue-on-error: true
+        env:
+          YAZIO_USER: ${{ secrets.YAZIO_USER }}
+          YAZIO_PASS: ${{ secrets.YAZIO_PASS }}
+          DAYS: ${{ inputs.tage || '10' }}
+          DETAIL_DAYS: ${{ inputs.detailtage || '7' }}
+          RAW_SAMPLE: ${{ inputs.rohdaten || 'nein' }}
+        run: python yazio_export.py
+
+      - name: Ergebnis committen
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add export/
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Export $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
