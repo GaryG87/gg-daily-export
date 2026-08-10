@@ -1,6 +1,6 @@
 {
  "version": "garmin_export v1.1",
- "erzeugt_utc": "2026-08-10T12:58:08+00:00",
+ "erzeugt_utc": "2026-08-10T13:19:05+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
@@ -5818,5 +5818,5 @@
   "aktivitaeten": 55,
   "gewichtsmessungen": 7
  },
- "laufzeit_sek": 190
+ "laufzeit_sek": 189
 }
