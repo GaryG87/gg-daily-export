@@ -503,7 +503,6 @@
   "sleepEndTimestampLocal": "2026-05-12T05:39:43.0"
  },
  "get_max_metrics": {},
- "get_body_battery_eintrag": {},
  "get_activities_by_date_eintrag": {
   "activityId": 23896668109,
   "activityName": "Bütgenbach Tennis",
@@ -514,8 +513,8 @@
    "typeKey": "tennis_v2",
    "parentTypeId": 219,
    "isHidden": false,
-   "restricted": false,
-   "trimmable": true
+   "trimmable": true,
+   "restricted": false
   },
   "eventType": {
    "typeId": 9,
@@ -591,15 +590,15 @@
   "hrTimeInZone_5": 470.997,
   "endTimeGMT": "2026-08-08 09:42:06",
   "qualifyingDive": false,
+  "purposeful": false,
+  "pr": false,
+  "favorite": false,
+  "parent": false,
+  "decoDive": false,
+  "manualActivity": false,
   "autoCalcCalories": false,
   "elevationCorrected": false,
-  "atpActivity": false,
-  "pr": false,
-  "purposeful": false,
-  "manualActivity": false,
-  "favorite": false,
-  "decoDive": false,
-  "parent": false
+  "atpActivity": false
  },
  "get_weigh_ins": {
   "dailyWeightSummaries": [
