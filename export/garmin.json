@@ -1,15 +1,15 @@
 {
  "version": "garmin_export v1.1",
- "erzeugt_utc": "2026-08-10T05:06:34+00:00",
+ "erzeugt_utc": "2026-08-10T10:02:55+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
- "api_calls": 305,
+ "api_calls": 50,
  "zeitraum": {
-  "von": "2026-05-12",
+  "von": "2026-07-31",
   "bis": "2026-08-10",
-  "tage_angefragt": 90
+  "tage_angefragt": 10
  },
  "lesehinweise": {
   "schlaf": "Der Schlafdatensatz eines Tages beschreibt die Nacht DAVOR. Die Felder nacht_von/nacht_bis enthalten die tatsaechlichen Zeitstempel - immer diese verwenden, nicht das Tagesdatum.",
@@ -4768,15 +4768,15 @@
   },
   {
    "datum": "2026-08-10",
-   "schritte": 270,
-   "distanz_m": 221,
-   "kalorien_gesamt": 578.0,
-   "kalorien_aktiv": 1.0,
-   "kalorien_grundumsatz": 577.0,
-   "ruhepuls": 53,
-   "hf_min": 52,
+   "schritte": 385,
+   "distanz_m": 315,
+   "kalorien_gesamt": 756.0,
+   "kalorien_aktiv": 2.0,
+   "kalorien_grundumsatz": 754.0,
+   "ruhepuls": 52,
+   "hf_min": 46,
    "hf_max": 87,
-   "stress_schnitt": 25,
+   "stress_schnitt": 22,
    "stress_max": 51,
    "intensitaetsminuten_moderat": 0,
    "intensitaetsminuten_hoch": 0,
@@ -4784,9 +4784,9 @@
    "spo2_tiefst": null,
    "schlafdauer_geraet_min": 313,
    "atemfrequenz_schnitt": 14.0,
-   "bodybattery_hoch": 32,
+   "bodybattery_hoch": 40,
    "bodybattery_tief": 8,
-   "bodybattery_geladen": 25,
+   "bodybattery_geladen": 33,
    "bodybattery_verbraucht": 1,
    "bodybattery_beim_aufwachen": 29,
    "gewicht_kg": null,
@@ -4808,7 +4808,7 @@
     "atemfrequenz": 16.0,
     "rueckmeldung": "NEGATIVE_LONG_BUT_NOT_RESTORATIVE",
     "einordnung": "NEGATIVE_STRESSFUL_DAY",
-    "ruhepuls_nacht": 53
+    "ruhepuls_nacht": 52
    },
    "hrv": {
     "letzte_nacht": 32,
@@ -5818,5 +5818,5 @@
   "aktivitaeten": 55,
   "gewichtsmessungen": 7
  },
- "laufzeit_sek": 186
+ "laufzeit_sek": 32
 }
