@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.1",
- "erzeugt_utc": "2026-08-14T08:52:25+00:00",
+ "erzeugt_utc": "2026-08-15T05:59:57+00:00",
  "status": "fehler",
  "fehler": "GarminConnectAuthenticationError: Failed to retrieve social profile",
  "traceback": "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/__init__.py\", line 795, in _load_profile_and_settings\n    prof = self.client.connectapi(\"/userprofile-service/socialProfile\")\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 1389, in connectapi\n    return self._run_request(\"GET\", path, **kwargs).json()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/client.py\", line 1486, in _run_request\n    raise GarminConnectConnectionError(error_msg)\ngarminconnect.exceptions.GarminConnectConnectionError: API Error 401 - \n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/gg-daily-export/gg-daily-export/garmin_export.py\", line 458, in <module>\n    main()\n  File \"/home/runner/work/gg-daily-export/gg-daily-export/garmin_export.py\", line 282, in main\n    mfa_status, _ = garmin.login(\n                    ^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/__init__.py\", line 707, in login\n    self._load_profile_and_settings()\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/garminconnect/__init__.py\", line 800, in _load_profile_and_settings\n    raise GarminConnectAuthenticationError(\ngarminconnect.exceptions.GarminConnectAuthenticationError: Failed to retrieve social profile\n",
  "hinweise": [],
  "api_calls": 0,
  "zeitraum": {
-  "von": "2026-08-04",
-  "bis": "2026-08-14",
+  "von": "2026-08-05",
+  "bis": "2026-08-15",
   "tage_angefragt": 10
  },
  "lesehinweise": {
