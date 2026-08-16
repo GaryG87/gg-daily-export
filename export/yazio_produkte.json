@@ -5455,5 +5455,132 @@
    "gesaettigte_fettsaeuren_g": 0.027,
    "zucker_g": 0.035
   }
+ },
+ "a48ffcb2-becf-11e6-a2bb-e0071b8a8723": {
+  "name": "Himbeeren gefroren",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "fruits",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.53,
+   "mineral.calcium": 0.0004,
+   "kohlenhydrate_g": 0.071,
+   "ballaststoffe_g": 0.049,
+   "fett_g": 0.005,
+   "protein_g": 0.016,
+   "salz_g": 0.0,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.055,
+   "vitamin.c": 0.00025
+  }
+ },
+ "8bff8fcf-7e4c-4b8e-b82d-3f273980f29e": {
+  "name": "Erdbeeren (gefroren)",
+  "hersteller": "REWE Beste Wahl",
+  "kategorie": "fruits",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.42,
+   "kohlenhydrate_g": 0.061,
+   "ballaststoffe_g": 0.038,
+   "fett_g": 0.004,
+   "protein_g": 0.006,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.061
+  }
+ },
+ "439bc836-927f-4b69-8b40-5cba67ff9640": {
+  "name": "Heidelbeeren tiefgekühlt",
+  "hersteller": "REWE Beste Wahl",
+  "kategorie": "fruits",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.56,
+   "kohlenhydrate_g": 0.1,
+   "ballaststoffe_g": 0.033,
+   "fett_g": 0.005,
+   "protein_g": 0.005,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.1
+  }
+ },
+ "75e2e22d-08cc-4c68-9d6f-def9193679ba": {
+  "name": "Magerquark",
+  "hersteller": "Rewe Bio",
+  "kategorie": "curd",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.66,
+   "kohlenhydrate_g": 0.041,
+   "fett_g": 0.002,
+   "protein_g": 0.12,
+   "salz_g": 0.0013,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.041
+  }
+ },
+ "a8e1711a-becf-11e6-b37d-e0071b8a8723": {
+  "name": "Geflügelfrikadelle",
+  "hersteller": "Lidl",
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.19,
+   "kohlenhydrate_g": 0.164,
+   "fett_g": 0.143,
+   "protein_g": 0.1461,
+   "salz_g": 0.022,
+   "gesaettigte_fettsaeuren_g": 0.045,
+   "zucker_g": 0.0078
+  }
+ },
+ "9f53468c-becf-11e6-88a3-e0071b8a8723": {
+  "name": "Zucchini, frisch",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.23,
+   "mineral.calcium": 0.00025,
+   "mineral.chlorine": 0.00024,
+   "mineral.copper": 0.0,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 1e-05,
+   "mineral.magnesium": 0.00018,
+   "mineral.manganese": 1e-06,
+   "mineral.phosphorus": 0.00029,
+   "mineral.potassium": 0.00177,
+   "mineral.sulfur": 0.00025,
+   "mineral.zinc": 3e-06,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.0226,
+   "cholesterin_g": 0.0,
+   "ballaststoffe_g": 0.011,
+   "fett_g": 0.0029,
+   "einfach_ungesaettigt_g": 0.0003,
+   "mehrfach_ungesaettigt_g": 0.0014,
+   "protein_g": 0.0203,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.0007,
+   "natrium_g": 3e-05,
+   "zucker_g": 0.0226,
+   "wasser_g": 0.935,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 2e-06,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 1e-06,
+   "vitamin.b3": 9e-06,
+   "vitamin.b5": 1e-06,
+   "vitamin.b6": 1e-06,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 0.000176,
+   "vitamin.d": 0.0,
+   "vitamin.e": 5e-06,
+   "vitamin.k": 0.0
+  }
  }
 }
