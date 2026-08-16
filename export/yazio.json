@@ -1,11 +1,11 @@
 {
  "version": "yazio_export v1.3",
- "erzeugt_utc": "2026-08-16T06:01:17+00:00",
+ "erzeugt_utc": "2026-08-16T06:36:07+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
- "api_calls": 23,
+ "api_calls": 17,
  "zeitraum": {
   "von": "2026-08-06",
   "bis": "2026-08-16",
@@ -54176,5 +54176,5 @@
   "tage_mit_eintraegen": 96,
   "produkte_zwischengespeichert": 240
  },
- "laufzeit_sek": 10
+ "laufzeit_sek": 6
 }
