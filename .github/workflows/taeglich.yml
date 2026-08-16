@@ -13,7 +13,7 @@ on:
       detailtage:
         description: "Für wie viele Tage die Yazio-Einzelprodukte auflösen"
         required: false
-        default: "7"
+        default: "14"
       rohdaten:
         description: "Rohdaten-Beispiele mitschreiben (ja/nein)"
         required: false
@@ -43,8 +43,8 @@ jobs:
       - name: Bibliotheken installieren
         run: pip install "garminconnect==0.3.9" "requests>=2.31"
 
-      # Beide Schritte laufen unabhängig voneinander: fällt einer aus,
-      # holt der andere trotzdem seine Daten.
+      # Beide Schritte laufen unabhängig: fällt einer aus, holt der andere
+      # trotzdem seine Daten. Geprüft wird erst nach dem Commit.
       - name: Garmin holen
         continue-on-error: true
         env:
@@ -60,7 +60,7 @@ jobs:
           YAZIO_USER: ${{ secrets.YAZIO_USER }}
           YAZIO_PASS: ${{ secrets.YAZIO_PASS }}
           DAYS: ${{ inputs.tage || '10' }}
-          DETAIL_DAYS: ${{ inputs.detailtage || '7' }}
+          DETAIL_DAYS: ${{ inputs.detailtage || '14' }}
           RAW_SAMPLE: ${{ inputs.rohdaten || 'nein' }}
         run: python yazio_export.py
 
@@ -76,3 +76,51 @@ jobs:
             git commit -m "Export $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      # Erst NACH dem Commit prüfen. So sind die Daten gesichert, aber der
+      # Lauf wird trotzdem rot - und GitHub schickt eine Fehlermail.
+      # Ohne diesen Schritt meldet der Workflow grün, während eine Quelle
+      # seit Tagen ausgefallen ist (genau das ist im August 2026 passiert).
+      - name: Ergebnis prüfen und bei Fehler Alarm schlagen
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, sys, datetime, pathlib
+
+          heute = datetime.date.today()
+          probleme = []
+
+          for name in ("garmin", "yazio"):
+              pfad = pathlib.Path(f"export/{name}.json")
+              if not pfad.exists():
+                  probleme.append(f"{name}: Datei fehlt komplett")
+                  continue
+              d = json.loads(pfad.read_text(encoding="utf-8"))
+
+              if d.get("status") != "ok":
+                  probleme.append(f"{name}: {d.get('fehler')}")
+
+              tage = d.get("tage") or []
+              if tage:
+                  letzter = datetime.date.fromisoformat(tage[-1]["datum"])
+                  alter = (heute - letzter).days
+                  print(f"{name}: letzter Tag {letzter} ({alter} Tage alt)")
+                  if alter > 2:
+                      probleme.append(
+                          f"{name}: Daten sind {alter} Tage alt "
+                          f"(letzter Tag {letzter})"
+                      )
+              else:
+                  probleme.append(f"{name}: keine Tagesdaten enthalten")
+
+          if probleme:
+              print("\n*** EXPORT-PROBLEME ***")
+              for p in probleme:
+                  print(" -", p)
+              print("\nBei 'Failed to retrieve social profile' oder 401 ist das "
+                    "Garmin-Token abgelaufen: garmin_token.py lokal neu "
+                    "ausfuehren und Secret GARMIN_TOKENS_B64 ersetzen.")
+              sys.exit(1)
+
+          print("Beide Quellen aktuell.")
+          PY
