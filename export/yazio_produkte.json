@@ -5582,5 +5582,29 @@
    "vitamin.e": 5e-06,
    "vitamin.k": 0.0
   }
+ },
+ "a1a8dc80-becf-11e6-b97e-e0071b8a8723": {
+  "name": "Orange",
+  "hersteller": "Aquarius",
+  "kategorie": "energydrinks",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.324242,
+   "kohlenhydrate_g": 0.078788,
+   "fett_g": 0.0,
+   "protein_g": 0.0
+  }
+ },
+ "be542751-a625-4c0c-9e0b-1c525105529f": {
+  "name": "Putengordonbleu",
+  "hersteller": "Aia (Real)",
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.3,
+   "kohlenhydrate_g": 0.12,
+   "fett_g": 0.14,
+   "protein_g": 0.14
+  }
  }
 }

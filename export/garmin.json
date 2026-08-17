@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.1",
- "erzeugt_utc": "2026-08-16T07:13:32+00:00",
+ "erzeugt_utc": "2026-08-17T07:59:18+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-08-06",
-  "bis": "2026-08-16",
+  "von": "2026-08-07",
+  "bis": "2026-08-17",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -5110,26 +5110,26 @@
   },
   {
    "datum": "2026-08-16",
-   "schritte": 111,
-   "distanz_m": 91,
-   "kalorien_gesamt": 735.0,
-   "kalorien_aktiv": 0.0,
-   "kalorien_grundumsatz": 735.0,
+   "schritte": 6691,
+   "distanz_m": 5534,
+   "kalorien_gesamt": 2545.0,
+   "kalorien_aktiv": 478.0,
+   "kalorien_grundumsatz": 2067.0,
    "ruhepuls": 51,
-   "hf_min": 48,
-   "hf_max": 74,
-   "stress_schnitt": 16,
-   "stress_max": 30,
-   "intensitaetsminuten_moderat": 0,
-   "intensitaetsminuten_hoch": 0,
+   "hf_min": 47,
+   "hf_max": 157,
+   "stress_schnitt": 24,
+   "stress_max": 84,
+   "intensitaetsminuten_moderat": 23,
+   "intensitaetsminuten_hoch": 31,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
-   "schlafdauer_geraet_min": 501,
+   "schlafdauer_geraet_min": 600,
    "atemfrequenz_schnitt": 15.0,
    "bodybattery_hoch": 79,
    "bodybattery_tief": 12,
-   "bodybattery_geladen": 67,
-   "bodybattery_verbraucht": 1,
+   "bodybattery_geladen": 84,
+   "bodybattery_verbraucht": 49,
    "bodybattery_beim_aufwachen": 79,
    "gewicht_kg": 76.0,
    "vo2max_laufen": null,
@@ -5160,9 +5160,66 @@
     "basis_hoch": 59
    },
    "trainingsbereitschaft": {
-    "punkte": 1,
+    "punkte": 4,
     "stufe": "POOR",
     "hinweis": "LET_YOUR_BODY_RECOVER"
+   }
+  },
+  {
+   "datum": "2026-08-17",
+   "schritte": 475,
+   "distanz_m": 389,
+   "kalorien_gesamt": 553.0,
+   "kalorien_aktiv": 2.0,
+   "kalorien_grundumsatz": 551.0,
+   "ruhepuls": 48,
+   "hf_min": 46,
+   "hf_max": 82,
+   "stress_schnitt": 11,
+   "stress_max": 37,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 315,
+   "atemfrequenz_schnitt": 12.0,
+   "bodybattery_hoch": 96,
+   "bodybattery_tief": 47,
+   "bodybattery_geladen": 49,
+   "bodybattery_verbraucht": 4,
+   "bodybattery_beim_aufwachen": 96,
+   "gewicht_kg": 75.3,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": "2026-08-16 22:20",
+    "nacht_bis": "2026-08-17 05:14",
+    "gesamt_min": 408,
+    "tief_min": 81,
+    "leicht_min": 245,
+    "rem_min": 82,
+    "wach_min": 6,
+    "score": 91,
+    "bewertung": "EXCELLENT",
+    "schlafstress": 11.0,
+    "aufwachvorgaenge": 0,
+    "atemfrequenz": 13.0,
+    "rueckmeldung": "POSITIVE_OPTIMAL_STRUCTURE",
+    "einordnung": "POSITIVE_EXERCISE",
+    "ruhepuls_nacht": 48
+   },
+   "hrv": {
+    "letzte_nacht": 47,
+    "woche_schnitt": 34,
+    "status": "BALANCED",
+    "basis_tief": 25,
+    "basis_hoch": 58
+   },
+   "trainingsbereitschaft": {
+    "punkte": 51,
+    "stufe": "MODERATE",
+    "hinweis": "BOOSTED_BY_GOOD_SLEEP"
    }
   }
  ],
@@ -6169,6 +6226,23 @@
    "schritte": null,
    "intensitaetsminuten_moderat": 15,
    "intensitaetsminuten_hoch": 53
+  },
+  {
+   "id": 23999057051,
+   "start": "2026-08-16 14:43:43",
+   "name": "Bütgenbach Tennis",
+   "typ": "tennis_v2",
+   "dauer_sek": 3693.493896484375,
+   "distanz_m": 2703.47998046875,
+   "kalorien": 528.0,
+   "hf_schnitt": 127.0,
+   "hf_max": 166.0,
+   "trainingseffekt_aerob": 2.700000047683716,
+   "trainingseffekt_anaerob": 2.299999952316284,
+   "trainingsbelastung": 104.20668029785156,
+   "schritte": 3238,
+   "intensitaetsminuten_moderat": 21,
+   "intensitaetsminuten_hoch": 31
   }
  ],
  "gewicht": [
@@ -6234,13 +6308,20 @@
    "koerperfett_prozent": null,
    "muskelmasse_kg": null,
    "wasser_prozent": null
+  },
+  {
+   "datum": "2026-08-17",
+   "gewicht_kg": 75.3,
+   "koerperfett_prozent": null,
+   "muskelmasse_kg": null,
+   "wasser_prozent": null
   }
  ],
  "login_weg": "Token",
  "anzahl": {
-  "tage": 97,
-  "aktivitaeten": 59,
-  "gewichtsmessungen": 9
+  "tage": 98,
+  "aktivitaeten": 60,
+  "gewichtsmessungen": 10
  },
- "laufzeit_sek": 31
+ "laufzeit_sek": 30
 }
