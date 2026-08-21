@@ -5647,5 +5647,20 @@
    "vitamin.e": 6e-06,
    "vitamin.k": 0.0
   }
+ },
+ "026a9ebe-22e5-4056-b2a1-8de8a9b2c09d": {
+  "name": "Granforno grissini",
+  "hersteller": "Granforno",
+  "kategorie": "bakedgoods",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.04,
+   "kohlenhydrate_g": 0.733,
+   "fett_g": 0.064,
+   "protein_g": 0.121,
+   "salz_g": 0.023,
+   "gesaettigte_fettsaeuren_g": 0.01,
+   "zucker_g": 0.015
+  }
  }
 }

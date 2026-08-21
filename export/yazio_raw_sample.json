@@ -2,29 +2,29 @@
  "hinweis": "Rohantworten zur Feldpruefung.",
  "nutrients_daily_erster_monat": [
   {
-   "date": "2026-08-06",
-   "energy": 2285.15,
-   "carb": 215.45,
-   "protein": 162.475,
-   "fat": 59.845,
-   "energy_goal": 1787.5
+   "date": "2026-08-11",
+   "energy": 1771.485,
+   "carb": 104.00325,
+   "protein": 179.319,
+   "fat": 66.95805,
+   "energy_goal": 1733.7375
   },
   {
-   "date": "2026-08-07",
-   "energy": 3813.7,
-   "carb": 312.686,
-   "protein": 161.039,
-   "fat": 89.934,
-   "energy_goal": 1921.5625
+   "date": "2026-08-12",
+   "energy": 2317.335,
+   "carb": 197.146,
+   "protein": 132.93,
+   "fat": 86.9873,
+   "energy_goal": 1733.7375
   }
  ],
  "goals": {
   "activity.step": 8000.0,
   "water": 2000.0,
-  "energy.energy": 1733.7375,
-  "nutrient.protein": 169.1451,
-  "nutrient.fat": 46.6059,
-  "nutrient.carb": 148.002,
+  "energy.energy": 1863.7678,
+  "nutrient.protein": 181.831,
+  "nutrient.fat": 50.1013,
+  "nutrient.carb": 159.1021,
   "bodyvalue.weight": 74.0
  },
  "water_intake": {
@@ -33,7 +33,28 @@
   "source": null
  },
  "consumed_items": {
-  "products": [],
+  "products": [
+   {
+    "id": "99bd0fb7-4c41-4a08-a2af-b765bc66c7a5",
+    "date": "2026-08-21 07:39:48",
+    "daytime": "breakfast",
+    "type": "product",
+    "product_id": "9dd69912-becf-11e6-8839-e0071b8a8723",
+    "amount": 75,
+    "serving": "fruit.small",
+    "serving_quantity": 1
+   },
+   {
+    "id": "c43908bb-3bca-4be7-9807-c5be01d68e41",
+    "date": "2026-08-21 07:39:54",
+    "daytime": "breakfast",
+    "type": "product",
+    "product_id": "9e6310cc-becf-11e6-be96-e0071b8a8723",
+    "amount": 120,
+    "serving": "egg.regular",
+    "serving_quantity": 2
+   }
+  ],
   "recipe_portions": [],
   "simple_products": []
  },
