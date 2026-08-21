@@ -43,8 +43,6 @@ jobs:
       - name: Bibliotheken installieren
         run: pip install "garminconnect==0.3.9" "requests>=2.31"
 
-      # Beide Schritte laufen unabhängig: fällt einer aus, holt der andere
-      # trotzdem seine Daten. Geprüft wird erst nach dem Commit.
       - name: Garmin holen
         continue-on-error: true
         env:
@@ -53,6 +51,28 @@ jobs:
           DAYS: ${{ inputs.tage || '10' }}
           RAW_SAMPLE: ${{ inputs.rohdaten || 'nein' }}
         run: python garmin_export.py
+
+      # Garmin rotiert den Refresh-Token bei jeder Auffrischung und entwertet
+      # den alten. Ohne diesen Schritt reisst die Anmeldung nach wenigen Tagen
+      # ab. Der aufgefrischte Token wird deshalb ins Secret zurueckgelegt.
+      # Läuft nur, wenn das Secret GH_PAT hinterlegt ist.
+      - name: Garmin-Token erneuern
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Kein GH_PAT hinterlegt - Token wird nicht erneuert."
+            echo "Ohne Erneuerung laeuft die Garmin-Anmeldung nach wenigen"
+            echo "Tagen ab und muss von Hand neu erzeugt werden."
+          elif [ -s garmin_token_neu.b64 ]; then
+            gh secret set GARMIN_TOKENS_B64 \
+              --repo "${{ github.repository }}" < garmin_token_neu.b64
+            echo "Token im Secret erneuert."
+          else
+            echo "Kein neuer Token vorhanden (Anmeldung fehlgeschlagen?)."
+          fi
+          rm -f garmin_token_neu.b64
 
       - name: Yazio holen
         continue-on-error: true
@@ -69,6 +89,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Bewusst nur export/ - der Token liegt ausserhalb und darf
+          # in einem oeffentlichen Repository niemals committet werden.
           git add export/
           if git diff --staged --quiet; then
             echo "Keine Änderungen."
@@ -77,10 +99,8 @@ jobs:
             git push
           fi
 
-      # Erst NACH dem Commit prüfen. So sind die Daten gesichert, aber der
-      # Lauf wird trotzdem rot - und GitHub schickt eine Fehlermail.
-      # Ohne diesen Schritt meldet der Workflow grün, während eine Quelle
-      # seit Tagen ausgefallen ist (genau das ist im August 2026 passiert).
+      # Erst NACH dem Commit prüfen: Daten sind gesichert, der Lauf wird
+      # trotzdem rot und GitHub schickt eine Fehlermail.
       - name: Ergebnis prüfen und bei Fehler Alarm schlagen
         if: always()
         run: |
@@ -117,9 +137,10 @@ jobs:
               print("\n*** EXPORT-PROBLEME ***")
               for p in probleme:
                   print(" -", p)
-              print("\nBei 'Failed to retrieve social profile' oder 401 ist das "
-                    "Garmin-Token abgelaufen: garmin_token.py lokal neu "
-                    "ausfuehren und Secret GARMIN_TOKENS_B64 ersetzen.")
+              print("\n'Failed to retrieve social profile' oder 401 = Garmin-Token "
+                    "abgelaufen. Pruefen, ob das Secret GH_PAT hinterlegt ist - "
+                    "ohne PAT wird der Token nicht automatisch erneuert. "
+                    "Sonst garmin_token.py lokal neu ausfuehren.")
               sys.exit(1)
 
           print("Beide Quellen aktuell.")
