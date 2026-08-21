@@ -31,7 +31,7 @@ import traceback
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-VERSION = "garmin_export v1.1"
+VERSION = "garmin_export v1.2"
 
 OUT_PATH = Path("export/garmin.json")
 RAW_PATH = Path("export/garmin_raw_sample.json")
@@ -290,6 +290,24 @@ def main():
             "Ergebnis als Secret GARMIN_TOKENS_B64 hinterlegen."
         )
     print("Anmeldung erfolgreich.", flush=True)
+
+    # Garmin rotiert den Refresh-Token bei jeder Auffrischung und entwertet
+    # den alten (client.py: di_refresh_token = data.get("refresh_token", ...)).
+    # Wird der neue Token nicht gesichert, reisst die Kette nach wenigen
+    # Tagen ab. Deshalb hier wegschreiben - der Workflow legt ihn danach
+    # zurueck ins GitHub-Secret.
+    #
+    # Die Datei liegt bewusst NICHT unter export/ und wird nie committet.
+    try:
+        neuer_token = base64.b64encode(
+            garmin.client.dumps().encode("utf-8")
+        ).decode("ascii")
+        Path("garmin_token_neu.b64").write_text(neuer_token, encoding="utf-8")
+        ergebnis["token_erneuert"] = True
+        print("Aufgefrischter Token gesichert.", flush=True)
+    except Exception as exc:
+        ergebnis["token_erneuert"] = False
+        hinweis(f"Token konnte nicht gesichert werden: {exc}")
 
     # ---------- Bereichsabfragen (je 1 Aufruf) ----------
     aktivitaeten = call(
