@@ -5726,5 +5726,83 @@
    "vitamin.e": 0.0,
    "vitamin.k": 0.0
   }
+ },
+ "75db7b73-b580-4c76-b148-b49c02522f62": {
+  "name": "ESN Designer Protein Bar ",
+  "hersteller": "ESN",
+  "kategorie": "miscellaneous",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 3.98,
+   "kohlenhydrate_g": 0.34,
+   "ballaststoffe_g": 0.032,
+   "fett_g": 0.19,
+   "protein_g": 0.33,
+   "salz_g": 0.0049,
+   "gesaettigte_fettsaeuren_g": 0.1,
+   "zucker_g": 0.044
+  }
+ },
+ "1c86656a-30b4-4478-b2ac-a4be3ad746ca": {
+  "name": "Putenboulette",
+  "hersteller": null,
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.0,
+   "kohlenhydrate_g": 0.028,
+   "fett_g": 0.12,
+   "protein_g": 0.196,
+   "salz_g": 0.011,
+   "gesaettigte_fettsaeuren_g": 0.033,
+   "zucker_g": 0.005
+  }
+ },
+ "5dc74265-708b-4571-b6df-3c463a525b62": {
+  "name": "Pizza Parma mit Rucola, Parmesan, Tomaten",
+  "hersteller": "Italiener",
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.98,
+   "kohlenhydrate_g": 0.203,
+   "fett_g": 0.112,
+   "protein_g": 0.08,
+   "salz_g": 0.005,
+   "gesaettigte_fettsaeuren_g": 0.02,
+   "zucker_g": 0.015
+  }
+ },
+ "a535ea64-becf-11e6-8b47-e0071b8a8723": {
+  "name": "Oven Baked Paprika",
+  "hersteller": "Lays",
+  "kategorie": "fastfood",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.4,
+   "kohlenhydrate_g": 0.72,
+   "ballaststoffe_g": 0.064,
+   "fett_g": 0.13,
+   "protein_g": 0.059,
+   "salz_g": 0.008,
+   "gesaettigte_fettsaeuren_g": 0.01,
+   "zucker_g": 0.07
+  }
+ },
+ "e04ecba2-ac36-40c6-9f8f-7d82ec40146b": {
+  "name": "Runder hamburger",
+  "hersteller": "Jumbo",
+  "kategorie": "beef",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.6,
+   "kohlenhydrate_g": 0.02,
+   "ballaststoffe_g": 0.007,
+   "fett_g": 0.2,
+   "protein_g": 0.18,
+   "salz_g": 0.013,
+   "gesaettigte_fettsaeuren_g": 0.087,
+   "zucker_g": 0.0006
+  }
  }
 }
