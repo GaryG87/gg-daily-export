@@ -5804,5 +5804,68 @@
    "gesaettigte_fettsaeuren_g": 0.087,
    "zucker_g": 0.0006
   }
+ },
+ "9e5c8efa-becf-11e6-8745-e0071b8a8723": {
+  "name": "Himbeeren, frisch",
+  "hersteller": null,
+  "kategorie": "fruits",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.43,
+   "mineral.calcium": 0.0004,
+   "mineral.chlorine": 0.00022,
+   "mineral.copper": 1e-06,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 1e-05,
+   "mineral.magnesium": 0.0003,
+   "mineral.manganese": 4e-06,
+   "mineral.phosphorus": 0.00044,
+   "mineral.potassium": 0.002,
+   "mineral.sulfur": 0.00017,
+   "mineral.zinc": 4e-06,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.0481,
+   "cholesterin_g": 0.0,
+   "ballaststoffe_g": 0.047,
+   "fett_g": 0.003,
+   "einfach_ungesaettigt_g": 0.0003,
+   "mehrfach_ungesaettigt_g": 0.002,
+   "protein_g": 0.013,
+   "salz_g": 0.0,
+   "gesaettigte_fettsaeuren_g": 0.0001,
+   "natrium_g": 1e-05,
+   "zucker_g": 0.048,
+   "wasser_g": 0.8628,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 0.0,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 0.0,
+   "vitamin.b3": 6e-06,
+   "vitamin.b5": 3e-06,
+   "vitamin.b6": 1e-06,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 0.00025,
+   "vitamin.d": 0.0,
+   "vitamin.e": 7e-06,
+   "vitamin.k": 0.0
+  }
+ },
+ "f12568f2-9d3e-46f7-9c5a-f775f30e7af0": {
+  "name": "Biozisch holunderblüte",
+  "hersteller": "Voelkel GmbH",
+  "kategorie": "drinksnonalcoholic",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.26,
+   "kohlenhydrate_g": 0.058,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.005,
+   "protein_g": 0.005,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.058
+  }
  }
 }
