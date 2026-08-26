@@ -5867,5 +5867,21 @@
    "gesaettigte_fettsaeuren_g": 0.001,
    "zucker_g": 0.058
   }
+ },
+ "a908b5cc-becf-11e6-b65f-e0071b8a8723": {
+  "name": "Pfannen Fisch Müllerin Art",
+  "hersteller": "Frosta",
+  "kategorie": "fish",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.99,
+   "kohlenhydrate_g": 0.092,
+   "ballaststoffe_g": 0.007,
+   "fett_g": 0.006,
+   "protein_g": 0.139,
+   "salz_g": 0.0103,
+   "gesaettigte_fettsaeuren_g": 0.002,
+   "zucker_g": 0.014
+  }
  }
 }
