@@ -5883,5 +5883,99 @@
    "gesaettigte_fettsaeuren_g": 0.002,
    "zucker_g": 0.014
   }
+ },
+ "9dec2ee4-becf-11e6-b85f-e0071b8a8723": {
+  "name": "Butter",
+  "hersteller": null,
+  "kategorie": "animalfats",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 7.41,
+   "mineral.calcium": 0.00013,
+   "mineral.chlorine": 0.00023,
+   "mineral.copper": 0.0,
+   "mineral.fluorine": 1e-06,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 0.0,
+   "mineral.magnesium": 3e-05,
+   "mineral.manganese": 0.0,
+   "mineral.phosphorus": 0.00021,
+   "mineral.potassium": 0.00016,
+   "mineral.sulfur": 9e-05,
+   "mineral.zinc": 2e-06,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.006,
+   "cholesterin_g": 0.00221,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.832,
+   "einfach_ungesaettigt_g": 0.2297,
+   "mehrfach_ungesaettigt_g": 0.018,
+   "protein_g": 0.0067,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.5381,
+   "natrium_g": 5e-05,
+   "zucker_g": 0.006,
+   "wasser_g": 0.1532,
+   "vitamin.a": 6e-06,
+   "vitamin.b1": 0.0,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 0.0,
+   "vitamin.b3": 2e-06,
+   "vitamin.b5": 0.0,
+   "vitamin.b6": 0.0,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 2e-06,
+   "vitamin.d": 0.0,
+   "vitamin.e": 2e-05,
+   "vitamin.k": 0.0
+  }
+ },
+ "433be4ed-7726-47f1-99c8-05a52ccebace": {
+  "name": "EatHappy",
+  "hersteller": "EatHappy ToGo GmbH",
+  "kategorie": "fish",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.59,
+   "kohlenhydrate_g": 0.22,
+   "fett_g": 0.05,
+   "protein_g": 0.058,
+   "salz_g": 0.011,
+   "gesaettigte_fettsaeuren_g": 0.014,
+   "zucker_g": 0.04
+  }
+ },
+ "d67c6930-40dd-491a-ad9b-1b16aa8b939b": {
+  "name": "California chrunchy",
+  "hersteller": "Eat Happy",
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.92,
+   "kohlenhydrate_g": 0.26,
+   "ballaststoffe_g": 0.035,
+   "fett_g": 0.075,
+   "protein_g": 0.051,
+   "salz_g": 0.017,
+   "gesaettigte_fettsaeuren_g": 0.016,
+   "zucker_g": 0.06
+  }
+ },
+ "9e3c7bef-e3b2-424d-95f1-d5b7a1118350": {
+  "name": "Protein Tortilla Chips Paprika",
+  "hersteller": "More Nutrition",
+  "kategorie": "potatoproducts",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.14,
+   "kohlenhydrate_g": 0.433,
+   "ballaststoffe_g": 0.1,
+   "fett_g": 0.114,
+   "protein_g": 0.291,
+   "salz_g": 0.028,
+   "gesaettigte_fettsaeuren_g": 0.011,
+   "zucker_g": 0.033
+  }
  }
 }
