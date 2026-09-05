@@ -6895,5 +6895,21 @@
    "gesaettigte_fettsaeuren_g": 0.073,
    "zucker_g": 0.032
   }
+ },
+ "2be5beba-27a5-499a-875a-294e9b498b11": {
+  "name": "Satisbite White Choclate Coffee Lover",
+  "hersteller": "More Nutrition",
+  "kategorie": "chocolate",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 3.92,
+   "kohlenhydrate_g": 0.37,
+   "ballaststoffe_g": 0.052,
+   "fett_g": 0.19,
+   "protein_g": 0.29,
+   "salz_g": 0.0048,
+   "gesaettigte_fettsaeuren_g": 0.11,
+   "zucker_g": 0.035
+  }
  }
 }

@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.2",
- "erzeugt_utc": "2026-09-04T05:22:44+00:00",
+ "erzeugt_utc": "2026-09-05T05:21:30+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-08-25",
-  "bis": "2026-09-04",
+  "von": "2026-08-26",
+  "bis": "2026-09-05",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -6193,26 +6193,26 @@
   },
   {
    "datum": "2026-09-04",
-   "schritte": 618,
-   "distanz_m": 506,
-   "kalorien_gesamt": 535.0,
-   "kalorien_aktiv": 8.0,
-   "kalorien_grundumsatz": 527.0,
+   "schritte": 8974,
+   "distanz_m": 9066,
+   "kalorien_gesamt": 2801.0,
+   "kalorien_aktiv": 743.0,
+   "kalorien_grundumsatz": 2058.0,
    "ruhepuls": 52,
-   "hf_min": 50,
-   "hf_max": 95,
-   "stress_schnitt": 21,
-   "stress_max": 87,
-   "intensitaetsminuten_moderat": 0,
-   "intensitaetsminuten_hoch": 0,
+   "hf_min": 48,
+   "hf_max": 161,
+   "stress_schnitt": 29,
+   "stress_max": 93,
+   "intensitaetsminuten_moderat": 38,
+   "intensitaetsminuten_hoch": 47,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
    "schlafdauer_geraet_min": 304,
-   "atemfrequenz_schnitt": 12.0,
+   "atemfrequenz_schnitt": 14.0,
    "bodybattery_hoch": 72,
-   "bodybattery_tief": 38,
+   "bodybattery_tief": 10,
    "bodybattery_geladen": 35,
-   "bodybattery_verbraucht": 7,
+   "bodybattery_verbraucht": 63,
    "bodybattery_beim_aufwachen": 72,
    "gewicht_kg": null,
    "vo2max_laufen": null,
@@ -6243,9 +6243,66 @@
     "basis_hoch": 60
    },
    "trainingsbereitschaft": {
-    "punkte": 82,
-    "stufe": "HIGH",
-    "hinweis": "EXCELLENT_RECOVERY"
+    "punkte": 25,
+    "stufe": "LOW",
+    "hinweis": "HIGH_RECOVERY_NEEDS"
+   }
+  },
+  {
+   "datum": "2026-09-05",
+   "schritte": 21,
+   "distanz_m": 17,
+   "kalorien_gesamt": 154.0,
+   "kalorien_aktiv": 0.0,
+   "kalorien_grundumsatz": 154.0,
+   "ruhepuls": 54,
+   "hf_min": 60,
+   "hf_max": 83,
+   "stress_schnitt": 33,
+   "stress_max": 58,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 0,
+   "atemfrequenz_schnitt": 16.0,
+   "bodybattery_hoch": 12,
+   "bodybattery_tief": 9,
+   "bodybattery_geladen": 3,
+   "bodybattery_verbraucht": 1,
+   "bodybattery_beim_aufwachen": null,
+   "gewicht_kg": null,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": null,
+    "nacht_bis": null,
+    "gesamt_min": null,
+    "tief_min": null,
+    "leicht_min": null,
+    "rem_min": null,
+    "wach_min": null,
+    "score": null,
+    "bewertung": null,
+    "schlafstress": null,
+    "aufwachvorgaenge": null,
+    "atemfrequenz": null,
+    "rueckmeldung": null,
+    "einordnung": null,
+    "ruhepuls_nacht": null
+   },
+   "hrv": {
+    "letzte_nacht": null,
+    "woche_schnitt": null,
+    "status": null,
+    "basis_tief": null,
+    "basis_hoch": null
+   },
+   "trainingsbereitschaft": {
+    "punkte": null,
+    "stufe": null,
+    "hinweis": null
    }
   }
  ],
@@ -7371,6 +7428,23 @@
    "schritte": 4884,
    "intensitaetsminuten_moderat": 64,
    "intensitaetsminuten_hoch": 19
+  },
+  {
+   "id": 24237737066,
+   "start": "2026-09-04 17:24:51",
+   "name": "Bütgenbach Tennis",
+   "typ": "tennis_v2",
+   "dauer_sek": 6978.7939453125,
+   "distanz_m": 4924.2001953125,
+   "kalorien": 831.0,
+   "hf_schnitt": 121.0,
+   "hf_max": 179.0,
+   "trainingseffekt_aerob": 3.0,
+   "trainingseffekt_anaerob": 3.0999999046325684,
+   "trainingsbelastung": 155.95008850097656,
+   "schritte": 4046,
+   "intensitaetsminuten_moderat": 37,
+   "intensitaetsminuten_hoch": 47
   }
  ],
  "gewicht": [
@@ -7455,9 +7529,9 @@
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 116,
-  "aktivitaeten": 66,
+  "tage": 117,
+  "aktivitaeten": 67,
   "gewichtsmessungen": 11
  },
- "laufzeit_sek": 33
+ "laufzeit_sek": 30
 }
