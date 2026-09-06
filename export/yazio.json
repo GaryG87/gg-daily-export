@@ -1,11 +1,11 @@
 {
  "version": "yazio_export v1.3",
- "erzeugt_utc": "2026-09-06T05:22:22+00:00",
+ "erzeugt_utc": "2026-09-06T07:07:21+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
- "api_calls": 33,
+ "api_calls": 32,
  "zeitraum": {
   "von": "2026-08-27",
   "bis": "2026-09-06",
@@ -65193,6 +65193,26 @@
    "wasser_ml": 2250.0,
    "posten": [
     {
+     "mahlzeit": "snack",
+     "name": "Grissini",
+     "hersteller": null,
+     "menge_g": 48,
+     "portion": "piece",
+     "portionen": 6,
+     "energie_kcal": 194.9,
+     "protein_g": 7.2,
+     "ballaststoffe_g": 4.2,
+     "naehrstoffe": {
+      "energie_kcal": 194.88,
+      "kohlenhydrate_g": 29.76,
+      "ballaststoffe_g": 4.176,
+      "fett_g": 4.08,
+      "protein_g": 7.2,
+      "salz_g": 0.001,
+      "zucker_g": 0.96
+     }
+    },
+    {
      "mahlzeit": "lunch",
      "name": "ESN Bar Dark chocolate salted almond flavor",
      "hersteller": "ESN DESIGNER BAR",
@@ -65728,14 +65748,14 @@
     }
    ],
    "naehrstoffe": {
-    "energie_kcal": 2344.08,
-    "kohlenhydrate_g": 171.088,
-    "ballaststoffe_g": 19.854,
-    "fett_g": 92.134,
-    "protein_g": 178.566,
-    "salz_g": 6.707,
+    "energie_kcal": 2538.96,
+    "kohlenhydrate_g": 200.848,
+    "ballaststoffe_g": 24.03,
+    "fett_g": 96.214,
+    "protein_g": 185.766,
+    "salz_g": 6.709,
+    "zucker_g": 31.56,
     "gesaettigte_fettsaeuren_g": 33.738,
-    "zucker_g": 30.6,
     "mineral.calcium": 0.202,
     "mineral.chlorine": 0.822,
     "mineral.copper": 0.0,
@@ -65769,14 +65789,14 @@
     "vitamin.e": 0.001
    },
    "naehrstoffe_abdeckung": {
-    "energie_kcal": 16,
-    "kohlenhydrate_g": 16,
-    "ballaststoffe_g": 12,
-    "fett_g": 16,
-    "protein_g": 16,
-    "salz_g": 15,
+    "energie_kcal": 17,
+    "kohlenhydrate_g": 17,
+    "ballaststoffe_g": 13,
+    "fett_g": 17,
+    "protein_g": 17,
+    "salz_g": 16,
+    "zucker_g": 16,
     "gesaettigte_fettsaeuren_g": 14,
-    "zucker_g": 15,
     "mineral.calcium": 7,
     "mineral.chlorine": 7,
     "mineral.copper": 7,
@@ -65809,18 +65829,18 @@
     "vitamin.b11": 4,
     "vitamin.e": 5
    },
-   "ballaststoffe_g": 19.854,
-   "zucker_g": 30.6,
-   "energie_kcal_aus_posten": 2344.1,
+   "ballaststoffe_g": 24.03,
+   "zucker_g": 31.56,
+   "energie_kcal_aus_posten": 2539.0,
    "abdeckung": {
-    "posten": 16,
-    "davon_mit_ballaststoffangabe": 12,
+    "posten": 17,
+    "davon_mit_ballaststoffangabe": 13,
     "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
    },
-   "energie_kcal": 2344.08,
-   "protein_g": 178.57,
-   "kohlenhydrate_g": 171.09,
-   "fett_g": 92.13,
+   "energie_kcal": 2538.96,
+   "protein_g": 185.77,
+   "kohlenhydrate_g": 200.85,
+   "fett_g": 96.21,
    "kalorienziel_kcal": 1863.77
   },
   {
@@ -65854,5 +65874,5 @@
   "tage_mit_eintraegen": 117,
   "produkte_zwischengespeichert": 292
  },
- "laufzeit_sek": 13
+ "laufzeit_sek": 12
 }
