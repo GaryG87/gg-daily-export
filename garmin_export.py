@@ -31,7 +31,7 @@ import traceback
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-VERSION = "garmin_export v1.2"
+VERSION = "garmin_export v1.3"
 
 OUT_PATH = Path("export/garmin.json")
 RAW_PATH = Path("export/garmin_raw_sample.json")
@@ -431,6 +431,16 @@ def main():
                 "basis_hoch": dig(hrv, "hrvSummary", "baseline", "balancedUpper"),
             },
         }
+
+        # VO2max wird nur alle sieben Tage abgefragt. Der Tageseintrag
+        # wird aber komplett ersetzt - ohne diese Rettung wuerde ein
+        # bereits gespeicherter Wert an den uebrigen Tagen mit None
+        # ueberschrieben. Genau das hat in v1.1/v1.2 die ganze
+        # VO2max-Historie geloescht.
+        alt = historie_tage.get(d) or {}
+        for feld in ("vo2max_laufen", "vo2max_rad", "fitnessalter"):
+            if eintrag.get(feld) is None and alt.get(feld) is not None:
+                eintrag[feld] = alt[feld]
 
         if (heute - tag).days <= 14:
             bereitschaft = call(garmin.get_training_readiness, d)
