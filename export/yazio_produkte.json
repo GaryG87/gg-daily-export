@@ -6927,5 +6927,24 @@
    "zucker_g": 0.075,
    "vitamin.c": 0.0008
   }
+ },
+ "bf87e31b-ea75-48ad-8445-923be1306916": {
+  "name": "Pure Kornkraft Haferbrot",
+  "hersteller": "Grafschafter (Lidl)",
+  "kategorie": "bread",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.86,
+   "mineral.zinc": 1.9e-05,
+   "kohlenhydrate_g": 0.2,
+   "ballaststoffe_g": 0.089,
+   "fett_g": 0.16,
+   "einfach_ungesaettigt_g": 0.05,
+   "mehrfach_ungesaettigt_g": 0.06,
+   "protein_g": 0.11,
+   "salz_g": 0.01,
+   "gesaettigte_fettsaeuren_g": 0.022,
+   "zucker_g": 0.009
+  }
  }
 }
