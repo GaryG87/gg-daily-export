@@ -6911,5 +6911,21 @@
    "gesaettigte_fettsaeuren_g": 0.11,
    "zucker_g": 0.035
   }
+ },
+ "6f8118ae-a3d8-474a-940c-9072446f6fa3": {
+  "name": "Ingwer Shot Kurkuma",
+  "hersteller": "Voelkel",
+  "kategorie": "drinksnonalcoholic",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.39,
+   "kohlenhydrate_g": 0.078,
+   "fett_g": 0.005,
+   "protein_g": 0.006,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.075,
+   "vitamin.c": 0.0008
+  }
  }
 }
