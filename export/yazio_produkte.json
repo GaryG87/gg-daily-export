@@ -6946,5 +6946,20 @@
    "gesaettigte_fettsaeuren_g": 0.022,
    "zucker_g": 0.009
   }
+ },
+ "67dfac20-e06a-4b5e-8c15-50075f6620d9": {
+  "name": "Erdbeertörtchen",
+  "hersteller": "Interspar Backstube",
+  "kategorie": "pies",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.98,
+   "kohlenhydrate_g": 0.1472,
+   "fett_g": 0.0719,
+   "protein_g": 0.0254,
+   "salz_g": 0.0038,
+   "gesaettigte_fettsaeuren_g": 0.0431,
+   "zucker_g": 0.0242
+  }
  }
 }
