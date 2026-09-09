@@ -7026,5 +7026,38 @@
    "vitamin.c": 0.00049,
    "vitamin.e": 2.5e-05
   }
+ },
+ "f481f357-cd6b-4b73-a535-888a73039c04": {
+  "name": "Rahm-Spinat mit Skyr",
+  "hersteller": "Iglo",
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.6,
+   "kohlenhydrate_g": 0.042,
+   "ballaststoffe_g": 0.017,
+   "fett_g": 0.025,
+   "protein_g": 0.042,
+   "salz_g": 0.0075,
+   "gesaettigte_fettsaeuren_g": 0.007,
+   "zucker_g": 0.022,
+   "vitamin.b11": 0.0
+  }
+ },
+ "f42dc6a4-3ab1-4939-b50a-2c011b25cbdb": {
+  "name": "More Fizi Mango",
+  "hersteller": "More Nutrition",
+  "kategorie": "drinksnonalcoholic",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.13,
+   "kohlenhydrate_g": 0.02,
+   "ballaststoffe_g": 0.032,
+   "fett_g": 0.0,
+   "protein_g": 0.0,
+   "salz_g": 0.0009,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.0
+  }
  }
 }
