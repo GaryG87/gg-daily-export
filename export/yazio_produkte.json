@@ -7059,5 +7059,83 @@
    "gesaettigte_fettsaeuren_g": 0.0,
    "zucker_g": 0.0
   }
+ },
+ "9f10863a-becf-11e6-859a-e0071b8a8723": {
+  "name": "Kochschinken (Vorderschinken)",
+  "hersteller": null,
+  "kategorie": "lunchmeat",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.21,
+   "mineral.calcium": 0.00021,
+   "mineral.chlorine": 0.02739,
+   "mineral.copper": 1e-06,
+   "mineral.fluorine": 1e-06,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 1.1e-05,
+   "mineral.magnesium": 0.00022,
+   "mineral.manganese": 1e-06,
+   "mineral.phosphorus": 0.00116,
+   "mineral.potassium": 0.00145,
+   "mineral.sulfur": 0.00159,
+   "mineral.zinc": 1.8e-05,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.0107,
+   "cholesterin_g": 0.00053,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.0429,
+   "einfach_ungesaettigt_g": 0.0195,
+   "mehrfach_ungesaettigt_g": 0.0044,
+   "protein_g": 0.1948,
+   "salz_g": 0.0266,
+   "gesaettigte_fettsaeuren_g": 0.0151,
+   "natrium_g": 0.01046,
+   "zucker_g": 0.0107,
+   "wasser_g": 0.7186,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 4e-06,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 2e-06,
+   "vitamin.b3": 5.3e-05,
+   "vitamin.b5": 4e-06,
+   "vitamin.b6": 2e-06,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 0.0,
+   "vitamin.d": 0.0,
+   "vitamin.e": 2e-06,
+   "vitamin.k": 0.0
+  }
+ },
+ "ca049bfa-7524-441d-a12e-80fa59abe79a": {
+  "name": "Putenschnitzel natur mit Pilzrahmsauce, Spätzle und Gemüse der Saison",
+  "hersteller": "Schwarz Restaurantbetriebe",
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.62,
+   "kohlenhydrate_g": 0.13975,
+   "fett_g": 0.053,
+   "protein_g": 0.14075,
+   "salz_g": 0.00475,
+   "gesaettigte_fettsaeuren_g": 0.022,
+   "zucker_g": 0.0125
+  }
+ },
+ "98020f8f-c34b-403d-8df6-6d10bc5401d5": {
+  "name": "Spaghetti Bolognese",
+  "hersteller": "Selbstgemacht",
+  "kategorie": "noodles",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.32,
+   "kohlenhydrate_g": 0.158,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.051,
+   "protein_g": 0.071,
+   "salz_g": 0.009,
+   "gesaettigte_fettsaeuren_g": 0.02,
+   "zucker_g": 0.15
+  }
  }
 }
