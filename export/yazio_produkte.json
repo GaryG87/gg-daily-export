@@ -7137,5 +7137,81 @@
    "gesaettigte_fettsaeuren_g": 0.02,
    "zucker_g": 0.15
   }
+ },
+ "bca4522b-c67a-4c50-bd5d-825955ac5d33": {
+  "name": "More Tortilla Chips Western Style Sweet Spicy",
+  "hersteller": "More Nutrition",
+  "kategorie": "candy",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.19,
+   "kohlenhydrate_g": 0.43,
+   "ballaststoffe_g": 0.091,
+   "fett_g": 0.13,
+   "protein_g": 0.28,
+   "salz_g": 0.036,
+   "gesaettigte_fettsaeuren_g": 0.013,
+   "zucker_g": 0.055
+  }
+ },
+ "39f84e57-0b5e-4458-b4be-79b9a92a8f20": {
+  "name": "Schweinemedaillons in Rahmsoße",
+  "hersteller": "Lindtmann's (Aldi)",
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.09,
+   "mineral.calcium": 0.0,
+   "mineral.iron": 0.0,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.15,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.027,
+   "protein_g": 0.064,
+   "salz_g": 0.014,
+   "gesaettigte_fettsaeuren_g": 0.007,
+   "zucker_g": 0.024,
+   "wasser_g": 0.0,
+   "vitamin.c": 0.0,
+   "vitamin.d": 0.0
+  }
+ },
+ "87be6171-ba49-4eda-bca4-e2d05dbe7bb7": {
+  "name": "Kroketten",
+  "hersteller": "McCain",
+  "kategorie": "frozenfood",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.81,
+   "mineral.phosphorus": 0.0004,
+   "mineral.potassium": 0.0029,
+   "kohlenhydrate_g": 0.285,
+   "ballaststoffe_g": 0.03,
+   "fett_g": 0.09,
+   "protein_g": 0.03,
+   "salz_g": 0.013,
+   "gesaettigte_fettsaeuren_g": 0.015,
+   "zucker_g": 0.05
+  }
+ },
+ "86723585-3fc0-47ac-8e7b-843136d0c2ac": {
+  "name": "Hühnersuppe",
+  "hersteller": null,
+  "kategorie": "soups",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.31,
+   "mineral.potassium": 0.00023,
+   "kohlenhydrate_g": 0.038,
+   "cholesterin_g": 3e-05,
+   "ballaststoffe_g": 0.003,
+   "fett_g": 0.01,
+   "einfach_ungesaettigt_g": 0.004,
+   "mehrfach_ungesaettigt_g": 0.002,
+   "protein_g": 0.016,
+   "gesaettigte_fettsaeuren_g": 0.002,
+   "natrium_g": 0.00459,
+   "zucker_g": 0.001
+  }
  }
 }
