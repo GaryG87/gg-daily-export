@@ -7213,5 +7213,21 @@
    "natrium_g": 0.00459,
    "zucker_g": 0.001
   }
+ },
+ "41c4b2ac-01f4-4843-9313-ba559922da55": {
+  "name": "Dönerteller (Kalb), Pommes,Salat und Soße",
+  "hersteller": null,
+  "kategorie": "fastfood",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.39,
+   "kohlenhydrate_g": 0.1618,
+   "ballaststoffe_g": 0.023,
+   "fett_g": 0.1568,
+   "protein_g": 0.0833,
+   "salz_g": 0.015,
+   "gesaettigte_fettsaeuren_g": 0.1,
+   "zucker_g": 0.01
+  }
  }
 }
