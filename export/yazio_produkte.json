@@ -7229,5 +7229,21 @@
    "gesaettigte_fettsaeuren_g": 0.1,
    "zucker_g": 0.01
   }
+ },
+ "ee5daaaf-723a-4afd-8db5-d75d4dd63340": {
+  "name": "Lay's Sour Cream & Black Pepper",
+  "hersteller": "Lays",
+  "kategorie": "miscellaneous",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 5.366667,
+   "kohlenhydrate_g": 0.533333,
+   "ballaststoffe_g": 0.043333,
+   "fett_g": 0.323333,
+   "protein_g": 0.063333,
+   "salz_g": 0.013333,
+   "gesaettigte_fettsaeuren_g": 0.04,
+   "zucker_g": 0.016667
+  }
  }
 }
