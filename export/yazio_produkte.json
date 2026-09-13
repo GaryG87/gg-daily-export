@@ -7245,5 +7245,20 @@
    "gesaettigte_fettsaeuren_g": 0.04,
    "zucker_g": 0.016667
   }
+ },
+ "21388bfc-1f5e-4457-98c9-b0e576396e8d": {
+  "name": "Filet rindersteak ",
+  "hersteller": "Gut Bio (Aldi)",
+  "kategorie": "meat",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.19,
+   "kohlenhydrate_g": 0.005,
+   "fett_g": 0.03,
+   "protein_g": 0.23,
+   "salz_g": 0.0015,
+   "gesaettigte_fettsaeuren_g": 0.018,
+   "zucker_g": 0.005
+  }
  }
 }
