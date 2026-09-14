@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.3",
- "erzeugt_utc": "2026-09-13T18:17:47+00:00",
+ "erzeugt_utc": "2026-09-14T10:35:51+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-09-03",
-  "bis": "2026-09-13",
+  "von": "2026-09-04",
+  "bis": "2026-09-14",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -6760,6 +6760,63 @@
     "stufe": "POOR",
     "hinweis": "LET_YOUR_BODY_RECOVER"
    }
+  },
+  {
+   "datum": "2026-09-14",
+   "schritte": null,
+   "distanz_m": null,
+   "kalorien_gesamt": null,
+   "kalorien_aktiv": null,
+   "kalorien_grundumsatz": null,
+   "ruhepuls": null,
+   "hf_min": null,
+   "hf_max": null,
+   "stress_schnitt": null,
+   "stress_max": null,
+   "intensitaetsminuten_moderat": null,
+   "intensitaetsminuten_hoch": null,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": null,
+   "atemfrequenz_schnitt": null,
+   "bodybattery_hoch": null,
+   "bodybattery_tief": null,
+   "bodybattery_geladen": null,
+   "bodybattery_verbraucht": null,
+   "bodybattery_beim_aufwachen": null,
+   "gewicht_kg": null,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": null,
+    "nacht_bis": null,
+    "gesamt_min": null,
+    "tief_min": null,
+    "leicht_min": null,
+    "rem_min": null,
+    "wach_min": null,
+    "score": null,
+    "bewertung": null,
+    "schlafstress": null,
+    "aufwachvorgaenge": null,
+    "atemfrequenz": null,
+    "rueckmeldung": null,
+    "einordnung": null,
+    "ruhepuls_nacht": null
+   },
+   "hrv": {
+    "letzte_nacht": null,
+    "woche_schnitt": null,
+    "status": null,
+    "basis_tief": null,
+    "basis_hoch": null
+   },
+   "trainingsbereitschaft": {
+    "punkte": null,
+    "stufe": null,
+    "hinweis": null
+   }
   }
  ],
  "aktivitaeten": [
@@ -8094,9 +8151,9 @@
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 125,
+  "tage": 126,
   "aktivitaeten": 73,
   "gewichtsmessungen": 12
  },
- "laufzeit_sek": 33
+ "laufzeit_sek": 31
 }
