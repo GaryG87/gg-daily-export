@@ -7417,5 +7417,22 @@
    "gesaettigte_fettsaeuren_g": 0.0,
    "zucker_g": 0.101
   }
+ },
+ "0a323544-e693-4f36-80b2-bebb6f42f3a4": {
+  "name": "HiPro Chocolate Mousse",
+  "hersteller": "Danone",
+  "kategorie": "milk",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.84,
+   "mineral.calcium": 0.00219,
+   "mineral.magnesium": 0.000375,
+   "kohlenhydrate_g": 0.053,
+   "fett_g": 0.023,
+   "protein_g": 0.1,
+   "salz_g": 0.0025,
+   "gesaettigte_fettsaeuren_g": 0.016,
+   "zucker_g": 0.043
+  }
  }
 }
