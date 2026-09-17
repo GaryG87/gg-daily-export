@@ -7434,5 +7434,59 @@
    "gesaettigte_fettsaeuren_g": 0.016,
    "zucker_g": 0.043
   }
+ },
+ "f4d9ca62-9aeb-4b05-91a3-eb8d4de7f2af": {
+  "name": "Hipro mousse cacao",
+  "hersteller": "Danone",
+  "kategorie": "milk",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.84,
+   "mineral.calcium": 0.00219,
+   "mineral.iron": 0.000375,
+   "mineral.potassium": 0.0,
+   "nutrient.addedsugar": 0.043,
+   "kohlenhydrate_g": 0.053,
+   "cholesterin_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.023,
+   "protein_g": 0.1,
+   "salz_g": 0.0025,
+   "gesaettigte_fettsaeuren_g": 0.016,
+   "natrium_g": 0.0,
+   "zucker_g": 0.043,
+   "transfettsaeuren_g": 0.016,
+   "vitamin.d": 0.0
+  }
+ },
+ "ce3fc855-1fb1-445e-a20b-9a9f8dabeb2f": {
+  "name": "Thail. Hähnchencurry mit Paprika, Brokkoli und Bambus, dazu Reis",
+  "hersteller": "LZ Catering",
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 6.29,
+   "kohlenhydrate_g": 0.81,
+   "fett_g": 0.18,
+   "protein_g": 0.33
+  }
+ },
+ "480f6dee-2c39-4076-ba46-ab97d55d91c7": {
+  "name": "ESN Designer Bar Strawberry Yogurt Flavor",
+  "hersteller": "ESN",
+  "kategorie": "candy",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.13,
+   "kohlenhydrate_g": 0.05,
+   "ballaststoffe_g": 0.03,
+   "fett_g": 0.19,
+   "einfach_ungesaettigt_g": 0.0,
+   "mehrfach_ungesaettigt_g": 0.0,
+   "protein_g": 0.32,
+   "salz_g": 0.0049,
+   "gesaettigte_fettsaeuren_g": 0.1,
+   "zucker_g": 0.046
+  }
  }
 }
