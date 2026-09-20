@@ -7609,5 +7609,68 @@
    "fett_g": 0.009,
    "protein_g": 0.025
   }
+ },
+ "40d71107-c7fb-4751-b887-84bdbd4607ef": {
+  "name": "More Satisbites Dark Cookie Crumble",
+  "hersteller": "More Nutrition",
+  "kategorie": "chocolate",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 3.98,
+   "kohlenhydrate_g": 0.35,
+   "ballaststoffe_g": 0.092,
+   "fett_g": 0.18,
+   "protein_g": 0.26,
+   "salz_g": 0.0066,
+   "gesaettigte_fettsaeuren_g": 0.096,
+   "zucker_g": 0.033
+  }
+ },
+ "9f1bd210-becf-11e6-8b98-e0071b8a8723": {
+  "name": "Spaghetti Bolognese",
+  "hersteller": null,
+  "kategorie": "pasta",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.43,
+   "mineral.calcium": 0.00022,
+   "mineral.chlorine": 0.00141,
+   "mineral.copper": 1e-06,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 8e-06,
+   "mineral.magnesium": 0.00014,
+   "mineral.manganese": 2e-06,
+   "mineral.phosphorus": 0.00068,
+   "mineral.potassium": 0.00087,
+   "mineral.sulfur": 0.00075,
+   "mineral.zinc": 7e-06,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.2082,
+   "cholesterin_g": 0.00032,
+   "ballaststoffe_g": 0.0115,
+   "fett_g": 0.0349,
+   "einfach_ungesaettigt_g": 0.0154,
+   "mehrfach_ungesaettigt_g": 0.0051,
+   "protein_g": 0.0615,
+   "salz_g": 0.0017,
+   "gesaettigte_fettsaeuren_g": 0.0104,
+   "natrium_g": 0.00066,
+   "zucker_g": 0.0056,
+   "wasser_g": 0.6782,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 1e-06,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 0.0,
+   "vitamin.b3": 1.7e-05,
+   "vitamin.b5": 2e-06,
+   "vitamin.b6": 0.0,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 1.1e-05,
+   "vitamin.d": 0.0,
+   "vitamin.e": 3e-06,
+   "vitamin.k": 0.0
+  }
  }
 }
