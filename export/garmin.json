@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.3",
- "erzeugt_utc": "2026-09-20T09:46:56+00:00",
+ "erzeugt_utc": "2026-09-21T10:39:40+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-09-10",
-  "bis": "2026-09-20",
+  "von": "2026-09-11",
+  "bis": "2026-09-21",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -7105,26 +7105,26 @@
   },
   {
    "datum": "2026-09-20",
-   "schritte": 481,
-   "distanz_m": 402,
-   "kalorien_gesamt": 874.0,
-   "kalorien_aktiv": 20.0,
-   "kalorien_grundumsatz": 854.0,
+   "schritte": 2654,
+   "distanz_m": 5566,
+   "kalorien_gesamt": 2309.0,
+   "kalorien_aktiv": 245.0,
+   "kalorien_grundumsatz": 2064.0,
    "ruhepuls": 54,
-   "hf_min": 55,
-   "hf_max": 109,
-   "stress_schnitt": 53,
+   "hf_min": 50,
+   "hf_max": 129,
+   "stress_schnitt": 39,
    "stress_max": 91,
-   "intensitaetsminuten_moderat": 0,
-   "intensitaetsminuten_hoch": 0,
+   "intensitaetsminuten_moderat": 29,
+   "intensitaetsminuten_hoch": 6,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
-   "schlafdauer_geraet_min": 471,
+   "schlafdauer_geraet_min": 561,
    "atemfrequenz_schnitt": 14.0,
-   "bodybattery_hoch": 25,
+   "bodybattery_hoch": 26,
    "bodybattery_tief": 5,
-   "bodybattery_geladen": 20,
-   "bodybattery_verbraucht": 0,
+   "bodybattery_geladen": 30,
+   "bodybattery_verbraucht": 13,
    "bodybattery_beim_aufwachen": 24,
    "gewicht_kg": null,
    "vo2max_laufen": null,
@@ -7155,9 +7155,66 @@
     "basis_hoch": 61
    },
    "trainingsbereitschaft": {
-    "punkte": 10,
+    "punkte": 15,
     "stufe": "POOR",
     "hinweis": "TIME_TO_RECHARGE"
+   }
+  },
+  {
+   "datum": "2026-09-21",
+   "schritte": 2449,
+   "distanz_m": 2021,
+   "kalorien_gesamt": 1091.0,
+   "kalorien_aktiv": 29.0,
+   "kalorien_grundumsatz": 1062.0,
+   "ruhepuls": 51,
+   "hf_min": 46,
+   "hf_max": 91,
+   "stress_schnitt": 18,
+   "stress_max": 84,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 338,
+   "atemfrequenz_schnitt": 12.0,
+   "bodybattery_hoch": 77,
+   "bodybattery_tief": 22,
+   "bodybattery_geladen": 60,
+   "bodybattery_verbraucht": 20,
+   "bodybattery_beim_aufwachen": 77,
+   "gewicht_kg": null,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": "2026-09-20 22:30",
+    "nacht_bis": "2026-09-21 05:38",
+    "gesamt_min": 428,
+    "tief_min": 105,
+    "leicht_min": 221,
+    "rem_min": 102,
+    "wach_min": 0,
+    "score": 93,
+    "bewertung": "EXCELLENT",
+    "schlafstress": 16.0,
+    "aufwachvorgaenge": 0,
+    "atemfrequenz": 13.0,
+    "rueckmeldung": "POSITIVE_OPTIMAL_STRUCTURE",
+    "einordnung": "NONE",
+    "ruhepuls_nacht": 51
+   },
+   "hrv": {
+    "letzte_nacht": 44,
+    "woche_schnitt": 34,
+    "status": "BALANCED",
+    "basis_tief": 25,
+    "basis_hoch": 61
+   },
+   "trainingsbereitschaft": {
+    "punkte": 67,
+    "stufe": "MODERATE",
+    "hinweis": "GOOD_SLEEP_LAST_NIGHT"
    }
   }
  ],
@@ -8436,6 +8493,23 @@
    "schritte": 5234,
    "intensitaetsminuten_moderat": 44,
    "intensitaetsminuten_hoch": 40
+  },
+  {
+   "id": 24433958142,
+   "start": "2026-09-20 16:37:52",
+   "name": "Indoor-Rudern",
+   "typ": "indoor_rowing",
+   "dauer_sek": 2332.91796875,
+   "distanz_m": 3386.0,
+   "kalorien": 260.0,
+   "hf_schnitt": 111.0,
+   "hf_max": 142.0,
+   "trainingseffekt_aerob": 1.600000023841858,
+   "trainingseffekt_anaerob": 0.6000000238418579,
+   "trainingsbelastung": 24.23895263671875,
+   "schritte": null,
+   "intensitaetsminuten_moderat": 29,
+   "intensitaetsminuten_hoch": 6
   }
  ],
  "gewicht": [
@@ -8527,9 +8601,9 @@
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 132,
-  "aktivitaeten": 75,
+  "tage": 133,
+  "aktivitaeten": 76,
   "gewichtsmessungen": 12
  },
- "laufzeit_sek": 34
+ "laufzeit_sek": 32
 }
