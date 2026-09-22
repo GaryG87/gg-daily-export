@@ -7711,5 +7711,21 @@
    "gesaettigte_fettsaeuren_g": 0.01,
    "zucker_g": 0.06
   }
+ },
+ "9c8d2cf9-4cbf-4cf2-bc73-262b2bab78ed": {
+  "name": "Gemüsepfanne Italienischer Art",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.49,
+   "kohlenhydrate_g": 0.062,
+   "ballaststoffe_g": 0.024,
+   "fett_g": 0.015,
+   "protein_g": 0.014,
+   "salz_g": 0.006,
+   "gesaettigte_fettsaeuren_g": 0.002,
+   "zucker_g": 0.043
+  }
  }
 }
