@@ -7727,5 +7727,117 @@
    "gesaettigte_fettsaeuren_g": 0.002,
    "zucker_g": 0.043
   }
+ },
+ "00703505-217c-40f9-8b6b-0c90a51f64ff": {
+  "name": "Zink+Vitamin C ",
+  "hersteller": "DocMorris",
+  "kategorie": "nutritionalsupplements",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.0,
+   "mineral.zinc": 0.00225,
+   "kohlenhydrate_g": 0.0,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.0,
+   "einfach_ungesaettigt_g": 0.0,
+   "mehrfach_ungesaettigt_g": 0.0,
+   "protein_g": 0.0,
+   "salz_g": 0.0,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.0,
+   "vitamin.c": 0.225,
+   "vitamin.d": 0.0
+  }
+ },
+ "50db9c1f-ae46-40d7-bf73-efd4e61858aa": {
+  "name": "Light Gourmet Sauce True Curry Ketchup",
+  "hersteller": "More Nutrition",
+  "kategorie": "sauces",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.44,
+   "kohlenhydrate_g": 0.086,
+   "ballaststoffe_g": 0.008,
+   "fett_g": 0.0,
+   "protein_g": 0.009,
+   "salz_g": 0.019,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.024
+  }
+ },
+ "7b063430-221e-4eac-9864-879a8db3aa28": {
+  "name": "Putenroulade",
+  "hersteller": "Mühlenhof (Penny)",
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.94,
+   "kohlenhydrate_g": 0.012,
+   "fett_g": 0.13,
+   "protein_g": 0.179
+  }
+ },
+ "9ef3e6b0-becf-11e6-a30d-e0071b8a8723": {
+  "name": "Rosenkohl, gekocht",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.38,
+   "mineral.calcium": 0.00033,
+   "mineral.chlorine": 0.00024,
+   "mineral.copper": 1e-06,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 7e-06,
+   "mineral.magnesium": 0.00013,
+   "mineral.manganese": 3e-06,
+   "mineral.phosphorus": 0.00076,
+   "mineral.potassium": 0.00364,
+   "mineral.sulfur": 0.00092,
+   "mineral.zinc": 4e-06,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.0244,
+   "cholesterin_g": 0.0,
+   "ballaststoffe_g": 0.0399,
+   "fett_g": 0.005,
+   "einfach_ungesaettigt_g": 0.0001,
+   "mehrfach_ungesaettigt_g": 0.003,
+   "protein_g": 0.038,
+   "salz_g": 0.0001,
+   "gesaettigte_fettsaeuren_g": 0.0008,
+   "natrium_g": 5e-05,
+   "zucker_g": 0.0205,
+   "wasser_g": 0.8811,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 1e-06,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 1e-06,
+   "vitamin.b3": 1.3e-05,
+   "vitamin.b5": 0.0,
+   "vitamin.b6": 2e-06,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 0.00085,
+   "vitamin.d": 0.0,
+   "vitamin.e": 5e-06,
+   "vitamin.k": 1e-06
+  }
+ },
+ "9ec27468-becf-11e6-a85a-e0071b8a8723": {
+  "name": "Nudeln Fusilli",
+  "hersteller": "Barilla",
+  "kategorie": "noodles",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 3.59,
+   "kohlenhydrate_g": 0.707,
+   "ballaststoffe_g": 0.03,
+   "fett_g": 0.02,
+   "protein_g": 0.13,
+   "salz_g": 0.00013,
+   "gesaettigte_fettsaeuren_g": 0.005,
+   "zucker_g": 0.035
+  }
  }
 }
