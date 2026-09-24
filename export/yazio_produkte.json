@@ -7839,5 +7839,37 @@
    "gesaettigte_fettsaeuren_g": 0.005,
    "zucker_g": 0.035
   }
+ },
+ "a963e7ee-becf-11e6-baf5-e0071b8a8723": {
+  "name": "Rotkohl (Demeter)",
+  "hersteller": "Thüringer Landgarten",
+  "kategorie": "cannedvegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.48,
+   "kohlenhydrate_g": 0.095,
+   "ballaststoffe_g": 0.018,
+   "fett_g": 0.001,
+   "protein_g": 0.01,
+   "salz_g": 0.01,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.085
+  }
+ },
+ "63403ac7-05a2-4303-a7af-b70dbbf2ccbb": {
+  "name": "High Protein Rahmspinat mit Skyr",
+  "hersteller": "Iglo",
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.6,
+   "kohlenhydrate_g": 0.042,
+   "ballaststoffe_g": 0.017,
+   "fett_g": 0.025,
+   "protein_g": 0.042,
+   "salz_g": 0.0075,
+   "gesaettigte_fettsaeuren_g": 0.007,
+   "zucker_g": 0.022
+  }
  }
 }
