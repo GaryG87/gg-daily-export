@@ -7871,5 +7871,17 @@
    "gesaettigte_fettsaeuren_g": 0.007,
    "zucker_g": 0.022
   }
+ },
+ "ce9a5d5e-09af-4153-a25a-dcde63184576": {
+  "name": "Tripel Karmeliet",
+  "hersteller": "Brouwerij Bosteels",
+  "kategorie": "beer",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.7,
+   "kohlenhydrate_g": 0.072727,
+   "fett_g": 0.0,
+   "protein_g": 0.0
+  }
  }
 }
