@@ -7883,5 +7883,20 @@
    "fett_g": 0.0,
    "protein_g": 0.0
   }
+ },
+ "dc613ae8-a2e7-417a-96aa-3b56b4a3ba51": {
+  "name": "Salatcup Hähnchen mit Senfdressi",
+  "hersteller": "Snake Time",
+  "kategorie": "salad",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.06,
+   "kohlenhydrate_g": 0.09,
+   "fett_g": 0.054,
+   "protein_g": 0.045,
+   "salz_g": 0.007,
+   "gesaettigte_fettsaeuren_g": 0.005,
+   "zucker_g": 0.078
+  }
  }
 }
