@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.3",
- "erzeugt_utc": "2026-09-27T10:32:02+00:00",
+ "erzeugt_utc": "2026-09-28T11:39:22+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-09-17",
-  "bis": "2026-09-27",
+  "von": "2026-09-18",
+  "bis": "2026-09-28",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -7504,27 +7504,27 @@
   },
   {
    "datum": "2026-09-27",
-   "schritte": 3508,
-   "distanz_m": 3119,
-   "kalorien_gesamt": 514.0,
-   "kalorien_aktiv": 228.0,
-   "kalorien_grundumsatz": 286.0,
-   "ruhepuls": 57,
-   "hf_min": 69,
-   "hf_max": 152,
-   "stress_schnitt": 81,
+   "schritte": 17707,
+   "distanz_m": 15667,
+   "kalorien_gesamt": 3518.0,
+   "kalorien_aktiv": 1454.0,
+   "kalorien_grundumsatz": 2064.0,
+   "ruhepuls": 55,
+   "hf_min": 53,
+   "hf_max": 164,
+   "stress_schnitt": 57,
    "stress_max": 98,
-   "intensitaetsminuten_moderat": 7,
-   "intensitaetsminuten_hoch": 6,
+   "intensitaetsminuten_moderat": 54,
+   "intensitaetsminuten_hoch": 90,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
-   "schlafdauer_geraet_min": 327,
-   "atemfrequenz_schnitt": null,
-   "bodybattery_hoch": 5,
+   "schlafdauer_geraet_min": 426,
+   "atemfrequenz_schnitt": 15.0,
+   "bodybattery_hoch": 17,
    "bodybattery_tief": 5,
-   "bodybattery_geladen": 0,
-   "bodybattery_verbraucht": 0,
-   "bodybattery_beim_aufwachen": null,
+   "bodybattery_geladen": 18,
+   "bodybattery_verbraucht": 13,
+   "bodybattery_beim_aufwachen": 17,
    "gewicht_kg": null,
    "vo2max_laufen": null,
    "vo2max_rad": null,
@@ -7544,19 +7544,76 @@
     "atemfrequenz": 16.0,
     "rueckmeldung": "NEGATIVE_NOT_RESTORATIVE",
     "einordnung": "NEGATIVE_STRESSFUL_DAY",
-    "ruhepuls_nacht": 57
+    "ruhepuls_nacht": 55
    },
    "hrv": {
-    "letzte_nacht": null,
-    "woche_schnitt": 33,
+    "letzte_nacht": 19,
+    "woche_schnitt": 30,
     "status": "BALANCED",
     "basis_tief": 24,
     "basis_hoch": 60
    },
    "trainingsbereitschaft": {
-    "punkte": null,
-    "stufe": null,
-    "hinweis": null
+    "punkte": 1,
+    "stufe": "POOR",
+    "hinweis": "TIME_TO_RECHARGE"
+   }
+  },
+  {
+   "datum": "2026-09-28",
+   "schritte": 2857,
+   "distanz_m": 2340,
+   "kalorien_gesamt": 1226.0,
+   "kalorien_aktiv": 56.0,
+   "kalorien_grundumsatz": 1170.0,
+   "ruhepuls": 52,
+   "hf_min": 50,
+   "hf_max": 106,
+   "stress_schnitt": 36,
+   "stress_max": 94,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 323,
+   "atemfrequenz_schnitt": 14.0,
+   "bodybattery_hoch": 47,
+   "bodybattery_tief": 10,
+   "bodybattery_geladen": 37,
+   "bodybattery_verbraucht": 25,
+   "bodybattery_beim_aufwachen": 47,
+   "gewicht_kg": 76.2,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": "2026-09-27 22:21",
+    "nacht_bis": "2026-09-28 05:23",
+    "gesamt_min": 394,
+    "tief_min": 112,
+    "leicht_min": 196,
+    "rem_min": 86,
+    "wach_min": 28,
+    "score": 76,
+    "bewertung": "FAIR",
+    "schlafstress": 21.0,
+    "aufwachvorgaenge": 2,
+    "atemfrequenz": 14.0,
+    "rueckmeldung": "POSITIVE_DEEP",
+    "einordnung": "NONE",
+    "ruhepuls_nacht": 52
+   },
+   "hrv": {
+    "letzte_nacht": 38,
+    "woche_schnitt": 30,
+    "status": "BALANCED",
+    "basis_tief": 24,
+    "basis_hoch": 60
+   },
+   "trainingsbereitschaft": {
+    "punkte": 1,
+    "stufe": "POOR",
+    "hinweis": "LET_YOUR_BODY_RECOVER"
    }
   }
  ],
@@ -8886,6 +8943,23 @@
    "schritte": null,
    "intensitaetsminuten_moderat": 34,
    "intensitaetsminuten_hoch": 34
+  },
+  {
+   "id": 24516932037,
+   "start": "2026-09-27 10:58:55",
+   "name": "Bütgenbach Tennis",
+   "typ": "tennis_v2",
+   "dauer_sek": 8180.80615234375,
+   "distanz_m": 8612.0400390625,
+   "kalorien": 1309.0,
+   "hf_schnitt": 139.0,
+   "hf_max": 183.0,
+   "trainingseffekt_aerob": 3.9000000953674316,
+   "trainingseffekt_anaerob": 3.799999952316284,
+   "trainingsbelastung": 286.80584716796875,
+   "schritte": 9392,
+   "intensitaetsminuten_moderat": 45,
+   "intensitaetsminuten_hoch": 83
   }
  ],
  "gewicht": [
@@ -8972,14 +9046,21 @@
    "koerperfett_prozent": null,
    "muskelmasse_kg": null,
    "wasser_prozent": null
+  },
+  {
+   "datum": "2026-09-28",
+   "gewicht_kg": 76.2,
+   "koerperfett_prozent": null,
+   "muskelmasse_kg": null,
+   "wasser_prozent": null
   }
  ],
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 139,
-  "aktivitaeten": 78,
-  "gewichtsmessungen": 12
+  "tage": 140,
+  "aktivitaeten": 79,
+  "gewichtsmessungen": 13
  },
- "laufzeit_sek": 30
+ "laufzeit_sek": 31
 }

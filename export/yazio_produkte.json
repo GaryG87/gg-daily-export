@@ -7986,5 +7986,38 @@
    "gesaettigte_fettsaeuren_g": 0.003,
    "zucker_g": 0.0
   }
+ },
+ "388abae5-9030-45ae-b231-683bb3f48858": {
+  "name": "Ginger Immunity Shot Vit C-D",
+  "hersteller": "Innocent",
+  "kategorie": "nutritionalsupplements",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.26,
+   "kohlenhydrate_g": 0.065,
+   "fett_g": 0.0,
+   "protein_g": 0.0,
+   "salz_g": 0.0,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.065,
+   "vitamin.c": 0.00025,
+   "vitamin.d": 0.0
+  }
+ },
+ "4d428bfc-2e13-4819-b8af-4d2bda98f215": {
+  "name": "More Sauce Grill Alrounder",
+  "hersteller": "More Nutrition",
+  "kategorie": "sauces",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.52,
+   "kohlenhydrate_g": 0.096,
+   "ballaststoffe_g": 0.021,
+   "fett_g": 0.004,
+   "protein_g": 0.015,
+   "salz_g": 0.0091,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.058
+  }
  }
 }
