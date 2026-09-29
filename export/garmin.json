@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.3",
- "erzeugt_utc": "2026-09-28T11:39:22+00:00",
+ "erzeugt_utc": "2026-09-29T11:20:42+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-09-18",
-  "bis": "2026-09-28",
+  "von": "2026-09-19",
+  "bis": "2026-09-29",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -7561,26 +7561,26 @@
   },
   {
    "datum": "2026-09-28",
-   "schritte": 2857,
-   "distanz_m": 2340,
-   "kalorien_gesamt": 1226.0,
-   "kalorien_aktiv": 56.0,
-   "kalorien_grundumsatz": 1170.0,
+   "schritte": 9355,
+   "distanz_m": 8461,
+   "kalorien_gesamt": 2795.0,
+   "kalorien_aktiv": 725.0,
+   "kalorien_grundumsatz": 2070.0,
    "ruhepuls": 52,
    "hf_min": 50,
-   "hf_max": 106,
-   "stress_schnitt": 36,
+   "hf_max": 156,
+   "stress_schnitt": 44,
    "stress_max": 94,
-   "intensitaetsminuten_moderat": 0,
-   "intensitaetsminuten_hoch": 0,
+   "intensitaetsminuten_moderat": 19,
+   "intensitaetsminuten_hoch": 51,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
-   "schlafdauer_geraet_min": 323,
-   "atemfrequenz_schnitt": 14.0,
+   "schlafdauer_geraet_min": 429,
+   "atemfrequenz_schnitt": 15.0,
    "bodybattery_hoch": 47,
-   "bodybattery_tief": 10,
+   "bodybattery_tief": 5,
    "bodybattery_geladen": 37,
-   "bodybattery_verbraucht": 25,
+   "bodybattery_verbraucht": 42,
    "bodybattery_beim_aufwachen": 47,
    "gewicht_kg": 76.2,
    "vo2max_laufen": null,
@@ -7614,6 +7614,63 @@
     "punkte": 1,
     "stufe": "POOR",
     "hinweis": "LET_YOUR_BODY_RECOVER"
+   }
+  },
+  {
+   "datum": "2026-09-29",
+   "schritte": 317,
+   "distanz_m": 260,
+   "kalorien_gesamt": 526.0,
+   "kalorien_aktiv": 2.0,
+   "kalorien_grundumsatz": 524.0,
+   "ruhepuls": 53,
+   "hf_min": 51,
+   "hf_max": 97,
+   "stress_schnitt": 23,
+   "stress_max": 82,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 315,
+   "atemfrequenz_schnitt": 14.0,
+   "bodybattery_hoch": 41,
+   "bodybattery_tief": 5,
+   "bodybattery_geladen": 36,
+   "bodybattery_verbraucht": 2,
+   "bodybattery_beim_aufwachen": 41,
+   "gewicht_kg": 75.3,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": "2026-09-28 22:13",
+    "nacht_bis": "2026-09-29 05:14",
+    "gesamt_min": 418,
+    "tief_min": 91,
+    "leicht_min": 246,
+    "rem_min": 81,
+    "wach_min": 3,
+    "score": 81,
+    "bewertung": "GOOD",
+    "schlafstress": 23.0,
+    "aufwachvorgaenge": 0,
+    "atemfrequenz": 15.0,
+    "rueckmeldung": "POSITIVE_LONG_AND_DEEP",
+    "einordnung": "POSITIVE_EXERCISE",
+    "ruhepuls_nacht": 53
+   },
+   "hrv": {
+    "letzte_nacht": 37,
+    "woche_schnitt": 29,
+    "status": "UNBALANCED",
+    "basis_tief": 24,
+    "basis_hoch": 60
+   },
+   "trainingsbereitschaft": {
+    "punkte": 1,
+    "stufe": "POOR",
+    "hinweis": "TIME_TO_SLOW_DOWN"
    }
   }
  ],
@@ -8960,6 +9017,23 @@
    "schritte": 9392,
    "intensitaetsminuten_moderat": 45,
    "intensitaetsminuten_hoch": 83
+  },
+  {
+   "id": 24531929606,
+   "start": "2026-09-28 18:24:22",
+   "name": "Bütgenbach Tennis",
+   "typ": "tennis_v2",
+   "dauer_sek": 3989.41796875,
+   "distanz_m": 4159.89013671875,
+   "kalorien": 690.0,
+   "hf_schnitt": 137.0,
+   "hf_max": 166.0,
+   "trainingseffekt_aerob": 3.0999999046325684,
+   "trainingseffekt_anaerob": 3.200000047683716,
+   "trainingsbelastung": 179.96400451660156,
+   "schritte": 4104,
+   "intensitaetsminuten_moderat": 15,
+   "intensitaetsminuten_hoch": 49
   }
  ],
  "gewicht": [
@@ -9053,14 +9127,21 @@
    "koerperfett_prozent": null,
    "muskelmasse_kg": null,
    "wasser_prozent": null
+  },
+  {
+   "datum": "2026-09-29",
+   "gewicht_kg": 75.3,
+   "koerperfett_prozent": null,
+   "muskelmasse_kg": null,
+   "wasser_prozent": null
   }
  ],
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 140,
-  "aktivitaeten": 79,
-  "gewichtsmessungen": 13
+  "tage": 141,
+  "aktivitaeten": 80,
+  "gewichtsmessungen": 14
  },
- "laufzeit_sek": 31
+ "laufzeit_sek": 29
 }
