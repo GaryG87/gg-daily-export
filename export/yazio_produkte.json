@@ -8326,5 +8326,67 @@
    "fett_g": 0.04,
    "protein_g": 0.034
   }
+ },
+ "9ec6953e-becf-11e6-9fc6-e0071b8a8723": {
+  "name": "Olivenöl",
+  "hersteller": null,
+  "kategorie": "plantoils",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 8.84,
+   "mineral.calcium": 0.0,
+   "mineral.chlorine": 0.001,
+   "mineral.copper": 0.0,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 1e-06,
+   "mineral.magnesium": 1e-05,
+   "mineral.manganese": 0.0,
+   "mineral.phosphorus": 2e-05,
+   "mineral.potassium": 1e-05,
+   "mineral.sulfur": 0.0,
+   "mineral.zinc": 0.0,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.002,
+   "cholesterin_g": 1e-05,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 1.0,
+   "einfach_ungesaettigt_g": 0.7124,
+   "mehrfach_ungesaettigt_g": 0.0917,
+   "protein_g": 0.0,
+   "salz_g": 0.0,
+   "gesaettigte_fettsaeuren_g": 0.1438,
+   "natrium_g": 1e-05,
+   "zucker_g": 0.0,
+   "wasser_g": 0.0,
+   "vitamin.a": 1e-06,
+   "vitamin.b1": 0.0,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 0.0,
+   "vitamin.b3": 0.0,
+   "vitamin.b5": 0.0,
+   "vitamin.b6": 0.0,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 0.0,
+   "vitamin.d": 0.0,
+   "vitamin.e": 0.000119,
+   "vitamin.k": 1e-06
+  }
+ },
+ "c8668122-aa8f-48ae-ab37-e8073303da09": {
+  "name": "Pizza Parma e Rucola",
+  "hersteller": "",
+  "kategorie": "pizza",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.2,
+   "kohlenhydrate_g": 0.345,
+   "fett_g": 0.06,
+   "protein_g": 0.0787,
+   "salz_g": 0.009,
+   "gesaettigte_fettsaeuren_g": 0.011,
+   "zucker_g": 0.036
+  }
  }
 }
