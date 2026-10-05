@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.3",
- "erzeugt_utc": "2026-10-04T11:05:04+00:00",
+ "erzeugt_utc": "2026-10-05T12:14:16+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-09-24",
-  "bis": "2026-10-04",
+  "von": "2026-09-25",
+  "bis": "2026-10-05",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -7903,26 +7903,26 @@
   },
   {
    "datum": "2026-10-04",
-   "schritte": 6219,
-   "distanz_m": 6153,
-   "kalorien_gesamt": 1522.0,
-   "kalorien_aktiv": 549.0,
-   "kalorien_grundumsatz": 973.0,
+   "schritte": 10763,
+   "distanz_m": 10058,
+   "kalorien_gesamt": 3450.0,
+   "kalorien_aktiv": 1391.0,
+   "kalorien_grundumsatz": 2059.0,
    "ruhepuls": 55,
    "hf_min": 53,
    "hf_max": 154,
-   "stress_schnitt": 25,
-   "stress_max": 70,
-   "intensitaetsminuten_moderat": 46,
-   "intensitaetsminuten_hoch": 32,
+   "stress_schnitt": 47,
+   "stress_max": 99,
+   "intensitaetsminuten_moderat": 56,
+   "intensitaetsminuten_hoch": 39,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
-   "schlafdauer_geraet_min": 432,
+   "schlafdauer_geraet_min": 552,
    "atemfrequenz_schnitt": 14.0,
    "bodybattery_hoch": 42,
    "bodybattery_tief": 5,
-   "bodybattery_geladen": 37,
-   "bodybattery_verbraucht": 9,
+   "bodybattery_geladen": 38,
+   "bodybattery_verbraucht": 37,
    "bodybattery_beim_aufwachen": 37,
    "gewicht_kg": null,
    "vo2max_laufen": null,
@@ -7956,6 +7956,63 @@
     "punkte": 1,
     "stufe": "POOR",
     "hinweis": "LET_YOUR_BODY_RECOVER"
+   }
+  },
+  {
+   "datum": "2026-10-05",
+   "schritte": 399,
+   "distanz_m": 327,
+   "kalorien_gesamt": 530.0,
+   "kalorien_aktiv": 10.0,
+   "kalorien_grundumsatz": 520.0,
+   "ruhepuls": 57,
+   "hf_min": 68,
+   "hf_max": 99,
+   "stress_schnitt": 70,
+   "stress_max": 87,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 195,
+   "atemfrequenz_schnitt": 18.0,
+   "bodybattery_hoch": 18,
+   "bodybattery_tief": 6,
+   "bodybattery_geladen": 12,
+   "bodybattery_verbraucht": 1,
+   "bodybattery_beim_aufwachen": 18,
+   "gewicht_kg": null,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": "2026-10-04 21:59",
+    "nacht_bis": "2026-10-05 03:15",
+    "gesamt_min": 303,
+    "tief_min": 55,
+    "leicht_min": 227,
+    "rem_min": 21,
+    "wach_min": 13,
+    "score": 44,
+    "bewertung": "POOR",
+    "schlafstress": 73.0,
+    "aufwachvorgaenge": 1,
+    "atemfrequenz": 19.0,
+    "rueckmeldung": "NEGATIVE_NOT_RESTORATIVE",
+    "einordnung": "NONE",
+    "ruhepuls_nacht": 57
+   },
+   "hrv": {
+    "letzte_nacht": 17,
+    "woche_schnitt": 31,
+    "status": "BALANCED",
+    "basis_tief": 24,
+    "basis_hoch": 59
+   },
+   "trainingsbereitschaft": {
+    "punkte": 1,
+    "stufe": "POOR",
+    "hinweis": "TIME_TO_RECHARGE"
    }
   }
  ],
@@ -9368,8 +9425,8 @@
    "trainingseffekt_anaerob": 3.299999952316284,
    "trainingsbelastung": 157.60435485839844,
    "schritte": 6404,
-   "intensitaetsminuten_moderat": 46,
-   "intensitaetsminuten_hoch": 32
+   "intensitaetsminuten_moderat": 56,
+   "intensitaetsminuten_hoch": 36
   }
  ],
  "gewicht": [
@@ -9475,9 +9532,9 @@
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 146,
+  "tage": 147,
   "aktivitaeten": 83,
   "gewichtsmessungen": 14
  },
- "laufzeit_sek": 30
+ "laufzeit_sek": 31
 }
