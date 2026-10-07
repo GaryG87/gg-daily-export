@@ -8388,5 +8388,21 @@
    "gesaettigte_fettsaeuren_g": 0.011,
    "zucker_g": 0.036
   }
+ },
+ "fd2131f2-91fe-448f-acbb-6ee058d229c8": {
+  "name": "Vanille Schoko Eis hörnchen",
+  "hersteller": "Ja!",
+  "kategorie": "icecream",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.84,
+   "kohlenhydrate_g": 0.37,
+   "ballaststoffe_g": 0.018,
+   "fett_g": 0.13,
+   "protein_g": 0.033,
+   "salz_g": 0.0015,
+   "gesaettigte_fettsaeuren_g": 0.1,
+   "zucker_g": 0.27
+  }
  }
 }
