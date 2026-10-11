@@ -1,14 +1,14 @@
 {
  "version": "yazio_export v1.3",
- "erzeugt_utc": "2026-10-10T11:09:40+00:00",
+ "erzeugt_utc": "2026-10-11T11:23:08+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
- "api_calls": 33,
+ "api_calls": 32,
  "zeitraum": {
-  "von": "2026-09-30",
-  "bis": "2026-10-10",
+  "von": "2026-10-01",
+  "bis": "2026-10-11",
   "tage_angefragt": 10,
   "detailtage": 14
  },
@@ -87589,10 +87589,10 @@
   },
   {
    "datum": "2026-10-10",
-   "energie_kcal": 1074.8,
-   "protein_g": 77.04,
-   "kohlenhydrate_g": 89.58,
-   "fett_g": 44.73,
+   "energie_kcal": 1734.8,
+   "protein_g": 85.89,
+   "kohlenhydrate_g": 197.58,
+   "fett_g": 64.23,
    "kalorienziel_kcal": 1863.77,
    "wasser_ml": 1500.0,
    "posten": [
@@ -87884,17 +87884,38 @@
       "vitamin.d": 0.0,
       "vitamin.k": 0.0
      }
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Chips",
+     "hersteller": "Lays Paprika Oven Chips",
+     "menge_g": 150,
+     "portion": "package",
+     "portionen": 1,
+     "energie_kcal": 660.0,
+     "protein_g": 8.8,
+     "ballaststoffe_g": 9.6,
+     "naehrstoffe": {
+      "energie_kcal": 660.0,
+      "kohlenhydrate_g": 108.0,
+      "ballaststoffe_g": 9.6,
+      "fett_g": 19.5,
+      "protein_g": 8.85,
+      "salz_g": 1.215,
+      "gesaettigte_fettsaeuren_g": 2.25,
+      "zucker_g": 10.65
+     }
     }
    ],
    "naehrstoffe": {
-    "energie_kcal": 1074.8,
-    "kohlenhydrate_g": 89.582,
-    "ballaststoffe_g": 9.18,
-    "fett_g": 44.729,
-    "protein_g": 77.036,
-    "salz_g": 2.842,
-    "gesaettigte_fettsaeuren_g": 15.681,
-    "zucker_g": 16.937,
+    "energie_kcal": 1734.8,
+    "kohlenhydrate_g": 197.582,
+    "ballaststoffe_g": 18.78,
+    "fett_g": 64.229,
+    "protein_g": 85.886,
+    "salz_g": 4.057,
+    "gesaettigte_fettsaeuren_g": 17.931,
+    "zucker_g": 27.587,
     "mineral.calcium": 0.123,
     "mineral.copper": 0.0,
     "mineral.iodine": 0.0,
@@ -87929,14 +87950,14 @@
     "vitamin.b7": 0.0
    },
    "naehrstoffe_abdeckung": {
-    "energie_kcal": 7,
-    "kohlenhydrate_g": 7,
-    "ballaststoffe_g": 6,
-    "fett_g": 7,
-    "protein_g": 7,
-    "salz_g": 6,
-    "gesaettigte_fettsaeuren_g": 6,
-    "zucker_g": 6,
+    "energie_kcal": 8,
+    "kohlenhydrate_g": 8,
+    "ballaststoffe_g": 7,
+    "fett_g": 8,
+    "protein_g": 8,
+    "salz_g": 7,
+    "gesaettigte_fettsaeuren_g": 7,
+    "zucker_g": 7,
     "mineral.calcium": 5,
     "mineral.copper": 5,
     "mineral.iodine": 5,
@@ -87970,30 +87991,45 @@
     "natrium_g": 4,
     "vitamin.b7": 4
    },
-   "ballaststoffe_g": 9.18,
-   "zucker_g": 16.937,
-   "energie_kcal_aus_posten": 1074.8,
+   "ballaststoffe_g": 18.78,
+   "zucker_g": 27.587,
+   "energie_kcal_aus_posten": 1734.8,
    "abdeckung": {
-    "posten": 7,
-    "davon_mit_ballaststoffangabe": 6,
+    "posten": 8,
+    "davon_mit_ballaststoffangabe": 7,
+    "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
+   }
+  },
+  {
+   "datum": "2026-10-11",
+   "wasser_ml": 0.0,
+   "posten": [],
+   "naehrstoffe": {},
+   "naehrstoffe_abdeckung": {},
+   "ballaststoffe_g": null,
+   "zucker_g": null,
+   "energie_kcal_aus_posten": 0,
+   "abdeckung": {
+    "posten": 0,
+    "davon_mit_ballaststoffangabe": 0,
     "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
    }
   }
  ],
  "ziele": {
-  "stand": "2026-10-10",
-  "energie_kcal": 1863.7678,
-  "protein_g": 181.831,
-  "kohlenhydrate_g": 159.1021,
-  "fett_g": 50.1013,
+  "stand": "2026-10-11",
+  "energie_kcal": 1733.7375,
+  "protein_g": 169.1451,
+  "kohlenhydrate_g": 148.002,
+  "fett_g": 46.6059,
   "schritte": 8000.0,
   "zielgewicht_kg": 74.0,
   "wasser_ml": 2000.0
  },
  "anzahl": {
-  "tage": 152,
+  "tage": 153,
   "tage_mit_eintraegen": 149,
-  "produkte_zwischengespeichert": 360
+  "produkte_zwischengespeichert": 361
  },
  "laufzeit_sek": 13
 }

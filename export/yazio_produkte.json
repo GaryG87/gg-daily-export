@@ -8589,5 +8589,21 @@
    "vitamin.e": 5e-06,
    "vitamin.k": 0.0
   }
+ },
+ "a9d55ae6-becf-11e6-8982-e0071b8a8723": {
+  "name": "Chips",
+  "hersteller": "Lays Paprika Oven Chips",
+  "kategorie": "candy",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.4,
+   "kohlenhydrate_g": 0.72,
+   "ballaststoffe_g": 0.064,
+   "fett_g": 0.13,
+   "protein_g": 0.059,
+   "salz_g": 0.0081,
+   "gesaettigte_fettsaeuren_g": 0.015,
+   "zucker_g": 0.071
+  }
  }
 }
