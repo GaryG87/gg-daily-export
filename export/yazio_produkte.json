@@ -8605,5 +8605,113 @@
    "gesaettigte_fettsaeuren_g": 0.015,
    "zucker_g": 0.071
   }
+ },
+ "0208793e-21d0-4759-8de9-e59180796fd4": {
+  "name": "Romanesco Mix",
+  "hersteller": "Delhaize",
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.39,
+   "kohlenhydrate_g": 0.034,
+   "ballaststoffe_g": 0.029,
+   "fett_g": 0.016,
+   "protein_g": 0.015,
+   "salz_g": 0.0055,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.034
+  }
+ },
+ "ce5091be-548e-48cb-a264-b1b40242d1aa": {
+  "name": "Hähnchenrouladen",
+  "hersteller": "Böklunder",
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.62,
+   "kohlenhydrate_g": 0.01,
+   "fett_g": 0.1,
+   "protein_g": 0.17,
+   "salz_g": 0.02,
+   "gesaettigte_fettsaeuren_g": 0.03,
+   "zucker_g": 0.01
+  }
+ },
+ "dbfcb0b6-dba7-4822-bdde-66b2c5cfcd97": {
+  "name": "Pizza mit Hähnchenbrust Rote Zwiebeln Champions Tomaten",
+  "hersteller": "Selbstgemacht",
+  "kategorie": "miscellaneous",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.5,
+   "kohlenhydrate_g": 0.19,
+   "fett_g": 0.07,
+   "protein_g": 0.07,
+   "salz_g": 0.02,
+   "gesaettigte_fettsaeuren_g": 0.04,
+   "zucker_g": 0.02
+  }
+ },
+ "027e10d9-1cd2-4efd-a2f7-2b490560e8e6": {
+  "name": "Knusper Kroketten",
+  "hersteller": "Le Gusto (Aldi)",
+  "kategorie": "potatoproducts",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.02,
+   "kohlenhydrate_g": 0.26,
+   "fett_g": 0.09,
+   "protein_g": 0.03,
+   "salz_g": 0.01,
+   "gesaettigte_fettsaeuren_g": 0.008,
+   "zucker_g": 0.03
+  }
+ },
+ "9f4d6f82-becf-11e6-899f-e0071b8a8723": {
+  "name": "Wirsingkohl, gekocht",
+  "hersteller": null,
+  "kategorie": "vegetables",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.29,
+   "mineral.calcium": 0.00062,
+   "mineral.chlorine": 0.00029,
+   "mineral.copper": 0.0,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 4e-06,
+   "mineral.magnesium": 7e-05,
+   "mineral.manganese": 2e-06,
+   "mineral.phosphorus": 0.00051,
+   "mineral.potassium": 0.00119,
+   "mineral.sulfur": 0.00089,
+   "mineral.zinc": 3e-06,
+   "alkohol_g": 0.0,
+   "kohlenhydrate_g": 0.0266,
+   "cholesterin_g": 0.0,
+   "ballaststoffe_g": 0.0264,
+   "fett_g": 0.0029,
+   "einfach_ungesaettigt_g": 0.0003,
+   "mehrfach_ungesaettigt_g": 0.0017,
+   "protein_g": 0.0253,
+   "salz_g": 0.0002,
+   "gesaettigte_fettsaeuren_g": 0.0004,
+   "natrium_g": 7e-05,
+   "zucker_g": 0.0256,
+   "wasser_g": 0.9118,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 0.0,
+   "vitamin.b11": 0.0,
+   "vitamin.b12": 0.0,
+   "vitamin.b2": 0.0,
+   "vitamin.b3": 7e-06,
+   "vitamin.b5": 2e-06,
+   "vitamin.b6": 1e-06,
+   "vitamin.b7": 0.0,
+   "vitamin.c": 0.0002,
+   "vitamin.d": 0.0,
+   "vitamin.e": 2.5e-05,
+   "vitamin.k": 0.0
+  }
  }
 }
