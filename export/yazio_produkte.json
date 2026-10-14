@@ -8713,5 +8713,21 @@
    "vitamin.e": 2.5e-05,
    "vitamin.k": 0.0
   }
+ },
+ "5ad0e2d7-5645-4f33-a79c-e788867f01a4": {
+  "name": "Eatlean Protein mini Protein Käseriegel ",
+  "hersteller": "Eatlean",
+  "kategorie": "cheese",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.37,
+   "kohlenhydrate_g": 0.024,
+   "ballaststoffe_g": 0.009,
+   "fett_g": 0.1,
+   "protein_g": 0.341,
+   "salz_g": 0.02,
+   "gesaettigte_fettsaeuren_g": 0.059,
+   "zucker_g": 0.005
+  }
  }
 }
