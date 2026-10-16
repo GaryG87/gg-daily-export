@@ -8729,5 +8729,23 @@
    "gesaettigte_fettsaeuren_g": 0.059,
    "zucker_g": 0.005
   }
+ },
+ "9e8fab00-becf-11e6-82ef-e0071b8a8723": {
+  "name": "Kroketten",
+  "hersteller": "McCain",
+  "kategorie": "potatoproducts",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.81,
+   "kohlenhydrate_g": 0.25,
+   "ballaststoffe_g": 0.03,
+   "fett_g": 0.07,
+   "einfach_ungesaettigt_g": 0.028,
+   "mehrfach_ungesaettigt_g": 0.034,
+   "protein_g": 0.03,
+   "salz_g": 0.009,
+   "gesaettigte_fettsaeuren_g": 0.008,
+   "zucker_g": 0.01
+  }
  }
 }
