@@ -8827,5 +8827,51 @@
    "zucker_g": 0.1,
    "wasser_g": 0.25
   }
+ },
+ "9e8af8ee-becf-11e6-9001-e0071b8a8723": {
+  "name": "Erdbeer Marmelade (Konfitüre)",
+  "hersteller": null,
+  "kategorie": "spreads",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.39,
+   "mineral.calcium": 0.0001,
+   "mineral.chlorine": 5e-05,
+   "mineral.copper": 0.0,
+   "mineral.fluorine": 0.0,
+   "mineral.iodine": 0.0,
+   "mineral.iron": 4e-06,
+   "mineral.magnesium": 5e-05,
+   "mineral.manganese": 2e-06,
+   "mineral.phosphorus": 0.0001,
+   "mineral.potassium": 0.00058,
+   "mineral.sulfur": 5e-05,
+   "mineral.zinc": 1e-06,
+   "kohlenhydrate_g": 0.59,
+   "ballaststoffe_g": 0.008,
+   "fett_g": 0.001,
+   "protein_g": 0.003,
+   "salz_g": 0.0001,
+   "zucker_g": 0.47,
+   "vitamin.a": 0.0,
+   "vitamin.b1": 0.0,
+   "vitamin.b2": 0.0,
+   "vitamin.b6": 0.0,
+   "vitamin.c": 6e-05,
+   "vitamin.e": 0.0
+  }
+ },
+ "9e4ecd42-becf-11e6-bf00-e0071b8a8723": {
+  "name": "Haferflocken mit Obst und Joghurt",
+  "hersteller": null,
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.87,
+   "kohlenhydrate_g": 0.52,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.03,
+   "protein_g": 0.09
+  }
  }
 }
