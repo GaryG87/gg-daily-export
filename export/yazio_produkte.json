@@ -8873,5 +8873,33 @@
    "fett_g": 0.03,
    "protein_g": 0.09
   }
+ },
+ "ab28e10b-07c6-4a83-b325-0533c09e506a": {
+  "name": "Pizza",
+  "hersteller": "L osteria",
+  "kategorie": "pizza",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.833333,
+   "kohlenhydrate_g": 0.183333,
+   "fett_g": 0.066667,
+   "protein_g": 0.05
+  }
+ },
+ "8d25a73e-0d2c-441e-9a0e-84c13e081875": {
+  "name": "Schokokuchen",
+  "hersteller": "Selbstgemacht",
+  "kategorie": "pies",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 5.77,
+   "kohlenhydrate_g": 0.575,
+   "ballaststoffe_g": 0.0375,
+   "fett_g": 0.3576,
+   "protein_g": 0.1,
+   "salz_g": 0.001,
+   "gesaettigte_fettsaeuren_g": 0.3576,
+   "zucker_g": 0.12
+  }
  }
 }
