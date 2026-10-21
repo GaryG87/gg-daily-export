@@ -8901,5 +8901,36 @@
    "gesaettigte_fettsaeuren_g": 0.3576,
    "zucker_g": 0.12
   }
+ },
+ "cedcc9c0-abd9-4e2a-aa93-51f27f978758": {
+  "name": "High Protein, Teriyaki Hähnchen",
+  "hersteller": "Chef Select (Lidl)",
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.42,
+   "kohlenhydrate_g": 0.204,
+   "ballaststoffe_g": 0.007,
+   "fett_g": 0.033,
+   "protein_g": 0.075,
+   "salz_g": 0.0065,
+   "gesaettigte_fettsaeuren_g": 0.005,
+   "zucker_g": 0.024
+  }
+ },
+ "924b5504-b16d-40f5-a53f-8dac4b52c150": {
+  "name": "Eat Lean Reibekäse",
+  "hersteller": "Eat lean",
+  "kategorie": "cheese",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.72,
+   "kohlenhydrate_g": 0.019,
+   "fett_g": 0.03,
+   "protein_g": 0.36,
+   "salz_g": 0.02,
+   "gesaettigte_fettsaeuren_g": 0.013,
+   "zucker_g": 0.001
+  }
  }
 }
