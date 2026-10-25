@@ -8932,5 +8932,23 @@
    "gesaettigte_fettsaeuren_g": 0.013,
    "zucker_g": 0.001
   }
+ },
+ "72c07b23-0dc0-4142-84ac-333a280bc66d": {
+  "name": "Light Gourmet Sauce Mango-Curry",
+  "hersteller": "More Nutrition",
+  "kategorie": "sauces",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.69,
+   "kohlenhydrate_g": 0.084,
+   "ballaststoffe_g": 0.022,
+   "fett_g": 0.024,
+   "einfach_ungesaettigt_g": 0.084,
+   "mehrfach_ungesaettigt_g": 0.048,
+   "protein_g": 0.019,
+   "salz_g": 0.012,
+   "gesaettigte_fettsaeuren_g": 0.005,
+   "zucker_g": 0.048
+  }
  }
 }
