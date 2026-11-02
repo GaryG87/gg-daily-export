@@ -8950,5 +8950,67 @@
    "gesaettigte_fettsaeuren_g": 0.005,
    "zucker_g": 0.048
   }
+ },
+ "9086bc90-6f72-42db-86d5-cc8b50bcf9b9": {
+  "name": "Buder Wildbulette",
+  "hersteller": "Ralf Buder Wild & Rind",
+  "kategorie": "meat",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.2,
+   "kohlenhydrate_g": 0.02,
+   "ballaststoffe_g": 0.005,
+   "fett_g": 0.0306,
+   "protein_g": 0.203,
+   "salz_g": 0.02,
+   "gesaettigte_fettsaeuren_g": 0.027,
+   "zucker_g": 0.0
+  }
+ },
+ "9dd098c8-becf-11e6-9dc5-e0071b8a8723": {
+  "name": "Apfel Rotkohl",
+  "hersteller": "Iglo",
+  "kategorie": "frozenfood",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.56,
+   "kohlenhydrate_g": 0.081,
+   "fett_g": 0.018,
+   "protein_g": 0.009,
+   "salz_g": 0.0073,
+   "gesaettigte_fettsaeuren_g": 0.001,
+   "zucker_g": 0.073
+  }
+ },
+ "7f1786ba-4f72-4f44-8f64-07ba4c6db193": {
+  "name": "Senf-Honig-Dill  Sauce",
+  "hersteller": "Aldi Gourmet",
+  "kategorie": "sauces",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.48,
+   "kohlenhydrate_g": 0.12,
+   "fett_g": 0.43,
+   "protein_g": 0.019,
+   "salz_g": 0.015,
+   "gesaettigte_fettsaeuren_g": 0.033,
+   "zucker_g": 0.1
+  }
+ },
+ "a567b0cb-fdfc-4719-a990-1c5d82081bcb": {
+  "name": "Hähnchenfleisch paniert und frittiert ",
+  "hersteller": "Hage",
+  "kategorie": "poultry",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.68,
+   "kohlenhydrate_g": 0.21,
+   "ballaststoffe_g": 0.0,
+   "fett_g": 0.12,
+   "protein_g": 0.19,
+   "salz_g": 0.025,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.0
+  }
  }
 }
