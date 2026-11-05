@@ -9046,5 +9046,22 @@
    "gesaettigte_fettsaeuren_g": 0.023,
    "zucker_g": 0.0
   }
+ },
+ "73853a77-f6cb-4d97-80ee-785f68a80ec5": {
+  "name": "ESN Designer Bar Dark Cookie White Choc Flavor",
+  "hersteller": "ESN",
+  "kategorie": "miscellaneous",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 3.95,
+   "alkohol_g": 0.11,
+   "kohlenhydrate_g": 0.37,
+   "ballaststoffe_g": 0.035,
+   "fett_g": 0.2,
+   "protein_g": 0.3,
+   "salz_g": 0.0061,
+   "gesaettigte_fettsaeuren_g": 0.19,
+   "zucker_g": 0.04
+  }
  }
 }
