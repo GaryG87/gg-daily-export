@@ -9063,5 +9063,21 @@
    "gesaettigte_fettsaeuren_g": 0.19,
    "zucker_g": 0.04
   }
+ },
+ "5239f6c2-6029-4f0c-ba83-c7b222ad5d24": {
+  "name": "Chips bbq",
+  "hersteller": "Layenberger",
+  "kategorie": "potatoproducts",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.29,
+   "kohlenhydrate_g": 0.25,
+   "ballaststoffe_g": 0.12,
+   "fett_g": 0.14,
+   "protein_g": 0.43,
+   "salz_g": 0.0143,
+   "gesaettigte_fettsaeuren_g": 0.013,
+   "zucker_g": 0.069
+  }
  }
 }
