@@ -1,14 +1,14 @@
 {
  "version": "yazio_export v1.3",
- "erzeugt_utc": "2026-11-06T12:55:20+00:00",
+ "erzeugt_utc": "2026-11-07T11:42:03+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 33,
  "zeitraum": {
-  "von": "2026-10-27",
-  "bis": "2026-11-06",
+  "von": "2026-10-28",
+  "bis": "2026-11-07",
   "tage_angefragt": 10,
   "detailtage": 14
  },
@@ -97647,10 +97647,117 @@
     "davon_mit_ballaststoffangabe": 0,
     "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
    }
+  },
+  {
+   "datum": "2026-11-07",
+   "energie_kcal": 873.57,
+   "protein_g": 63.43,
+   "kohlenhydrate_g": 89.73,
+   "fett_g": 25.43,
+   "kalorienziel_kcal": 1863.77,
+   "wasser_ml": 0.0,
+   "posten": [
+    {
+     "mahlzeit": "snack",
+     "name": "More Fizi Orange ",
+     "hersteller": "More Nutrition",
+     "menge_g": 330,
+     "portion": "portion",
+     "portionen": 1,
+     "energie_kcal": 46.2,
+     "protein_g": 0.0,
+     "ballaststoffe_g": 10.2,
+     "naehrstoffe": {
+      "energie_kcal": 46.2,
+      "kohlenhydrate_g": 7.26,
+      "ballaststoffe_g": 10.23,
+      "fett_g": 0.0,
+      "protein_g": 0.0,
+      "salz_g": 0.264,
+      "gesaettigte_fettsaeuren_g": 0.0,
+      "zucker_g": 0.0,
+      "wasser_g": 330.0
+     }
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Hirschfilet",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 244,
+     "portion": null,
+     "portionen": null,
+     "energie_kcal": 239.1,
+     "protein_g": 53.7,
+     "ballaststoffe_g": null,
+     "naehrstoffe": {
+      "energie_kcal": 239.12,
+      "kohlenhydrate_g": 1.22,
+      "fett_g": 2.684,
+      "protein_g": 53.68
+     }
+    },
+    {
+     "mahlzeit": "lunch",
+     "name": "Kroketten",
+     "hersteller": "McCain",
+     "menge_g": 325,
+     "portion": "piece",
+     "portionen": 13,
+     "energie_kcal": 588.2,
+     "protein_g": 9.8,
+     "ballaststoffe_g": 9.8,
+     "naehrstoffe": {
+      "energie_kcal": 588.25,
+      "kohlenhydrate_g": 81.25,
+      "ballaststoffe_g": 9.75,
+      "fett_g": 22.75,
+      "einfach_ungesaettigt_g": 9.1,
+      "mehrfach_ungesaettigt_g": 11.05,
+      "protein_g": 9.75,
+      "salz_g": 2.925,
+      "gesaettigte_fettsaeuren_g": 2.6,
+      "zucker_g": 3.25
+     }
+    }
+   ],
+   "naehrstoffe": {
+    "energie_kcal": 873.57,
+    "kohlenhydrate_g": 89.73,
+    "ballaststoffe_g": 19.98,
+    "fett_g": 25.434,
+    "protein_g": 63.43,
+    "salz_g": 3.189,
+    "gesaettigte_fettsaeuren_g": 2.6,
+    "zucker_g": 3.25,
+    "wasser_g": 330.0,
+    "einfach_ungesaettigt_g": 9.1,
+    "mehrfach_ungesaettigt_g": 11.05
+   },
+   "naehrstoffe_abdeckung": {
+    "energie_kcal": 3,
+    "kohlenhydrate_g": 3,
+    "ballaststoffe_g": 2,
+    "fett_g": 3,
+    "protein_g": 3,
+    "salz_g": 2,
+    "gesaettigte_fettsaeuren_g": 2,
+    "zucker_g": 2,
+    "wasser_g": 1,
+    "einfach_ungesaettigt_g": 1,
+    "mehrfach_ungesaettigt_g": 1
+   },
+   "ballaststoffe_g": 19.98,
+   "zucker_g": 3.25,
+   "energie_kcal_aus_posten": 873.6,
+   "abdeckung": {
+    "posten": 3,
+    "davon_mit_ballaststoffangabe": 2,
+    "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
+   }
   }
  ],
  "ziele": {
-  "stand": "2026-11-06",
+  "stand": "2026-11-07",
   "energie_kcal": 1863.7678,
   "protein_g": 181.831,
   "kohlenhydrate_g": 159.1021,
@@ -97660,9 +97767,9 @@
   "wasser_ml": 2000.0
  },
  "anzahl": {
-  "tage": 179,
-  "tage_mit_eintraegen": 166,
-  "produkte_zwischengespeichert": 388
+  "tage": 180,
+  "tage_mit_eintraegen": 167,
+  "produkte_zwischengespeichert": 389
  },
  "laufzeit_sek": 12
 }

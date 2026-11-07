@@ -9079,5 +9079,17 @@
    "gesaettigte_fettsaeuren_g": 0.013,
    "zucker_g": 0.069
   }
+ },
+ "4562af41-eb51-497c-8b92-60cf76a3afdf": {
+  "name": "Hirschfilet",
+  "hersteller": "Beste Wahl (Rewe)",
+  "kategorie": "game",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 0.98,
+   "kohlenhydrate_g": 0.005,
+   "fett_g": 0.011,
+   "protein_g": 0.22
+  }
  }
 }
