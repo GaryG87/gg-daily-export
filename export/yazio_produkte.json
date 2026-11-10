@@ -9091,5 +9091,23 @@
    "fett_g": 0.011,
    "protein_g": 0.22
   }
+ },
+ "a4d63a88-becf-11e6-a1f2-e0071b8a8723": {
+  "name": "Sandwich",
+  "hersteller": "Dagobert",
+  "kategorie": "hamburger",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 2.42,
+   "kohlenhydrate_g": 0.1894,
+   "ballaststoffe_g": 0.0092,
+   "fett_g": 0.131,
+   "einfach_ungesaettigt_g": 0.0363,
+   "mehrfach_ungesaettigt_g": 0.0352,
+   "protein_g": 0.118,
+   "salz_g": 0.014,
+   "gesaettigte_fettsaeuren_g": 0.0412,
+   "zucker_g": 0.0368
+  }
  }
 }
