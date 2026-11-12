@@ -1,14 +1,14 @@
 {
  "version": "garmin_export v1.3",
- "erzeugt_utc": "2026-11-11T12:41:01+00:00",
+ "erzeugt_utc": "2026-11-12T13:43:21+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 50,
  "zeitraum": {
-  "von": "2026-11-01",
-  "bis": "2026-11-11",
+  "von": "2026-11-02",
+  "bis": "2026-11-12",
   "tage_angefragt": 10
  },
  "lesehinweise": {
@@ -10069,21 +10069,21 @@
   },
   {
    "datum": "2026-11-11",
-   "schritte": 1845,
-   "distanz_m": 1526,
-   "kalorien_gesamt": 956.0,
-   "kalorien_aktiv": 76.0,
-   "kalorien_grundumsatz": 880.0,
+   "schritte": 7929,
+   "distanz_m": 6509,
+   "kalorien_gesamt": 2319.0,
+   "kalorien_aktiv": 260.0,
+   "kalorien_grundumsatz": 2059.0,
    "ruhepuls": 55,
    "hf_min": 62,
    "hf_max": 106,
-   "stress_schnitt": 74,
+   "stress_schnitt": 68,
    "stress_max": 96,
    "intensitaetsminuten_moderat": 0,
    "intensitaetsminuten_hoch": 0,
    "spo2_schnitt": null,
    "spo2_tiefst": null,
-   "schlafdauer_geraet_min": 248,
+   "schlafdauer_geraet_min": 416,
    "atemfrequenz_schnitt": 16.0,
    "bodybattery_hoch": 5,
    "bodybattery_tief": 5,
@@ -10119,9 +10119,66 @@
     "basis_hoch": 53
    },
    "trainingsbereitschaft": {
-    "punkte": 14,
-    "stufe": "POOR",
-    "hinweis": "TIME_TO_RECHARGE"
+    "punkte": 25,
+    "stufe": "LOW",
+    "hinweis": "IMPROVED_BY_NAPPING"
+   }
+  },
+  {
+   "datum": "2026-11-12",
+   "schritte": 744,
+   "distanz_m": 620,
+   "kalorien_gesamt": 817.0,
+   "kalorien_aktiv": 4.0,
+   "kalorien_grundumsatz": 813.0,
+   "ruhepuls": 54,
+   "hf_min": 51,
+   "hf_max": 94,
+   "stress_schnitt": 32,
+   "stress_max": 81,
+   "intensitaetsminuten_moderat": 0,
+   "intensitaetsminuten_hoch": 0,
+   "spo2_schnitt": null,
+   "spo2_tiefst": null,
+   "schlafdauer_geraet_min": 324,
+   "atemfrequenz_schnitt": 14.0,
+   "bodybattery_hoch": 31,
+   "bodybattery_tief": 5,
+   "bodybattery_geladen": 26,
+   "bodybattery_verbraucht": 6,
+   "bodybattery_beim_aufwachen": 31,
+   "gewicht_kg": null,
+   "vo2max_laufen": null,
+   "vo2max_rad": null,
+   "fitnessalter": null,
+   "schlaf": {
+    "nacht_von": "2026-11-11 21:44",
+    "nacht_bis": "2026-11-12 05:23",
+    "gesamt_min": 426,
+    "tief_min": 76,
+    "leicht_min": 262,
+    "rem_min": 88,
+    "wach_min": 33,
+    "score": 56,
+    "bewertung": "POOR",
+    "schlafstress": 42.0,
+    "aufwachvorgaenge": 1,
+    "atemfrequenz": 16.0,
+    "rueckmeldung": "NEGATIVE_LONG_BUT_NOT_RESTORATIVE",
+    "einordnung": "NONE",
+    "ruhepuls_nacht": 54
+   },
+   "hrv": {
+    "letzte_nacht": 28,
+    "woche_schnitt": 32,
+    "status": "BALANCED",
+    "basis_tief": 24,
+    "basis_hoch": 53
+   },
+   "trainingsbereitschaft": {
+    "punkte": 46,
+    "stufe": "LOW",
+    "hinweis": "FIND_TIME_TO_RELAX"
    }
   }
  ],
@@ -12090,7 +12147,7 @@
  "login_weg": "Token",
  "token_erneuert": true,
  "anzahl": {
-  "tage": 184,
+  "tage": 185,
   "aktivitaeten": 109,
   "gewichtsmessungen": 15
  },
