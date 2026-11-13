@@ -9109,5 +9109,36 @@
    "gesaettigte_fettsaeuren_g": 0.0412,
    "zucker_g": 0.0368
   }
+ },
+ "c4e6640f-4d50-4b83-851f-7ab196889fec": {
+  "name": "Protein Chips",
+  "hersteller": "funny-frisch",
+  "kategorie": "miscellaneous",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 4.43,
+   "kohlenhydrate_g": 0.52,
+   "ballaststoffe_g": 0.068,
+   "fett_g": 0.046,
+   "protein_g": 0.21,
+   "salz_g": 0.017,
+   "gesaettigte_fettsaeuren_g": 0.014,
+   "zucker_g": 0.035
+  }
+ },
+ "49d0bcce-5e49-4295-b14a-8519f0f11a73": {
+  "name": "Bratreis mit Huhn u. Gemüse",
+  "hersteller": "Chinesisch",
+  "kategorie": "dishes",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.73,
+   "kohlenhydrate_g": 0.2,
+   "fett_g": 0.072,
+   "protein_g": 0.065,
+   "salz_g": 0.0,
+   "gesaettigte_fettsaeuren_g": 0.0,
+   "zucker_g": 0.0
+  }
  }
 }
