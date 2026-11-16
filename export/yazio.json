@@ -1,14 +1,14 @@
 {
  "version": "yazio_export v1.3",
- "erzeugt_utc": "2026-11-15T12:42:08+00:00",
+ "erzeugt_utc": "2026-11-16T13:35:22+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
  "api_calls": 31,
  "zeitraum": {
-  "von": "2026-11-05",
-  "bis": "2026-11-15",
+  "von": "2026-11-06",
+  "bis": "2026-11-16",
   "tage_angefragt": 10,
   "detailtage": 14
  },
@@ -99919,10 +99919,25 @@
     "davon_mit_ballaststoffangabe": 0,
     "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
    }
+  },
+  {
+   "datum": "2026-11-16",
+   "wasser_ml": 0.0,
+   "posten": [],
+   "naehrstoffe": {},
+   "naehrstoffe_abdeckung": {},
+   "ballaststoffe_g": null,
+   "zucker_g": null,
+   "energie_kcal_aus_posten": 0,
+   "abdeckung": {
+    "posten": 0,
+    "davon_mit_ballaststoffangabe": 0,
+    "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
+   }
   }
  ],
  "ziele": {
-  "stand": "2026-11-15",
+  "stand": "2026-11-16",
   "energie_kcal": 1733.7375,
   "protein_g": 169.1451,
   "kohlenhydrate_g": 148.002,
@@ -99932,9 +99947,9 @@
   "wasser_ml": 2000.0
  },
  "anzahl": {
-  "tage": 188,
+  "tage": 189,
   "tage_mit_eintraegen": 174,
   "produkte_zwischengespeichert": 392
  },
- "laufzeit_sek": 12
+ "laufzeit_sek": 13
 }
