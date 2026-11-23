@@ -9140,5 +9140,20 @@
    "gesaettigte_fettsaeuren_g": 0.0,
    "zucker_g": 0.0
   }
+ },
+ "d1024983-e298-4362-8a01-9feeec344fa6": {
+  "name": "Penne al arrabiata",
+  "hersteller": null,
+  "kategorie": "noodles",
+  "cache_version": 3,
+  "je_gramm": {
+   "energie_kcal": 1.57,
+   "kohlenhydrate_g": 0.211,
+   "fett_g": 0.051,
+   "protein_g": 0.064,
+   "salz_g": 0.02,
+   "gesaettigte_fettsaeuren_g": 0.017,
+   "zucker_g": 0.022
+  }
  }
 }
