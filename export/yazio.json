@@ -1,14 +1,14 @@
 {
  "version": "yazio_export v1.3",
- "erzeugt_utc": "2026-11-23T15:55:15+00:00",
+ "erzeugt_utc": "2026-11-24T15:49:28+00:00",
  "status": "ok",
  "fehler": null,
  "traceback": null,
  "hinweise": [],
- "api_calls": 32,
+ "api_calls": 31,
  "zeitraum": {
-  "von": "2026-11-13",
-  "bis": "2026-11-23",
+  "von": "2026-11-14",
+  "bis": "2026-11-24",
   "tage_angefragt": 10,
   "detailtage": 14
  },
@@ -100736,12 +100736,12 @@
   },
   {
    "datum": "2026-11-23",
-   "energie_kcal": 791.4,
-   "protein_g": 53.82,
-   "kohlenhydrate_g": 75.94,
-   "fett_g": 29.48,
+   "energie_kcal": 1518.8,
+   "protein_g": 94.12,
+   "kohlenhydrate_g": 160.44,
+   "fett_g": 53.58,
    "kalorienziel_kcal": 1733.74,
-   "wasser_ml": 1250.0,
+   "wasser_ml": 2000.0,
    "posten": [
     {
      "mahlzeit": "breakfast",
@@ -100974,10 +100974,92 @@
       "gesaettigte_fettsaeuren_g": 5.1,
       "zucker_g": 6.6
      }
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "High Protein Pudding Schoko",
+     "hersteller": "Beste Wahl (Rewe)",
+     "menge_g": 200,
+     "portion": "portion",
+     "portionen": 1,
+     "energie_kcal": 152.0,
+     "protein_g": 20.0,
+     "ballaststoffe_g": null,
+     "naehrstoffe": {
+      "energie_kcal": 152.0,
+      "kohlenhydrate_g": 10.2,
+      "fett_g": 3.0,
+      "protein_g": 20.0,
+      "salz_g": 0.36,
+      "gesaettigte_fettsaeuren_g": 2.0,
+      "zucker_g": 8.4
+     }
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Mignonette chocolat noir",
+     "hersteller": "Côte d'Or",
+     "menge_g": 10,
+     "portion": "chocolate",
+     "portionen": 1,
+     "energie_kcal": 52.2,
+     "protein_g": 0.6,
+     "ballaststoffe_g": 0.8,
+     "naehrstoffe": {
+      "energie_kcal": 52.2,
+      "kohlenhydrate_g": 5.5,
+      "ballaststoffe_g": 0.76,
+      "fett_g": 2.9,
+      "protein_g": 0.55,
+      "salz_g": 0.001,
+      "gesaettigte_fettsaeuren_g": 1.7,
+      "zucker_g": 5.2
+     }
+    },
+    {
+     "mahlzeit": "snack",
+     "name": "Mignonette chocolat noir",
+     "hersteller": "Côte d'Or",
+     "menge_g": 10,
+     "portion": "chocolate",
+     "portionen": 1,
+     "energie_kcal": 52.2,
+     "protein_g": 0.6,
+     "ballaststoffe_g": 0.8,
+     "naehrstoffe": {
+      "energie_kcal": 52.2,
+      "kohlenhydrate_g": 5.5,
+      "ballaststoffe_g": 0.76,
+      "fett_g": 2.9,
+      "protein_g": 0.55,
+      "salz_g": 0.001,
+      "gesaettigte_fettsaeuren_g": 1.7,
+      "zucker_g": 5.2
+     }
+    },
+    {
+     "mahlzeit": "dinner",
+     "name": "Penne al arrabiata",
+     "hersteller": null,
+     "menge_g": 300,
+     "portion": "portion",
+     "portionen": 1,
+     "energie_kcal": 471.0,
+     "protein_g": 19.2,
+     "ballaststoffe_g": null,
+     "naehrstoffe": {
+      "energie_kcal": 471.0,
+      "kohlenhydrate_g": 63.3,
+      "fett_g": 15.3,
+      "protein_g": 19.2,
+      "salz_g": 6.0,
+      "gesaettigte_fettsaeuren_g": 5.1,
+      "zucker_g": 6.6
+     }
     }
    ],
    "naehrstoffe": {
-    "energie_kcal": 791.4,
+    "energie_kcal": 1518.8,
     "mineral.calcium": 0.068,
     "mineral.chlorine": 0.11,
     "mineral.copper": 0.0,
@@ -100991,17 +101073,17 @@
     "mineral.sulfur": 0.207,
     "mineral.zinc": 0.002,
     "alkohol_g": 0.0,
-    "kohlenhydrate_g": 75.936,
+    "kohlenhydrate_g": 160.436,
     "cholesterin_g": 0.474,
-    "ballaststoffe_g": 0.0,
-    "fett_g": 29.484,
+    "ballaststoffe_g": 1.52,
+    "fett_g": 53.584,
     "einfach_ungesaettigt_g": 4.548,
     "mehrfach_ungesaettigt_g": 3.516,
-    "protein_g": 53.82,
-    "salz_g": 6.6,
-    "gesaettigte_fettsaeuren_g": 10.352,
+    "protein_g": 94.12,
+    "salz_g": 12.962,
+    "gesaettigte_fettsaeuren_g": 20.852,
     "natrium_g": 0.166,
-    "zucker_g": 17.436,
+    "zucker_g": 42.836,
     "wasser_g": 290.0,
     "vitamin.a": 0.0,
     "vitamin.b1": 0.0,
@@ -101033,7 +101115,7 @@
     "transfettsaeuren_g": 0.0
    },
    "naehrstoffe_abdeckung": {
-    "energie_kcal": 6,
+    "energie_kcal": 10,
     "mineral.calcium": 3,
     "mineral.chlorine": 3,
     "mineral.copper": 3,
@@ -101047,17 +101129,17 @@
     "mineral.sulfur": 3,
     "mineral.zinc": 3,
     "alkohol_g": 3,
-    "kohlenhydrate_g": 6,
+    "kohlenhydrate_g": 10,
     "cholesterin_g": 3,
-    "ballaststoffe_g": 4,
-    "fett_g": 6,
+    "ballaststoffe_g": 6,
+    "fett_g": 10,
     "einfach_ungesaettigt_g": 3,
     "mehrfach_ungesaettigt_g": 3,
-    "protein_g": 6,
-    "salz_g": 6,
-    "gesaettigte_fettsaeuren_g": 6,
+    "protein_g": 10,
+    "salz_g": 10,
+    "gesaettigte_fettsaeuren_g": 10,
     "natrium_g": 3,
-    "zucker_g": 6,
+    "zucker_g": 10,
     "wasser_g": 3,
     "vitamin.a": 3,
     "vitamin.b1": 3,
@@ -101088,18 +101170,33 @@
     "nutrient.addedsugar": 1,
     "transfettsaeuren_g": 1
    },
-   "ballaststoffe_g": 0.0,
-   "zucker_g": 17.436,
-   "energie_kcal_aus_posten": 791.4,
+   "ballaststoffe_g": 1.52,
+   "zucker_g": 42.836,
+   "energie_kcal_aus_posten": 1518.8,
    "abdeckung": {
-    "posten": 6,
-    "davon_mit_ballaststoffangabe": 4,
+    "posten": 10,
+    "davon_mit_ballaststoffangabe": 6,
+    "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
+   }
+  },
+  {
+   "datum": "2026-11-24",
+   "wasser_ml": 0.0,
+   "posten": [],
+   "naehrstoffe": {},
+   "naehrstoffe_abdeckung": {},
+   "ballaststoffe_g": null,
+   "zucker_g": null,
+   "energie_kcal_aus_posten": 0,
+   "abdeckung": {
+    "posten": 0,
+    "davon_mit_ballaststoffangabe": 0,
     "hinweis": "Weicht energie_kcal_aus_posten stark von energie_kcal ab, fehlen Posten in der Aufloesung. naehrstoffe_abdeckung zeigt je Naehrstoff, wie viele der Posten ihn angegeben hatten - bei niedriger Zahl ist die Summe zu niedrig."
    }
   }
  ],
  "ziele": {
-  "stand": "2026-11-23",
+  "stand": "2026-11-24",
   "energie_kcal": 1733.7375,
   "protein_g": 169.1451,
   "kohlenhydrate_g": 148.002,
@@ -101109,9 +101206,9 @@
   "wasser_ml": 2000.0
  },
  "anzahl": {
-  "tage": 196,
+  "tage": 197,
   "tage_mit_eintraegen": 178,
   "produkte_zwischengespeichert": 393
  },
- "laufzeit_sek": 12
+ "laufzeit_sek": 14
 }
